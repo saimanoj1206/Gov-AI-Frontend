@@ -1,0 +1,46 @@
+.chat-history {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.chat-section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.question-list {
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+}
+
+.question-item {
+  margin-bottom: 8px;
+}
+
+.question-link {
+  text-decoration: none;
+  color: grey;
+  cursor: pointer;
+}
+
+.question-link:hover {
+  text-decoration: underline;
+}
+
+.view-all {
+  margin-top: 20px;
+}
+
+.view-all-link {
+  color: grey;
+  text-decoration: none;
+}
+
+.view-all-link:hover {
+  text-decoration: underline;
+}

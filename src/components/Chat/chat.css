@@ -1,0 +1,83 @@
+.chat-message {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.prompt {
+  background-color: #f4f4f4;
+  color: #333;
+  border-radius: 1.5rem;
+  padding: 15px 20px;
+  width: auto;
+  max-width: 70%;
+  font-weight: bold;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  align-self: flex-end;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+}
+
+.response {
+  background-color: #fff; /* White background for the response */
+  color: #333; /* Slightly darker text color */
+  padding: 0px 15px;
+  border-radius: 8px;
+  word-wrap: break-word;
+  padding-bottom: 10%;
+}
+.response p {
+  margin: 0;
+  padding: 0;
+}
+
+.source-docs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.source-docs p {
+  display: inline-block;
+  white-space: nowrap;
+  color: #f80061;
+  text-decoration: underline;
+  padding: 5px;
+}
+
+.source-docs p:hover {
+  cursor: pointer;
+}
+/* General table styling */
+.markdown-container table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Header background and text color */
+.markdown-container th {
+  background-color: #003333; /* Green background */
+  color: white; /* White text */
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Row styling */
+.markdown-container td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Alternate row background */
+.markdown-container tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey */
+}
+
+/* Hover effect for rows */
+.markdown-container tr:hover {
+  background-color: #ddd; /* Darker grey */
+}

@@ -1,0 +1,387 @@
+{
+  "input": "summarize the pdf",
+  "history": [],
+  "output": "The PDF provides comprehensive guidelines for contracted Medicaid managed care providers in Illinois regarding billing for services to Medicaid beneficiaries. Here’s a summary of the key sections:\n\n### 1. **Dispute Submission Process**\n- **Tracking Numbers**: Disputes are assigned unique tracking numbers. For example, CountyCare tracking numbers start with \"03\" and follow the format `03-YYMMDD-xxxxx`.\n- **Contact Information**: Providers can call Customer Service at 877-860-2837 for status updates or escalate issues via email to the provider network.\n\n### 2. **Billing Requirements**\n- **CMS-1500/837P Forms**: Providers must use these forms for billing and adhere to specific coding guidelines.\n- **Procedure Codes**: The document includes tables of common procedure codes for various services, including pediatric services, and emphasizes the use of modifiers when necessary.\n\n### 3. **Pediatric Services**\n- **Eligibility**: Applies to pediatricians in private practice. Providers must have a valid NPI and be registered in the State's IMPACT system.\n- **Coding Requirements**: Claims must follow NUCC coding guidelines and include specific procedure codes for well-child visits, hearing, vision, and lead screenings.\n\n### 4. **Ambulatory Surgical Treatment Centers (ASTCs)**\n- **Billing Policies**: ASTCs must submit claims using the UB-04 form or 837I electronic format. They cannot provide overnight accommodations except for specific cases.\n- **Service Limitations**: Specific requirements for procedures like hysterectomies and sterilizations are outlined, including necessary forms and consent requirements.\n\n### 5. **Prior Authorization**\n- Providers are directed to refer to the Prior Authorization section for specific MCO requirements and processes.\n\n### 6. **Important Links**\n- The document includes links to various resources, such as user guides and coding manuals, to assist providers in navigating the billing process.\n\nThis summary encapsulates the essential information for providers to effectively manage billing and disputes within the Illinois Medicaid system. For detailed procedures and specific codes, providers are encouraged to refer to the full document.",
+  "intermediate_steps": [
+    [
+      {
+        "tool": "search_pdf",
+        "tool_input": {
+          "query": "summarize the pdf"
+        },
+        "log": "\nInvoking: `search_pdf` with `{'query': 'summarize the pdf'}`\n\n\n",
+        "type": "AgentActionMessageLog",
+        "message_log": [
+          {
+            "content": "",
+            "additional_kwargs": {
+              "function_call": {
+                "arguments": "{\"query\":\"summarize the pdf\"}",
+                "name": "search_pdf"
+              }
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 18,
+                "prompt_tokens": 212,
+                "total_tokens": 230,
+                "completion_tokens_details": {
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "accepted_prediction_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              },
+              "model_name": "gpt-4o-mini-2024-07-18",
+              "system_fingerprint": "fp_5154047bf2",
+              "prompt_filter_results": [
+                {
+                  "prompt_index": 0,
+                  "content_filter_results": {
+                    "hate": {
+                      "filtered": false,
+                      "severity": "safe"
+                    },
+                    "jailbreak": {
+                      "filtered": false,
+                      "detected": false
+                    },
+                    "self_harm": {
+                      "filtered": false,
+                      "severity": "safe"
+                    },
+                    "sexual": {
+                      "filtered": false,
+                      "severity": "safe"
+                    },
+                    "violence": {
+                      "filtered": false,
+                      "severity": "safe"
+                    }
+                  }
+                }
+              ],
+              "finish_reason": "function_call",
+              "logprobs": null,
+              "content_filter_results": {}
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run-40c0e615-25d8-4b16-9977-cf5cc6288e45-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+              "input_tokens": 212,
+              "output_tokens": 18,
+              "total_tokens": 230
+            }
+          }
+        ]
+      },
+      "· First two digits are the year BCBSIL received the dispute: 19\n\n· Next 3 digits are the date or the calendar day BCBSIL received the dispute, for example, 345\nrepresents December 11 (the 345th day of the year)\n\n· The remaining digits uniquely identify the dispute in the BCBSIL system\n\nMCO Assigned Tracking Number Instructions:\n\nFor status updates, call Customer Service at 877-860-2837 and ask for a reference number/12-digit\nunique tracking ID for your dispute. Allow 7-10 business days before requesting the reference number if\nyou submitted via mail or fax.\n\n. Main: Customer Service at 877-860-2837\n\n· Escalation: Provider network [govproviders@bcbsil.com](mailto:govproviders@bcbsil.com)\n\nCountyCare:\nMCO Internal Dispute Process Instructions:\n\nProvider Dispute Submission User Guide -\n\n[https://countycare.com/wp-content/uploads/Provider-Dispute-System-User-Guide V2 Revised-link2.pdf](https://countycare.com/wp-content/uploads/Provider-Dispute-System-User-Guide_V2_Revised-link2.pdf)\n\nDispute Portal -\n[https://jira.evolenthealth.com/servicedesk/customer/portal/25/u](https://jira.evolenthealth.com/servicedesk/customer/portal/25/user/login?nokerberos&destination=portal%2F25%2Fcreate%2F90)\n[ser/login?nokerberos&destination=portal%2F25%2Fcreate%2F90](https://jira.evolenthealth.com/servicedesk/customer/portal/25/user/login?nokerberos&destination=portal%2F25%2Fcreate%2F90)\n\nMCO Assigned Tracking Number Examples:\n\nUpon submission, a CountyCare tracking number will populate at the top of the dispute ticket.\nCountyCare tracking numbers lead with 03:\n\n· Format: 03-YYMMDD-xxxxx, Example: 03-191001- 00001 MCO Assigned Tracking Number\nInstructions:\n\nThe provider can go to the dispute portal and view all disputes on their inventory under \"requests\" in\nthe top right. This is the best way to locate the MCO tracking number.\n\nContact:\n\n· Becca Barrera [hfsrequest@cookcountyhhs.org](mailto:hfsrequest@cookcountyhhs.org)\n\n##### Humana:\n\nMCO Internal Dispute Process Instructions:\n\nProvider Manual -\n\n[http://apps.humana.com/marketing/documents.asp?file=4174586](http://apps.humana.com/marketing/documents.asp?file=4174586)\n\nComplaint Tracking Process Provider Notification -\n\n[https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=3942328](https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=3942328)\n\nMCO Assigned Tracking Number Example:\n\nWhen submitting a complaint/dispute to:\n\n· Humana:\n\no 12-13 character alphanumerical code\n☐\n\n· Provider Portal (Availity):\n\n## B. Provider Types Billing on the CMS1500/837P ORP Requirements\n\n[http://www.nucc.org/images/stories/PDF/1500 claim form map to 837P v3-3 2012 02.pdf](http://www.nucc.org/images/stories/PDF/1500_claim_form_map_to_837P_v3-3_2012_02.pdf)\n\n<table>\n<tr>\n<th colspan=\"2\">1. MEDICARE MEDICAID TRICARE GROUP FECA OTHER ☐ (Modcaro #) ☐ Modicadf ☐ CHAMPUS CHAMPVA (Sponsor's SSN) ☐ MamboriDa) ☐ HEALTH PLAN SSN or ID) ☐ BLKLUNG (SSN) ☐ AD)</th>\n<th colspan=\"2\">1a. INSURED'S I.D. NUMBER (For Program In Itam 1)</th>\n</tr>\n<tr>\n<th>2. PATIENT'S NAME (Last Nama, First Name, Middle Intial)</th>\n<th>3. PATIENT'S BIRTH DATE MM DD YY SEX M ☐ F ☐</th>\n<th colspan=\"2\">4. INSURED'S NAME (Last Name, First Name, Middle Infial)</th>\n</tr>\n<tr>\n<td>5. PATIENT'S ADDRESS (No., Stroot)</td>\n<td>6. PATIENT RELATIONSHIP TO INSURED Self ☐ Spouse ☐ Child ☐ Other ☐</td>\n<td colspan=\"2\">7. INSURED'S ADDRESS (No., Straat)</td>\n</tr>\n<tr>\n<td>CITY STATE</td>\n<td rowspan=\"2\">8. PATIENT STATUS Single ☐ Married ☐ Other ☐ Employed ☐ Full-Time Part-Time Student ☐ Student ☐</td>\n<td colspan=\"2\">CITY STATE</td>\n</tr>\n<tr>\n<td>ZIP CODE TELEPHONE (Include Arsa Code) ( )</td>\n<td>ZIP CODE</td>\n<td>TELEPHONE (Include Ama Coda) ( )</td>\n</tr>\n<tr>\n<td>D. OTHER INSURED'S NAME (Last Name, First Name, Middle Initial)</td>\n<td>10. IS PATIENT'S CONDITION RELATED TO:</td>\n<td colspan=\"2\">11. INSURED'S POLICY GROUP OR FECA NUMBER</td>\n</tr>\n<tr>\n<td>a. OTHER INSURED'S POLICY OR GROUP NUMBER</td>\n<td>a. EMPLOYMENT? (Current or Provious) ☐ YES ☐ NO</td>\n<td colspan=\"2\">a. INSURED'S DATE OF BIRTH YY SEX MM DO M ☐ F ☐</td>\n</tr>\n<tr>\n<td>b. OTHER INSURED'S DATE OF BIRTH MM DO YY SEX M ☐ F ☐</td>\n<td rowspan=\"2\">b. AUTO ACCIDENT? ☐ ☐ PLACE (Stata) YES NO c. OTHER ACCIDENT? ☐ YES ☐ NO</td>\n<td colspan=\"2\">b. EMPLOYER'S NAME OR SCHOOL NAME</td>\n</tr>\n<tr>\n<td>c. EMPLOYER'S NAME OR SCHOOL NAME</td>\n<td colspan=\"2\">G. INSURANCE PLAN NAME OR PROGRAM NAME</td>\n</tr>\n<tr>\n<td rowspan=\"2\">d. INSURANCE PLAN NAME OR PROGRAM NAME</td>\n<td rowspan=\"2\">10d. RESERVED FOR LOCAL USE</td>\n<td colspan=\"2\">d. IS THERE ANOTHER HEALTH BENEFIT PLAN?</td>\n</tr>\n<tr>\n<td colspan=\"2\">☐ YES ☐ NO if yes, rotum to and complete Itom 9 a-d.</td>\n</tr>\n</table>\n\n1500\n\n<figure>\n\nSIGNED\n\nDATE\n\na\n\nNPI\n\nb.\n\na\n\nNPI\n\nb.\n\nNUCC Instruction Manual available at: www.nucc.org\n\nPLEASE PRINT OR TYPE\n\n</figure>\n\nCARRIER\n\n##### HEALTH INSURANCE CLAIM FORM\n\nAPPROVED BY NATIONAL UNIFORM CLAIM COMMITTEE 08/05\n☐ ☐\nPICA\n\nPICA\n\n☐\n\nPATIENT AND INSURED INFORMATION\n\nREAD BACK OF FORM BEFORE COMPLETING & SIGNING THIS FORM.\n\n12\\. PATIENT'S OR AUTHORIZED PERSON'S SIGNATURE I authorize the release of any medical or other Information necessary\nto process this claim. I also request payment of govommont bonatts either to myself or to the party who accepts assignment\nbolow.\n\n13\\. INSURED'S OR AUTHORIZED PERSON'S SIGNATURE I authorize\npayment of medical benefits to the undersigned physician or supplier for\nservices described below.\n\nSIGNED\n\nDATE\n\nSIGNED\n\n14\\. DATE OF CURRENT:\nMM | DD\nYY\n\nILLNESS (First symptom) OR\nINJURY (Accident) OR\n\n15\\. IF PATIENT HAS HAD SAME OR SIMILAR ILLNESS\nMM\nYY\nDO\nGIVE FIRST DATE\n\nDO\n16. DATES PATIENT UNABLE TO WORK IN CURRENT OCCUPATION\nMM\nDO\nFROM\nMM\nYY\nYY\n\nTO\n\n17\\. NAME OF REFERRING PROVIDER OR OTHER SOURCE\n\n17a.\n\n8\\. HOSPITALIZATION DATES RELATED TO CURRENT SERVICES\n\nMM\n\nDO\n\nYY\n\nMM\n\nDO\n\nYY\n\n17b\nNP\n\nFROM\n\nTO\n\n20\\. OUTSIDE LAB?\n☐\nYES\n☐\nNO\n\n$ CHARGES\n\n21\\. DIAGNOSIS OR NATURE OF ILLNESS OR INJURY (Relate lams 1, 2, 3 or 4 to Itom 24E by Lina]\n\n22\\. MEDICAID RESUBMISSION\nCODE\n\nORIGINAL REF. NO.\n\n1\\.\n\n3\\.\n\n23\\. PRIOR AUTHORIZATION NUMBER\n\nPHYSICIAN OR SUPPLIER INF\n\n25\\. FEDERAL TAX I.D. NUMBER\n\nSSN EIN\n☐ ☐\n\n26\\. PATIENT'S ACCOUNT NO.\n\n27\\. ACCEPT ASSIGNMENT?\nor govt. dama, moo back)\n☐\nYES\n☐\nNO\n\n28\\. TOTAL CHARGE\n\n29\\. AMOUNT PAID\n\n30\\. BALANCE DUE\n\n5\n\n5\n\n5\n\n31\\. SIGNATURE OF PHYSICIAN OR SUPPLIER\nINCLUDING DEGREES OR CREDENTIALS\n(I certify that the statements on the reverse\napply to this bil and are made a part thereof.)\n\n32\\. SERVICE FACILITY LOCATION INFORMATION\n\n33\\. BILLING PROVIDER INFO & PH #\n\nAncillary codes/services should not be billed on this second claim and will\nnot be payable by an MCO while the member is awaiting placement. Claims containing a\nmixture of administrative days and any other revenue code will be denied. Facilities will use\nBill Type 111 for AD stays under 30 days. The Admission Date on the claim should be the date of\nadmission into the AD stay.\n\nSince the second claim is reimbursable at a per diem rate, when the member remains in\nadministrative day status over 30 days the standard HFS rules for Interim Claims will apply. As\nnoted in the [IAMHP Comprehensive Billing Guide,](https://iamhp.net/resources/Documents/IAMHP_Billing%20Manual_v13.0.pdf) interim claims for inpatient services rendered\nand paid by the per diem reimbursement methodology cannot be split unless the stay exceeds 30\ndays or the patient is transferred to another facility or category of service. Interim claims (BT 112 or\n113) should include all days in the Value Code 80 calculation. The initial claim (BT 111) and interim\nfinal (BT 114) should not include the day of discharge in the Value Code 80 calculation.\n\n##### Billing Scenarios\n\n##### Scenario One:\n\n<table>\n<tr>\n<td>IP psych admission 20 days (Jan 1-21)</td>\n<td>Claim 1: BT 111 with DSC of 95</td>\n</tr>\n<tr>\n<td>Admit date 1/1/23</td>\n<td>Value Code 80 = 20*</td>\n</tr>\n<tr>\n<td>AD Stay for 6 days (Jan 22-28)</td>\n<td>Claim 2: BT 111 with DSC XX(as appropriate)</td>\n</tr>\n<tr>\n<td>Admit date 1/22/23</td>\n<td>Value Code 80 = 6*</td>\n</tr>\n</table>\n\nDate of discharge is NOT included in Value Code 80 calculation\n\n## III. Pediatric Services\n### A. Purpose\n\nThe purpose of this section is to outline policies and procedures for billing for pediatric services.\n\n### B. Provider Type\n\nThis section applies to pediatricians in private practice (i.e. not practicing in an FQHC or employed by a\nhospital). Pediatricians practicing in an FQHC, RHC or ERC should refer to that section of the manual.\n\nProviders must have a valid NPI, be registered in the State's IMPACT system as Provider Type 010 or\n016 with the appropriate and corresponding specialties and sub-specialties and include the correct\ntaxonomy code on each claim. For further information, please refer to the Manual's Introduction,\nProvider Types/Category of Service/Taxonomy Codes.\n\n### C. Coding Requirements\n\nClaims should be submitted on a CMS-1500 form or 837P format and follow all guidelines outlined in\nthe Introduction section of this manual. Medicaid MCOs follow NUCC coding guidelines as well as those\nin [Coding for Pediatric Preventive Care published](https://downloads.aap.org/AAP/PDF/Coding%20Preventive%20Care.pdf) by the AAP, except where noted in this manual.\n\nPlease find below tables of Procedure Codes common to pediatric services in use by Illinois Medicaid\nMCOs. Please note some of the codes will differ from the AAP guidelines.\n\n<table>\n<caption>Procedure Codes Common to Healthy Kids Services</caption>\n<tr>\n<th>Procedure Description</th>\n<th>Recommended CPT Code</th>\n</tr>\n<tr>\n<td colspan=\"2\">Well Child Visit</td>\n</tr>\n<tr>\n<td rowspan=\"4\">EPSDT Well Child Visit</td>\n<td>99381-99385 (new patient - allowed once for any provider seeing patient for the first time)</td>\n</tr>\n<tr>\n<td>99391-99395 (established patient)</td>\n</tr>\n<tr>\n<td>(use appropriate CPT code for the medical service provided) USE OF MODIFIER 25 *:</td>\n</tr>\n<tr>\n<td>. When a well-child visit and a sick visit occur on the same day, Modifier 25 must be appended to the sick visit office E&amp;M claim line. · Modifier 25 is also allowable for E&amp;M HEDIS/EPSDT codes. Use of the modifier will unbundle some services as separate and distinct. It will not unbundle all line items on the claim.</td>\n</tr>\n<tr>\n<td>Inter-periodic visits</td>\n<td>Use appropriate Well Child Visit Code or Evaluation and Management Code - one inter-periodic visit is permitted per year</td>\n</tr>\n<tr>\n<td>Dental Fluoride Varnish</td>\n<td>D1206</td>\n</tr>\n<tr>\n<td colspan=\"2\">Hearing</td>\n</tr>\n<tr>\n<td>Screening test, pure tone, air only</td>\n<td>92551</td>\n</tr>\n<tr>\n<td>Pure tone audiometry (threshold); air only</td>\n<td>92552</td>\n</tr>\n<tr>\n<td>Audiometry, air and bone</td>\n<td>92553</td>\n</tr>\n<tr>\n<td>Tympanometry (impedance testing)</td>\n<td>92567</td>\n</tr>\n<tr>\n<td>Otoacoustic emissions (OAE)</td>\n<td>92558</td>\n</tr>\n<tr>\n<td>Auditory brainstem response (ABR)</td>\n<td>92586</td>\n</tr>\n<tr>\n<td colspan=\"2\">Vision</td>\n</tr>\n<tr>\n<td>Visual function screening, automated or semi-automated, bilateral quantitative determination of visual acuity ocular alignment, color vision by pseudoisochromatic plates and field of vision (may include all or some screening of the determination(s) for contrast sensitivity, vision under glare)</td>\n<td>99172 - Cannot be billed with 99393 or in addition to any other general ophthalmological service or an E&amp;M code, per CPT guidelines</td>\n</tr>\n<tr>\n<td>Screening test visual acuity quantitative, bilateral</td>\n<td>99173 **</td>\n</tr>\n<tr>\n<td>HOTV</td>\n<td>99173 **</td>\n</tr>\n<tr>\n<td>Lea</td>\n<td>99173 **</td>\n</tr>\n<tr>\n<td>Snellen</td>\n<td>99173 **</td>\n</tr>\n<tr>\n<td>Ocular photo screening with interpretation and report, bilateral</td>\n<td>99174</td>\n</tr>\n<tr>\n<td colspan=\"2\">Lead Screening</td>\n</tr>\n<tr>\n<td>Blood lead analysis</td>\n<td>83655</td>\n</tr>\n<tr>\n<td>Collection of venous blood (venipuncture)</td>\n<td>36415 U1 (blood lead draw)</td>\n</tr>\n<tr>\n<td>Collection of capillary blood specimen</td>\n<td>36416 U1 (blood lead draw)</td>\n</tr>\n<tr>\n<td>Blood Lead Testing CLIA waived, Blood lead testing system (whole blood)</td>\n<td>83655 QW</td>\n</tr>\n</table>\n\n\\* Blue Cross Community Health Plan (BCCHP)and CountyCare DO NOT allow for well-child and sick visits on the same day.\n\n** For MOLINA billing, this code will bundle when billed with general E&M services. Providers will need to add Modifier 25 for separate\nline item payment.\n\n##### Procedure Codes for Approved Risk Assessment Tools\n\nNOTE: Effective with dates of service beginning April 1, 2023, one of the following G codes must be used for any depression\nscreenings instead of 96127:\n\nG8431: Screening for depression is documented as positive and a follow-up plan is documented.\nG8510: Screening for depression is documentd as negative and a follow-up plan is not documented.\n\n## IX. Ambulatory Surgical Treatment Centers (ASTCs)\n### A. Purpose\n\nThe purpose of this section is to outline the billing policies and procedures related to Ambulatory\nSurgical Treatment Centers (ASTCs).\n\n### B. Provider Type\n\nThe ASTC section applies to Provider Type 046 - ASTC.\n\n### C. IMPACT Enrollment Requirements\n\nThe provider must be a registered provider of ASTC services in the HFS IMPACT system with a specialty\nof Ambulatory Surgical Treatment Center and a sub-specialty of Outpatient Surgery with the taxonomy\ncode 261QA1903X.\n\n### D. Billing Requirements\n#### i. Covered Services\n\nFacility services furnished by an ASTC include, but are not limited to:\n\n· Nursing, technician and related services;\n\n· Use of the ASTC facility;\n\n· Supplies such as drugs, biologicals (e.g., blood), surgical dressings, splints, casts and appliances\nand equipment directly related to the provision of surgical procedures;\n\n· Diagnostic or therapeutic services or items directly related to the provision of a surgical\nprocedure;\n\n· Administrative, record-keeping and housekeeping items and services; and\n\n· Materials for anesthesia.\n\nASTCs shall not provide beds or other accommodations for the overnight stay of patients. However,\nfacilities devoted exclusively to the treatment of children may provide accommodations and beds for\ntheir patients up to 23 hours following admission.\n\nSupplies and equipment used by the ASTC for the diagnosis or treatment of the patient during the\nASTC surgical visit are included in the ASTC's all-inclusive visit/rate. Drugs dispensed for treatment or\ndiagnostic purposes during the ASTC surgical visit and dispensed for take home purposes shall be\nincluded in the approved per visit rate.\n\n##### a) Non-Facility Services\n\nFacility services that are not considered facility services (e.g. physician services, laboratory, X-ray, or\ndiagnostic procedures performed by independent facilities or practitioners) must be billed by the\nprovider rendering such services on a fee-for-service basis. However, if the ASTC provides the lab or X-\nray service, the facility may not bill separately if the lab or x-ray service was provided on the day of the\nsurgery. The ASTC may bill separately if the lab or X-ray service was provided on a date other than\nthe date of the surgery.\n\nAdditional information on covered services can be found on the IL HFS website in the [ASTC Handbook.](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/g200.pdf)\n\n##### b) Claim Form\n\nASTC services must be submitted on a UB-04 claim form or using the 837I electronic claim format and\nalso include Type of Bill 83X.\n\nAmbulatory Procedures Listing (APL): Note APL Section applies prior to 7/01/2020 DOS only.\n\nThe APL is a compilation of procedures that have been determined by HFS to be either unique to or\nmost appropriately provided in the hospital outpatient or ambulatory surgical treatment center\nsetting. Not all procedures will be applicable to the services provided in an ASTC. Services in\naccordance with covered Ambulatory Procedures Listing (APL) codes are eligible to be billed. An\noutpatient ASTC claim must contain at least one procedure code listed in the APL.\n\nWhen any service listed in the APL is performed on a given day, all services provided on that day must\nbe billed on a single outpatient institutional claim.\n\nFailure to have an APL code, Healthcare Common Procedure Coding System (HCPCS), ED revenue code,\nand/or OBV revenue code on the claim will result in the rejection of entire claim.\n\n##### c) Enhanced Ambulatory Patient Grouping (EAPG)\n\nEffective with dates of service beginning July 1, 2014, all outpatient hospital and ASTC claims are\ngrouped and priced through 3M™ Enhanced Ambulatory Patient Grouping System (EAPG) software or\nsimilar MCO grouper software. The all-inclusive EAPG PPS payment is considered to cover all services\nprovided by salaried ASTC personnel, all drugs administered and/or provided for take home use, all\nequipment and supplies used for diagnosis and/or treatment on the ASTC premises, and all X-ray,\nlaboratory and therapy provided to the patient on the same day.\n\n### E. Service Limitations and Requirements\n#### i. Hysterectomy\n\nA hysterectomy is a covered service only when it is done for medical reasons and is not done solely to\naccomplish sterilization. A claim will only be processed if the information on the completed [Form 1977](https://www2.illinois.gov/hfs/SiteCollectionDocuments/hfs1977.pdf)\n[Acknowledgement of Receipt of Hysterectomy Information indicates](https://www2.illinois.gov/hfs/SiteCollectionDocuments/hfs1977.pdf) that the patient was informed\nthat the hysterectomy will render her permanently incapable of reproducing. Completion of this form\nis required regardless of age. The UB-04 claim (indicating a hysterectomy was performed) with the HFS\n1977 attached must be sent together to the MCO for the claim to be processed.\n\n#### ii. Sterilization Procedures Other Than a Hysterectomy (Appendix F)\n\nASTC may submit claims for services associated with a sterilization procedure, other than a\nhysterectomy, only for individuals who have voluntarily given written informed consent, are at least 21\nyears old at the time consent is obtained and are not institutionalized or mentally incompetent.\n\nAt least 30 days, but not more than 180 days, must have passed between the date of informed consent\nand the date of sterilization, except in the case of premature delivery or emergency abdominal surgery.\n\nThe [HFS 2189 form](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/hfs1977.pdf) must be completed and attached to the UB-04 when submitting to the MCO for the\nclaim to be processed.\n\n#### iii. Abortion Services\n\nEffective 11/01/2019 all abortion claims for services need to be submitted to HFS directly. This\ndirective pertains to both Health Choice Illinois members and traditional fee for service members.\nDetails on submitting claims to HFS can be found [here.](https://hfs.illinois.gov/content/soi/hfs/en/medicalproviders/notices/notice.prn191101b.html)\n\n### F. Prior Authorization\n\nRefer to the Prior Authorization section in this manual for information by MCO on prior authorization\nrequirements and request process."
+    ]
+  ],
+  "source_documents": [
+    {
+      "id": null,
+      "metadata": {
+        "id": "MDZmNjA3NTYtODg1ZS00ZTkzLThkZmItNjI1MzZlMjc0ZjI1",
+        "page_headers": [
+          "Illinois Association of Medicaid Health Plans Comprehensive Billing Manual Appendix L - Coordination of Benefits (COB)/Third Party Liability (TPL) Policies",
+          "Illinois Association of Medicaid Health Plans Comprehensive Billing Manual Appendix K - MCO Complaint Tracking Process"
+        ],
+        "page_number": [348, 349],
+        "page_footers": ["PROPRIETARY"],
+        "page_numbers_given": ["K-3", "K-5", "K-4", "K-1", "K-2"],
+        "split_id": [2],
+        "markdown_chunk_id": [333],
+        "recursive_flag": [true],
+        "first_line_index": [24],
+        "first_line_text": [
+          "o 15 numeric characters in length, separated by a dash after the eighth digit."
+        ],
+        "first_line_polygon": [
+          [
+            89.53920000000001, 496.46880000000004, 467.1504, 496.188, 467.1576,
+            509.35679999999996, 89.5464, 509.6304
+          ]
+        ],
+        "last_line_index": [21],
+        "last_line_text": ["· Provider Portal (Availity):"],
+        "last_line_polygon": [
+          [
+            72.84960000000001, 440.568, 210.87359999999998, 440.6184, 210.8664,
+            453.35519999999997, 72.8424, 453.3048
+          ]
+        ],
+        "doc_id": "ee8d940f-d133-4e59-9fff-bcd4666ef948",
+        "token_count": 648,
+        "Header_1": "Appendix K: MCO Complaint Tracking Process",
+        "Header_2": "",
+        "Header_3": "",
+        "Header_4": "",
+        "captions": {
+          "text": "...l.com)  CountyCare: MCO Internal Dispute Process Instructions:  Provider Dispute Subm User Guide -  [https://countycare.com/wp-content/uploads/Provider-Dispute-System-User-Guide V2 Revised-link2.pdf](https://countycare.com/wp-content/uploads/Provider-Dispute-System-User-Guide_V2_Revised-link2.pdf)  Dispute Portal -.",
+          "highlights": "...l.com)  CountyCare: MCO Internal Dispute Process Instructions:  Provider Dispute Subm<em> User Guide </em>-<em>  [https://countycare.com/wp-content/uploads/Provider-Dispute-System-User-Guide V2 Revised-link2.pdf](https://countycare.com/wp-content/uploads/Provider-Dispute-System-User-Guide_V2_Revised-link2.pdf) </em> Dispute Portal -."
+        },
+        "answers": "",
+        "score": 0.01587301678955555,
+        "retriever_k": 5,
+        "retriever_score_threshold": 0
+      },
+      "page_content": "· First two digits are the year BCBSIL received the dispute: 19\n\n· Next 3 digits are the date or the calendar day BCBSIL received the dispute, for example, 345\nrepresents December 11 (the 345th day of the year)\n\n· The remaining digits uniquely identify the dispute in the BCBSIL system\n\nMCO Assigned Tracking Number Instructions:\n\nFor status updates, call Customer Service at 877-860-2837 and ask for a reference number/12-digit\nunique tracking ID for your dispute. Allow 7-10 business days before requesting the reference number if\nyou submitted via mail or fax.\n\n. Main: Customer Service at 877-860-2837\n\n· Escalation: Provider network [govproviders@bcbsil.com](mailto:govproviders@bcbsil.com)\n\nCountyCare:\nMCO Internal Dispute Process Instructions:\n\nProvider Dispute Submission User Guide -\n\n[https://countycare.com/wp-content/uploads/Provider-Dispute-System-User-Guide V2 Revised-link2.pdf](https://countycare.com/wp-content/uploads/Provider-Dispute-System-User-Guide_V2_Revised-link2.pdf)\n\nDispute Portal -\n[https://jira.evolenthealth.com/servicedesk/customer/portal/25/u](https://jira.evolenthealth.com/servicedesk/customer/portal/25/user/login?nokerberos&destination=portal%2F25%2Fcreate%2F90)\n[ser/login?nokerberos&destination=portal%2F25%2Fcreate%2F90](https://jira.evolenthealth.com/servicedesk/customer/portal/25/user/login?nokerberos&destination=portal%2F25%2Fcreate%2F90)\n\nMCO Assigned Tracking Number Examples:\n\nUpon submission, a CountyCare tracking number will populate at the top of the dispute ticket.\nCountyCare tracking numbers lead with 03:\n\n· Format: 03-YYMMDD-xxxxx, Example: 03-191001- 00001 MCO Assigned Tracking Number\nInstructions:\n\nThe provider can go to the dispute portal and view all disputes on their inventory under \"requests\" in\nthe top right. This is the best way to locate the MCO tracking number.\n\nContact:\n\n· Becca Barrera [hfsrequest@cookcountyhhs.org](mailto:hfsrequest@cookcountyhhs.org)\n\n##### Humana:\n\nMCO Internal Dispute Process Instructions:\n\nProvider Manual -\n\n[http://apps.humana.com/marketing/documents.asp?file=4174586](http://apps.humana.com/marketing/documents.asp?file=4174586)\n\nComplaint Tracking Process Provider Notification -\n\n[https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=3942328](https://docushare-web.apps.external.pioneer.humana.com/Marketing/docushare-app?file=3942328)\n\nMCO Assigned Tracking Number Example:\n\nWhen submitting a complaint/dispute to:\n\n· Humana:\n\no 12-13 character alphanumerical code\n☐\n\n· Provider Portal (Availity):",
+      "type": "Document"
+    },
+    {
+      "id": null,
+      "metadata": {
+        "id": "ZDY0MzNjMTItNjZiOS00MjQ2LTg3MjYtMWE4NmI4MjA2NjUy",
+        "page_headers": [
+          "Illinois Association of Medicaid Health Plans Comprehensive Billing Manual Appendix G - Ordering, Referring, Prescribing (ORP) - National Provider Identifier (NPI) Requirements"
+        ],
+        "page_number": [325],
+        "page_footers": ["PROPRIETARY"],
+        "page_numbers_given": ["G-3", "G-2", "G-4"],
+        "split_id": [1, 2],
+        "markdown_chunk_id": [328],
+        "recursive_flag": [true],
+        "first_line_index": [0],
+        "first_line_text": [
+          "Illinois Association of Medicaid Health Plans Comprehensive Billing Manual"
+        ],
+        "first_line_polygon": [
+          [
+            253.404, 29.4984, 558.3168000000001, 29.901600000000002, 558.3024,
+            40.766400000000004, 253.38240000000002, 40.248000000000005
+          ]
+        ],
+        "last_line_index": [188],
+        "last_line_text": ["33. BILLING PROVIDER INFO & PH #"],
+        "last_line_polygon": [
+          [
+            299.0088, 665.064, 366.9552, 664.956, 366.9624, 670.3416,
+            299.01599999999996, 670.428
+          ]
+        ],
+        "doc_id": "ed7dbd3a-e46e-4593-ac56-5367ace653a0",
+        "token_count": 1352,
+        "Header_1": "Appendix G: Ordering, Referring, Prescribing (ORP) - National Provider Identifier (NPI) Requirements",
+        "Header_2": "B. Provider Types Billing on the CMS1500/837P ORP Requirements",
+        "Header_3": "",
+        "Header_4": "",
+        "captions": {
+          "text": "## B. Provider Types Billing on the CMS1500/837P ORP Requirements  [http://www.nucc.org/images/stories/PDF/1500 claim form map to 837P v3-3 2012 02.pdf](http://www.nucc.org/images/stories/PDF/1500_claim_form_map_to_837P_v3-3_2012_02.pdf)    1. NUCC Instruction Manual available at: www.nucc.org  PLEASE PRINT OR TYPE    CARRIER  ##### HEALTH.",
+          "highlights": "## B.<em> Provider Types Billing on the CMS1500/837P ORP </em>Requirements  [http://www.nucc.org/images/stories/PDF/1500 claim form map to 837P v3-3 2012<em> 02.pdf](http://www.nucc.org/images/stories/PDF/1500_claim_form_map_to_837P_v3-3_2012_02.pdf) </em>   1. NUCC Instruction Manual available at: www.nucc.org  PLEASE PRINT OR TYPE    CARRIER  ##### HEALTH."
+        },
+        "answers": "",
+        "score": 0.015625,
+        "retriever_k": 5,
+        "retriever_score_threshold": 0
+      },
+      "page_content": "## B. Provider Types Billing on the CMS1500/837P ORP Requirements\n\n[http://www.nucc.org/images/stories/PDF/1500 claim form map to 837P v3-3 2012 02.pdf](http://www.nucc.org/images/stories/PDF/1500_claim_form_map_to_837P_v3-3_2012_02.pdf)\n\n<table>\n<tr>\n<th colspan=\"2\">1. MEDICARE MEDICAID TRICARE GROUP FECA OTHER ☐ (Modcaro #) ☐ Modicadf ☐ CHAMPUS CHAMPVA (Sponsor's SSN) ☐ MamboriDa) ☐ HEALTH PLAN SSN or ID) ☐ BLKLUNG (SSN) ☐ AD)</th>\n<th colspan=\"2\">1a. INSURED'S I.D. NUMBER (For Program In Itam 1)</th>\n</tr>\n<tr>\n<th>2. PATIENT'S NAME (Last Nama, First Name, Middle Intial)</th>\n<th>3. PATIENT'S BIRTH DATE MM DD YY SEX M ☐ F ☐</th>\n<th colspan=\"2\">4. INSURED'S NAME (Last Name, First Name, Middle Infial)</th>\n</tr>\n<tr>\n<td>5. PATIENT'S ADDRESS (No., Stroot)</td>\n<td>6. PATIENT RELATIONSHIP TO INSURED Self ☐ Spouse ☐ Child ☐ Other ☐</td>\n<td colspan=\"2\">7. INSURED'S ADDRESS (No., Straat)</td>\n</tr>\n<tr>\n<td>CITY STATE</td>\n<td rowspan=\"2\">8. PATIENT STATUS Single ☐ Married ☐ Other ☐ Employed ☐ Full-Time Part-Time Student ☐ Student ☐</td>\n<td colspan=\"2\">CITY STATE</td>\n</tr>\n<tr>\n<td>ZIP CODE TELEPHONE (Include Arsa Code) ( )</td>\n<td>ZIP CODE</td>\n<td>TELEPHONE (Include Ama Coda) ( )</td>\n</tr>\n<tr>\n<td>D. OTHER INSURED'S NAME (Last Name, First Name, Middle Initial)</td>\n<td>10. IS PATIENT'S CONDITION RELATED TO:</td>\n<td colspan=\"2\">11. INSURED'S POLICY GROUP OR FECA NUMBER</td>\n</tr>\n<tr>\n<td>a. OTHER INSURED'S POLICY OR GROUP NUMBER</td>\n<td>a. EMPLOYMENT? (Current or Provious) ☐ YES ☐ NO</td>\n<td colspan=\"2\">a. INSURED'S DATE OF BIRTH YY SEX MM DO M ☐ F ☐</td>\n</tr>\n<tr>\n<td>b. OTHER INSURED'S DATE OF BIRTH MM DO YY SEX M ☐ F ☐</td>\n<td rowspan=\"2\">b. AUTO ACCIDENT? ☐ ☐ PLACE (Stata) YES NO c. OTHER ACCIDENT? ☐ YES ☐ NO</td>\n<td colspan=\"2\">b. EMPLOYER'S NAME OR SCHOOL NAME</td>\n</tr>\n<tr>\n<td>c. EMPLOYER'S NAME OR SCHOOL NAME</td>\n<td colspan=\"2\">G. INSURANCE PLAN NAME OR PROGRAM NAME</td>\n</tr>\n<tr>\n<td rowspan=\"2\">d. INSURANCE PLAN NAME OR PROGRAM NAME</td>\n<td rowspan=\"2\">10d. RESERVED FOR LOCAL USE</td>\n<td colspan=\"2\">d. IS THERE ANOTHER HEALTH BENEFIT PLAN?</td>\n</tr>\n<tr>\n<td colspan=\"2\">☐ YES ☐ NO if yes, rotum to and complete Itom 9 a-d.</td>\n</tr>\n</table>\n\n1500\n\n<figure>\n\nSIGNED\n\nDATE\n\na\n\nNPI\n\nb.\n\na\n\nNPI\n\nb.\n\nNUCC Instruction Manual available at: www.nucc.org\n\nPLEASE PRINT OR TYPE\n\n</figure>\n\nCARRIER\n\n##### HEALTH INSURANCE CLAIM FORM\n\nAPPROVED BY NATIONAL UNIFORM CLAIM COMMITTEE 08/05\n☐ ☐\nPICA\n\nPICA\n\n☐\n\nPATIENT AND INSURED INFORMATION\n\nREAD BACK OF FORM BEFORE COMPLETING & SIGNING THIS FORM.\n\n12\\. PATIENT'S OR AUTHORIZED PERSON'S SIGNATURE I authorize the release of any medical or other Information necessary\nto process this claim. I also request payment of govommont bonatts either to myself or to the party who accepts assignment\nbolow.\n\n13\\. INSURED'S OR AUTHORIZED PERSON'S SIGNATURE I authorize\npayment of medical benefits to the undersigned physician or supplier for\nservices described below.\n\nSIGNED\n\nDATE\n\nSIGNED\n\n14\\. DATE OF CURRENT:\nMM | DD\nYY\n\nILLNESS (First symptom) OR\nINJURY (Accident) OR\n\n15\\. IF PATIENT HAS HAD SAME OR SIMILAR ILLNESS\nMM\nYY\nDO\nGIVE FIRST DATE\n\nDO\n16. DATES PATIENT UNABLE TO WORK IN CURRENT OCCUPATION\nMM\nDO\nFROM\nMM\nYY\nYY\n\nTO\n\n17\\. NAME OF REFERRING PROVIDER OR OTHER SOURCE\n\n17a.\n\n8\\. HOSPITALIZATION DATES RELATED TO CURRENT SERVICES\n\nMM\n\nDO\n\nYY\n\nMM\n\nDO\n\nYY\n\n17b\nNP\n\nFROM\n\nTO\n\n20\\. OUTSIDE LAB?\n☐\nYES\n☐\nNO\n\n$ CHARGES\n\n21\\. DIAGNOSIS OR NATURE OF ILLNESS OR INJURY (Relate lams 1, 2, 3 or 4 to Itom 24E by Lina]\n\n22\\. MEDICAID RESUBMISSION\nCODE\n\nORIGINAL REF. NO.\n\n1\\.\n\n3\\.\n\n23\\. PRIOR AUTHORIZATION NUMBER\n\nPHYSICIAN OR SUPPLIER INF\n\n25\\. FEDERAL TAX I.D. NUMBER\n\nSSN EIN\n☐ ☐\n\n26\\. PATIENT'S ACCOUNT NO.\n\n27\\. ACCEPT ASSIGNMENT?\nor govt. dama, moo back)\n☐\nYES\n☐\nNO\n\n28\\. TOTAL CHARGE\n\n29\\. AMOUNT PAID\n\n30\\. BALANCE DUE\n\n5\n\n5\n\n5\n\n31\\. SIGNATURE OF PHYSICIAN OR SUPPLIER\nINCLUDING DEGREES OR CREDENTIALS\n(I certify that the statements on the reverse\napply to this bil and are made a part thereof.)\n\n32\\. SERVICE FACILITY LOCATION INFORMATION\n\n33\\. BILLING PROVIDER INFO & PH #",
+      "type": "Document"
+    },
+    {
+      "id": null,
+      "metadata": {
+        "id": "MWRiNTI0YjktZmM0Zi00ZjY1LWIwZTctYjBmYmQ1Njk1OTc5",
+        "page_headers": [
+          "Illinois Association of Medicaid Health Plans Comprehensive Billing Manual Appendix I - Administrative Days",
+          "Illinois Association of Medicaid Health Plans Comprehensive Billing Manual Appendix J - MCO Potentially Preventable Readmission Policies",
+          "Illinois Association of Medicaid Health Plans Comprehensive Billing Manual"
+        ],
+        "page_number": [340],
+        "page_footers": ["PROPRIETARY"],
+        "page_numbers_given": ["I-3", "I-5", "I-6", "I-1", "I-4", "I-7", "I-2"],
+        "split_id": [2],
+        "markdown_chunk_id": [331],
+        "recursive_flag": [true],
+        "first_line_index": [24],
+        "first_line_text": ["admission into the AD stay."],
+        "first_line_polygon": [
+          [
+            88.9272, 444.8736, 222.876, 445.37760000000003, 222.8256,
+            458.38079999999997, 88.884, 457.88399999999996
+          ]
+        ],
+        "last_line_index": [42],
+        "last_line_text": [
+          "Date of discharge is NOT included in Value Code 80 calculation"
+        ],
+        "last_line_polygon": [
+          [
+            54.619200000000006, 726.696, 312.5952, 726.6312, 312.60240000000005,
+            737.5176, 54.626400000000004, 737.7264
+          ]
+        ],
+        "doc_id": "7c1a4b0f-efb0-4a35-a292-7baba3b79462",
+        "token_count": 415,
+        "Header_1": "Appendix I: Administrative Days",
+        "Header_2": "",
+        "Header_3": "",
+        "Header_4": "",
+        "captions": {
+          "text": "Since the second claim is reimbursable at a per diem rate, when the mem... As noted in the [IAMHP Comprehensive Billing Guide,](https://iamhp.net/resources/Documents/IAMHP_Billing%20Manual_v13.0.pdf) interim claims for inpatient services rendered and paid by the per diem reimbursement methodology cannot be split unless the stay exceeds 30 days or.",
+          "highlights": "Since the second claim is reimbursable at a per diem rate, when the mem... As noted in the<em> [IAMHP </em>Comprehensive Billing<em> Guide,](https://iamhp.net/resources/Documents/IAMHP_Billing%20Manual_v13.0.pdf) </em>interim claims for inpatient services rendered and paid by the per diem reimbursement methodology cannot be split unless the stay exceeds 30 days or."
+        },
+        "answers": "",
+        "score": 0.014492753893136978,
+        "retriever_k": 5,
+        "retriever_score_threshold": 0
+      },
+      "page_content": "Ancillary codes/services should not be billed on this second claim and will\nnot be payable by an MCO while the member is awaiting placement. Claims containing a\nmixture of administrative days and any other revenue code will be denied. Facilities will use\nBill Type 111 for AD stays under 30 days. The Admission Date on the claim should be the date of\nadmission into the AD stay.\n\nSince the second claim is reimbursable at a per diem rate, when the member remains in\nadministrative day status over 30 days the standard HFS rules for Interim Claims will apply. As\nnoted in the [IAMHP Comprehensive Billing Guide,](https://iamhp.net/resources/Documents/IAMHP_Billing%20Manual_v13.0.pdf) interim claims for inpatient services rendered\nand paid by the per diem reimbursement methodology cannot be split unless the stay exceeds 30\ndays or the patient is transferred to another facility or category of service. Interim claims (BT 112 or\n113) should include all days in the Value Code 80 calculation. The initial claim (BT 111) and interim\nfinal (BT 114) should not include the day of discharge in the Value Code 80 calculation.\n\n##### Billing Scenarios\n\n##### Scenario One:\n\n<table>\n<tr>\n<td>IP psych admission 20 days (Jan 1-21)</td>\n<td>Claim 1: BT 111 with DSC of 95</td>\n</tr>\n<tr>\n<td>Admit date 1/1/23</td>\n<td>Value Code 80 = 20*</td>\n</tr>\n<tr>\n<td>AD Stay for 6 days (Jan 22-28)</td>\n<td>Claim 2: BT 111 with DSC XX(as appropriate)</td>\n</tr>\n<tr>\n<td>Admit date 1/22/23</td>\n<td>Value Code 80 = 6*</td>\n</tr>\n</table>\n\nDate of discharge is NOT included in Value Code 80 calculation",
+      "type": "Document"
+    },
+    {
+      "id": null,
+      "metadata": {
+        "id": "ODY0NWJiZjAtZDg3Yi00ODM0LWFiOGQtYjA5ZGIwZGRiNmVm",
+        "page_headers": [
+          "III Pediatric Services",
+          "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)"
+        ],
+        "page_number": [163, 164, 165],
+        "page_footers": ["PROPRIETARY"],
+        "page_numbers_given": ["142", "146", "147", "144", "143", "145"],
+        "markdown_chunk_id": [170, 171, 172],
+        "recursive_flag": [false, true],
+        "first_line_index": [2],
+        "first_line_text": ["A. Purpose"],
+        "first_line_polygon": [
+          [
+            53.1864, 87.35040000000001, 134.5032, 87.7536, 134.4384, 100.4472,
+            53.1216, 100.1088
+          ]
+        ],
+        "last_line_index": [8],
+        "last_line_text": [
+          "G8510: Screening for depression is documentd as negative and a follow-up plan is not documented."
+        ],
+        "last_line_polygon": [
+          [
+            53.2584, 145.7136, 425.3544, 145.80720000000002, 425.3544,
+            156.46319999999997, 53.2584, 156.36960000000002
+          ]
+        ],
+        "split_id": [0, 1, 2],
+        "doc_id": "405af837-4c03-4807-98ea-850c4abf2b29",
+        "token_count": 1242,
+        "Header_1": "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)",
+        "Header_2": "III. Pediatric Services",
+        "Header_3": "A. Purpose, B. Provider Type, C. Coding Requirements",
+        "Header_4": "",
+        "captions": {
+          "text": "Pediatric Services ### A. Purpose  The purpose of this section is to outline policies and procedures for billing for p... Coding Requirements  Claims should be submitted on a CMS-1500 form or 837P format and follow all guidelines outlined in the Introduction section of this manual. Medicaid MCOs follow NUCC coding guidelines as well as those in.",
+          "highlights": ""
+        },
+        "answers": "",
+        "score": 0.010416666977107525,
+        "retriever_k": 5,
+        "retriever_score_threshold": 0
+      },
+      "page_content": "## III. Pediatric Services\n### A. Purpose\n\nThe purpose of this section is to outline policies and procedures for billing for pediatric services.\n\n### B. Provider Type\n\nThis section applies to pediatricians in private practice (i.e. not practicing in an FQHC or employed by a\nhospital). Pediatricians practicing in an FQHC, RHC or ERC should refer to that section of the manual.\n\nProviders must have a valid NPI, be registered in the State's IMPACT system as Provider Type 010 or\n016 with the appropriate and corresponding specialties and sub-specialties and include the correct\ntaxonomy code on each claim. For further information, please refer to the Manual's Introduction,\nProvider Types/Category of Service/Taxonomy Codes.\n\n### C. Coding Requirements\n\nClaims should be submitted on a CMS-1500 form or 837P format and follow all guidelines outlined in\nthe Introduction section of this manual. Medicaid MCOs follow NUCC coding guidelines as well as those\nin [Coding for Pediatric Preventive Care published](https://downloads.aap.org/AAP/PDF/Coding%20Preventive%20Care.pdf) by the AAP, except where noted in this manual.\n\nPlease find below tables of Procedure Codes common to pediatric services in use by Illinois Medicaid\nMCOs. Please note some of the codes will differ from the AAP guidelines.\n\n<table>\n<caption>Procedure Codes Common to Healthy Kids Services</caption>\n<tr>\n<th>Procedure Description</th>\n<th>Recommended CPT Code</th>\n</tr>\n<tr>\n<td colspan=\"2\">Well Child Visit</td>\n</tr>\n<tr>\n<td rowspan=\"4\">EPSDT Well Child Visit</td>\n<td>99381-99385 (new patient - allowed once for any provider seeing patient for the first time)</td>\n</tr>\n<tr>\n<td>99391-99395 (established patient)</td>\n</tr>\n<tr>\n<td>(use appropriate CPT code for the medical service provided) USE OF MODIFIER 25 *:</td>\n</tr>\n<tr>\n<td>. When a well-child visit and a sick visit occur on the same day, Modifier 25 must be appended to the sick visit office E&amp;M claim line. · Modifier 25 is also allowable for E&amp;M HEDIS/EPSDT codes. Use of the modifier will unbundle some services as separate and distinct. It will not unbundle all line items on the claim.</td>\n</tr>\n<tr>\n<td>Inter-periodic visits</td>\n<td>Use appropriate Well Child Visit Code or Evaluation and Management Code - one inter-periodic visit is permitted per year</td>\n</tr>\n<tr>\n<td>Dental Fluoride Varnish</td>\n<td>D1206</td>\n</tr>\n<tr>\n<td colspan=\"2\">Hearing</td>\n</tr>\n<tr>\n<td>Screening test, pure tone, air only</td>\n<td>92551</td>\n</tr>\n<tr>\n<td>Pure tone audiometry (threshold); air only</td>\n<td>92552</td>\n</tr>\n<tr>\n<td>Audiometry, air and bone</td>\n<td>92553</td>\n</tr>\n<tr>\n<td>Tympanometry (impedance testing)</td>\n<td>92567</td>\n</tr>\n<tr>\n<td>Otoacoustic emissions (OAE)</td>\n<td>92558</td>\n</tr>\n<tr>\n<td>Auditory brainstem response (ABR)</td>\n<td>92586</td>\n</tr>\n<tr>\n<td colspan=\"2\">Vision</td>\n</tr>\n<tr>\n<td>Visual function screening, automated or semi-automated, bilateral quantitative determination of visual acuity ocular alignment, color vision by pseudoisochromatic plates and field of vision (may include all or some screening of the determination(s) for contrast sensitivity, vision under glare)</td>\n<td>99172 - Cannot be billed with 99393 or in addition to any other general ophthalmological service or an E&amp;M code, per CPT guidelines</td>\n</tr>\n<tr>\n<td>Screening test visual acuity quantitative, bilateral</td>\n<td>99173 **</td>\n</tr>\n<tr>\n<td>HOTV</td>\n<td>99173 **</td>\n</tr>\n<tr>\n<td>Lea</td>\n<td>99173 **</td>\n</tr>\n<tr>\n<td>Snellen</td>\n<td>99173 **</td>\n</tr>\n<tr>\n<td>Ocular photo screening with interpretation and report, bilateral</td>\n<td>99174</td>\n</tr>\n<tr>\n<td colspan=\"2\">Lead Screening</td>\n</tr>\n<tr>\n<td>Blood lead analysis</td>\n<td>83655</td>\n</tr>\n<tr>\n<td>Collection of venous blood (venipuncture)</td>\n<td>36415 U1 (blood lead draw)</td>\n</tr>\n<tr>\n<td>Collection of capillary blood specimen</td>\n<td>36416 U1 (blood lead draw)</td>\n</tr>\n<tr>\n<td>Blood Lead Testing CLIA waived, Blood lead testing system (whole blood)</td>\n<td>83655 QW</td>\n</tr>\n</table>\n\n\\* Blue Cross Community Health Plan (BCCHP)and CountyCare DO NOT allow for well-child and sick visits on the same day.\n\n** For MOLINA billing, this code will bundle when billed with general E&M services. Providers will need to add Modifier 25 for separate\nline item payment.\n\n##### Procedure Codes for Approved Risk Assessment Tools\n\nNOTE: Effective with dates of service beginning April 1, 2023, one of the following G codes must be used for any depression\nscreenings instead of 96127:\n\nG8431: Screening for depression is documented as positive and a follow-up plan is documented.\nG8510: Screening for depression is documentd as negative and a follow-up plan is not documented.",
+      "type": "Document"
+    },
+    {
+      "id": null,
+      "metadata": {
+        "id": "NGY2M2VlZTktOGY3OS00MjBhLWE0NmEtOTU0MzhkNzEwMzYy",
+        "page_headers": [
+          "IX Ambulatory Surgical Treatment Centers (ASTCs)",
+          "Part B: Institutional Billing (837I or UB-04 claim types)"
+        ],
+        "page_number": [135, 136, 137],
+        "page_footers": ["PROPRIETARY"],
+        "page_numbers_given": ["114", "115", "116"],
+        "markdown_chunk_id": [115, 116, 117, 118, 119, 120, 121, 122],
+        "recursive_flag": [false],
+        "first_line_index": [2],
+        "first_line_text": ["A. Purpose"],
+        "first_line_polygon": [
+          [
+            53.0208, 87.2928, 134.568, 87.77520000000001, 134.4816,
+            100.56960000000001, 52.992, 100.008
+          ]
+        ],
+        "last_line_index": [5],
+        "last_line_text": ["requirements and request process."],
+        "last_line_polygon": [
+          [
+            52.92, 92.93039999999999, 224.2224, 92.8728, 224.2296, 105.048,
+            52.9272, 105.1344
+          ]
+        ],
+        "doc_id": "3511939a-84ac-4914-b16b-dc8d019586ce",
+        "token_count": 1370,
+        "Header_1": "Part B: Institutional Billing (837I or UB-04 claim types)",
+        "Header_2": "IX. Ambulatory Surgical Treatment Centers (ASTCs)",
+        "Header_3": "A. Purpose, B. Provider Type, C. IMPACT Enrollment Requirements, D. Billing Requirements, E. Service Limitations and Requirements, F. Prior Authorization",
+        "Header_4": "i. Covered Services, i. Hysterectomy, ii. Sterilization Procedures Other Than a Hysterectomy (Appendix F), iii. Abortion Services",
+        "captions": {
+          "text": "Additional information on covered services can be found on the IL HFS website in the [ASTC Handbook.](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/g200.pdf)  ##### b) Claim Form  ASTC services must be submitted on a UB-04 claim form or using the 837I electronic claim format and also include Type of Bill 83X. .",
+          "highlights": "Additional information on covered services can be found on the IL HFS website in the<em> [ASTC Handbook.](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/g200.pdf) </em> ##### b) Claim Form  ASTC services must be submitted on a UB-04 claim form or using the 837I electronic claim format and also include Type of Bill 83X. ."
+        },
+        "answers": "",
+        "score": 0.014705882407724857,
+        "retriever_k": 5,
+        "retriever_score_threshold": 0
+      },
+      "page_content": "## IX. Ambulatory Surgical Treatment Centers (ASTCs)\n### A. Purpose\n\nThe purpose of this section is to outline the billing policies and procedures related to Ambulatory\nSurgical Treatment Centers (ASTCs).\n\n### B. Provider Type\n\nThe ASTC section applies to Provider Type 046 - ASTC.\n\n### C. IMPACT Enrollment Requirements\n\nThe provider must be a registered provider of ASTC services in the HFS IMPACT system with a specialty\nof Ambulatory Surgical Treatment Center and a sub-specialty of Outpatient Surgery with the taxonomy\ncode 261QA1903X.\n\n### D. Billing Requirements\n#### i. Covered Services\n\nFacility services furnished by an ASTC include, but are not limited to:\n\n· Nursing, technician and related services;\n\n· Use of the ASTC facility;\n\n· Supplies such as drugs, biologicals (e.g., blood), surgical dressings, splints, casts and appliances\nand equipment directly related to the provision of surgical procedures;\n\n· Diagnostic or therapeutic services or items directly related to the provision of a surgical\nprocedure;\n\n· Administrative, record-keeping and housekeeping items and services; and\n\n· Materials for anesthesia.\n\nASTCs shall not provide beds or other accommodations for the overnight stay of patients. However,\nfacilities devoted exclusively to the treatment of children may provide accommodations and beds for\ntheir patients up to 23 hours following admission.\n\nSupplies and equipment used by the ASTC for the diagnosis or treatment of the patient during the\nASTC surgical visit are included in the ASTC's all-inclusive visit/rate. Drugs dispensed for treatment or\ndiagnostic purposes during the ASTC surgical visit and dispensed for take home purposes shall be\nincluded in the approved per visit rate.\n\n##### a) Non-Facility Services\n\nFacility services that are not considered facility services (e.g. physician services, laboratory, X-ray, or\ndiagnostic procedures performed by independent facilities or practitioners) must be billed by the\nprovider rendering such services on a fee-for-service basis. However, if the ASTC provides the lab or X-\nray service, the facility may not bill separately if the lab or x-ray service was provided on the day of the\nsurgery. The ASTC may bill separately if the lab or X-ray service was provided on a date other than\nthe date of the surgery.\n\nAdditional information on covered services can be found on the IL HFS website in the [ASTC Handbook.](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/g200.pdf)\n\n##### b) Claim Form\n\nASTC services must be submitted on a UB-04 claim form or using the 837I electronic claim format and\nalso include Type of Bill 83X.\n\nAmbulatory Procedures Listing (APL): Note APL Section applies prior to 7/01/2020 DOS only.\n\nThe APL is a compilation of procedures that have been determined by HFS to be either unique to or\nmost appropriately provided in the hospital outpatient or ambulatory surgical treatment center\nsetting. Not all procedures will be applicable to the services provided in an ASTC. Services in\naccordance with covered Ambulatory Procedures Listing (APL) codes are eligible to be billed. An\noutpatient ASTC claim must contain at least one procedure code listed in the APL.\n\nWhen any service listed in the APL is performed on a given day, all services provided on that day must\nbe billed on a single outpatient institutional claim.\n\nFailure to have an APL code, Healthcare Common Procedure Coding System (HCPCS), ED revenue code,\nand/or OBV revenue code on the claim will result in the rejection of entire claim.\n\n##### c) Enhanced Ambulatory Patient Grouping (EAPG)\n\nEffective with dates of service beginning July 1, 2014, all outpatient hospital and ASTC claims are\ngrouped and priced through 3M™ Enhanced Ambulatory Patient Grouping System (EAPG) software or\nsimilar MCO grouper software. The all-inclusive EAPG PPS payment is considered to cover all services\nprovided by salaried ASTC personnel, all drugs administered and/or provided for take home use, all\nequipment and supplies used for diagnosis and/or treatment on the ASTC premises, and all X-ray,\nlaboratory and therapy provided to the patient on the same day.\n\n### E. Service Limitations and Requirements\n#### i. Hysterectomy\n\nA hysterectomy is a covered service only when it is done for medical reasons and is not done solely to\naccomplish sterilization. A claim will only be processed if the information on the completed [Form 1977](https://www2.illinois.gov/hfs/SiteCollectionDocuments/hfs1977.pdf)\n[Acknowledgement of Receipt of Hysterectomy Information indicates](https://www2.illinois.gov/hfs/SiteCollectionDocuments/hfs1977.pdf) that the patient was informed\nthat the hysterectomy will render her permanently incapable of reproducing. Completion of this form\nis required regardless of age. The UB-04 claim (indicating a hysterectomy was performed) with the HFS\n1977 attached must be sent together to the MCO for the claim to be processed.\n\n#### ii. Sterilization Procedures Other Than a Hysterectomy (Appendix F)\n\nASTC may submit claims for services associated with a sterilization procedure, other than a\nhysterectomy, only for individuals who have voluntarily given written informed consent, are at least 21\nyears old at the time consent is obtained and are not institutionalized or mentally incompetent.\n\nAt least 30 days, but not more than 180 days, must have passed between the date of informed consent\nand the date of sterilization, except in the case of premature delivery or emergency abdominal surgery.\n\nThe [HFS 2189 form](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/hfs1977.pdf) must be completed and attached to the UB-04 when submitting to the MCO for the\nclaim to be processed.\n\n#### iii. Abortion Services\n\nEffective 11/01/2019 all abortion claims for services need to be submitted to HFS directly. This\ndirective pertains to both Health Choice Illinois members and traditional fee for service members.\nDetails on submitting claims to HFS can be found [here.](https://hfs.illinois.gov/content/soi/hfs/en/medicalproviders/notices/notice.prn191101b.html)\n\n### F. Prior Authorization\n\nRefer to the Prior Authorization section in this manual for information by MCO on prior authorization\nrequirements and request process.",
+      "type": "Document"
+    },
+    {
+      "id": null,
+      "metadata": {
+        "id": "NGY2M2VlZTktOGY3OS00MjBhLWE0NmEtOTU0MzhkNzEwMzYy",
+        "page_headers": [
+          "IX Ambulatory Surgical Treatment Centers (ASTCs)",
+          "Part B: Institutional Billing (837I or UB-04 claim types)"
+        ],
+        "page_number": [135, 136, 137],
+        "page_footers": ["PROPRIETARY"],
+        "page_numbers_given": ["114", "115", "116"],
+        "markdown_chunk_id": [115, 116, 117, 118, 119, 120, 121, 122],
+        "recursive_flag": [false],
+        "first_line_index": [2],
+        "first_line_text": ["A. Purpose"],
+        "first_line_polygon": [
+          [
+            53.0208, 87.2928, 134.568, 87.77520000000001, 134.4816,
+            100.56960000000001, 52.992, 100.008
+          ]
+        ],
+        "last_line_index": [5],
+        "last_line_text": ["requirements and request process."],
+        "last_line_polygon": [
+          [
+            52.92, 92.93039999999999, 224.2224, 92.8728, 224.2296, 105.048,
+            52.9272, 105.1344
+          ]
+        ],
+        "doc_id": "3511939a-84ac-4914-b16b-dc8d019586ce",
+        "token_count": 1370,
+        "Header_1": "Part B: Institutional Billing (837I or UB-04 claim types)",
+        "Header_2": "IX. Ambulatory Surgical Treatment Centers (ASTCs)",
+        "Header_3": "A. Purpose, B. Provider Type, C. IMPACT Enrollment Requirements, D. Billing Requirements, E. Service Limitations and Requirements, F. Prior Authorization",
+        "Header_4": "i. Covered Services, i. Hysterectomy, ii. Sterilization Procedures Other Than a Hysterectomy (Appendix F), iii. Abortion Services",
+        "captions": {
+          "text": "Additional information on covered services can be found on the IL HFS website in the [ASTC Handbook.](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/g200.pdf)  ##### b) Claim Form  ASTC services must be submitted on a UB-04 claim form or using the 837I electronic claim format and also include Type of Bill 83X. .",
+          "highlights": "Additional information on covered services can be found on the IL HFS website in the<em> [ASTC Handbook.](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/g200.pdf) </em> ##### b) Claim Form  ASTC services must be submitted on a UB-04 claim form or using the 837I electronic claim format and also include Type of Bill 83X. ."
+        },
+        "answers": "",
+        "score": 0.014705882407724857,
+        "retriever_k": 5,
+        "retriever_score_threshold": 0
+      },
+      "page_content": "## IX. Ambulatory Surgical Treatment Centers (ASTCs)\n### A. Purpose\n\nThe purpose of this section is to outline the billing policies and procedures related to Ambulatory\nSurgical Treatment Centers (ASTCs).\n\n### B. Provider Type\n\nThe ASTC section applies to Provider Type 046 - ASTC.\n\n### C. IMPACT Enrollment Requirements\n\nThe provider must be a registered provider of ASTC services in the HFS IMPACT system with a specialty\nof Ambulatory Surgical Treatment Center and a sub-specialty of Outpatient Surgery with the taxonomy\ncode 261QA1903X.\n\n### D. Billing Requirements\n#### i. Covered Services\n\nFacility services furnished by an ASTC include, but are not limited to:\n\n· Nursing, technician and related services;\n\n· Use of the ASTC facility;\n\n· Supplies such as drugs, biologicals (e.g., blood), surgical dressings, splints, casts and appliances\nand equipment directly related to the provision of surgical procedures;\n\n· Diagnostic or therapeutic services or items directly related to the provision of a surgical\nprocedure;\n\n· Administrative, record-keeping and housekeeping items and services; and\n\n· Materials for anesthesia.\n\nASTCs shall not provide beds or other accommodations for the overnight stay of patients. However,\nfacilities devoted exclusively to the treatment of children may provide accommodations and beds for\ntheir patients up to 23 hours following admission.\n\nSupplies and equipment used by the ASTC for the diagnosis or treatment of the patient during the\nASTC surgical visit are included in the ASTC's all-inclusive visit/rate. Drugs dispensed for treatment or\ndiagnostic purposes during the ASTC surgical visit and dispensed for take home purposes shall be\nincluded in the approved per visit rate.\n\n##### a) Non-Facility Services\n\nFacility services that are not considered facility services (e.g. physician services, laboratory, X-ray, or\ndiagnostic procedures performed by independent facilities or practitioners) must be billed by the\nprovider rendering such services on a fee-for-service basis. However, if the ASTC provides the lab or X-\nray service, the facility may not bill separately if the lab or x-ray service was provided on the day of the\nsurgery. The ASTC may bill separately if the lab or X-ray service was provided on a date other than\nthe date of the surgery.\n\nAdditional information on covered services can be found on the IL HFS website in the [ASTC Handbook.](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/g200.pdf)\n\n##### b) Claim Form\n\nASTC services must be submitted on a UB-04 claim form or using the 837I electronic claim format and\nalso include Type of Bill 83X.\n\nAmbulatory Procedures Listing (APL): Note APL Section applies prior to 7/01/2020 DOS only.\n\nThe APL is a compilation of procedures that have been determined by HFS to be either unique to or\nmost appropriately provided in the hospital outpatient or ambulatory surgical treatment center\nsetting. Not all procedures will be applicable to the services provided in an ASTC. Services in\naccordance with covered Ambulatory Procedures Listing (APL) codes are eligible to be billed. An\noutpatient ASTC claim must contain at least one procedure code listed in the APL.\n\nWhen any service listed in the APL is performed on a given day, all services provided on that day must\nbe billed on a single outpatient institutional claim.\n\nFailure to have an APL code, Healthcare Common Procedure Coding System (HCPCS), ED revenue code,\nand/or OBV revenue code on the claim will result in the rejection of entire claim.\n\n##### c) Enhanced Ambulatory Patient Grouping (EAPG)\n\nEffective with dates of service beginning July 1, 2014, all outpatient hospital and ASTC claims are\ngrouped and priced through 3M™ Enhanced Ambulatory Patient Grouping System (EAPG) software or\nsimilar MCO grouper software. The all-inclusive EAPG PPS payment is considered to cover all services\nprovided by salaried ASTC personnel, all drugs administered and/or provided for take home use, all\nequipment and supplies used for diagnosis and/or treatment on the ASTC premises, and all X-ray,\nlaboratory and therapy provided to the patient on the same day.\n\n### E. Service Limitations and Requirements\n#### i. Hysterectomy\n\nA hysterectomy is a covered service only when it is done for medical reasons and is not done solely to\naccomplish sterilization. A claim will only be processed if the information on the completed [Form 1977](https://www2.illinois.gov/hfs/SiteCollectionDocuments/hfs1977.pdf)\n[Acknowledgement of Receipt of Hysterectomy Information indicates](https://www2.illinois.gov/hfs/SiteCollectionDocuments/hfs1977.pdf) that the patient was informed\nthat the hysterectomy will render her permanently incapable of reproducing. Completion of this form\nis required regardless of age. The UB-04 claim (indicating a hysterectomy was performed) with the HFS\n1977 attached must be sent together to the MCO for the claim to be processed.\n\n#### ii. Sterilization Procedures Other Than a Hysterectomy (Appendix F)\n\nASTC may submit claims for services associated with a sterilization procedure, other than a\nhysterectomy, only for individuals who have voluntarily given written informed consent, are at least 21\nyears old at the time consent is obtained and are not institutionalized or mentally incompetent.\n\nAt least 30 days, but not more than 180 days, must have passed between the date of informed consent\nand the date of sterilization, except in the case of premature delivery or emergency abdominal surgery.\n\nThe [HFS 2189 form](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/hfs1977.pdf) must be completed and attached to the UB-04 when submitting to the MCO for the\nclaim to be processed.\n\n#### iii. Abortion Services\n\nEffective 11/01/2019 all abortion claims for services need to be submitted to HFS directly. This\ndirective pertains to both Health Choice Illinois members and traditional fee for service members.\nDetails on submitting claims to HFS can be found [here.](https://hfs.illinois.gov/content/soi/hfs/en/medicalproviders/notices/notice.prn191101b.html)\n\n### F. Prior Authorization\n\nRefer to the Prior Authorization section in this manual for information by MCO on prior authorization\nrequirements and request process.",
+      "type": "Document"
+    }
+  ],
+  "model_name": "gpt-4o-mini",
+  "temperature": 0
+}

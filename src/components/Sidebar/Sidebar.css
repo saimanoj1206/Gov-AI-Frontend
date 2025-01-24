@@ -1,0 +1,46 @@
+.sidebar-options {
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  height: 100%; /* Full height of the parent */
+}
+.sidebar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: sticky;
+  top: 0; /* Stick to the top of the sidebar */
+}
+.sidebar-logo {
+  width: 150px;
+  height: auto;
+  margin-top: 10%;
+}
+.sidebar-title {
+  color: #003333;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 5%;
+}
+.sidebar-button {
+  border: none;
+  border-radius: 10px;
+  background: #003333;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: #f3f7fb;
+  margin-top: 5%;
+  padding: 15px 30px;
+}
+.sidebar-chat {
+  flex-grow: 1; /* Allow this section to take the remaining space */
+  overflow-y: auto; /* Make it scrollable */
+  padding: 10px; /* Optional: Add padding for better spacing */
+  background-color: #ffffff; /* Background color for the chat area */
+  scrollbar-width: none;
+}
+.sidebar-chat::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Webkit browsers (Chrome, Safari, Edge) */
+}

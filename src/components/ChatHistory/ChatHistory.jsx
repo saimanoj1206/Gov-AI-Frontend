@@ -35,10 +35,11 @@ const ChatHistory = () => {
               </li>
             ))}
           </ul>
+          <hr className="separator-line" />
         </div>
       ))}
       <div className="view-all">
-        <p className="view-all-link">View All</p>
+        <p className="view-all-link">View All{">"}</p>
       </div>
     </div>
   );

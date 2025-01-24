@@ -1,20 +1,14 @@
 .chat-history {
   font-family: Arial, sans-serif;
-  padding: 20px;
 }
-
-.chat-section {
-  margin-bottom: 20px;
-}
-
 .section-title {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 14px;
+  margin-bottom: 12px;
 }
 
 .question-list {
   padding: 0;
-  font-size: 14px;
+  font-size: 12px;
   list-style: none;
 }
 
@@ -24,23 +18,24 @@
 
 .question-link {
   text-decoration: none;
-  color: grey;
+  color: rgb(46, 46, 46);
   cursor: pointer;
 }
 
 .question-link:hover {
   text-decoration: underline;
 }
-
-.view-all {
-  margin-top: 20px;
-}
-
 .view-all-link {
-  color: grey;
+  margin: 1px;
+  cursor: pointer;
   text-decoration: none;
 }
-
 .view-all-link:hover {
   text-decoration: underline;
+}
+.separator-line {
+  border: none;
+  border-top: 1px solid rgb(81, 134, 177);
+  width: 100%;
+  padding: 0px;
 }

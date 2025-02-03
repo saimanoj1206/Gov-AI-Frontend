@@ -52,7 +52,7 @@
   z-index: 8;
   height: 100%;
   bottom: 0;
-  height: calc(100% - 210px);
+  height: calc(100% - 250px);
   scrollbar-width: none;
 }
 .help-content::-webkit-scrollbar {

@@ -2,7 +2,7 @@ import React from "react";
 import "./ChatHistory.css";
 
 const ChatHistory = () => {
-  const truncateText = (text, maxLength = 50) => {
+  const truncateText = (text, maxLength = 35) => {
     return text.length > maxLength ? text.slice(0, maxLength) + "... >" : text;
   };
   const chatData = {
@@ -39,7 +39,7 @@ const ChatHistory = () => {
         </div>
       ))}
       <div className="view-all">
-        <p className="view-all-link">View All{">"}</p>
+        <h3 className="view-all-link">View All{"  >"}</h3>
       </div>
     </div>
   );

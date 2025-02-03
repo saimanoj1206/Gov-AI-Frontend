@@ -10,7 +10,7 @@ const HelpPrompt = () => {
       </div>
       <h2 className="help-title">How can we help you today?</h2>
       <p className="help-description">
-        Ask any query related to HCSC that you need assistance with.
+        Ask any queries related to Illinois Billing Guide.
       </p>
       <hr className="separator" />
     </div>

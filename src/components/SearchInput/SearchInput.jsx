@@ -1,49 +1,21 @@
-import React, { useRef, useEffect } from "react";
-import { PiPaperPlaneRightFill } from "react-icons/pi";
+import React, { useState } from "react";
 import "./SearchInput.css";
+import { useDispatch, useSelector } from "react-redux";
+import { PiPaperPlaneRightFill } from "react-icons/pi";
+import { fetchChatData } from "../../store/slices/chatSlice"; // Import thunk
 
-const SearchInput = ({
-  setChatData,
-  shouldFocus,
-  setIsChatActive,
-  loading,
-  makeApiCall,
-}) => {
-  const inputRef = useRef(null);
+const SearchInput = ({ setCurrentQuestion }) => {
+  const dispatch = useDispatch();
+  const [question, setQuestion] = useState("");
 
-  useEffect(() => {
-    if (shouldFocus) {
-      inputRef.current.focus();
-    }
-  }, [shouldFocus]);
+  const { loading } = useSelector((state) => state.chatUI); // Get loading state
 
-  const handleSubmit = async () => {
-    const question = inputRef.current.value.trim();
+  const handleSubmit = () => {
+    if (!question.trim()) return;
 
-    if (!question) return;
-
-    // Clear input field immediately after fetching the question
-    inputRef.current.value = "";
-
-    setIsChatActive(true);
-    setChatData({ input: question, output: "" });
-
-    const payload = {
-      question,
-      user_id: "kp1234",
-      session_id: "0011aA",
-    };
-
-    try {
-      const result = await makeApiCall(payload);
-      setChatData((prev) => ({
-        ...prev,
-        output: result.output,
-        source_documents: result.source_documents,
-      }));
-    } catch (error) {
-      console.error("Error during API call:", error);
-    }
+    setCurrentQuestion(question); // Update the UI with the current question
+    dispatch(fetchChatData({ question })); // Dispatch the thunk action
+    setQuestion(""); // Clear input field after submission
   };
 
   const handleKeyPress = (e) => {
@@ -56,16 +28,17 @@ const SearchInput = ({
     <div className="search-container-wrapper">
       <div className="search-container">
         <input
-          ref={inputRef}
+          value={question}
           className="search-input"
           type="text"
           placeholder="Ask Question"
           onKeyDown={handleKeyPress}
+          onChange={(e) => setQuestion(e.target.value)}
         />
         <button
           className="search-button"
           onClick={handleSubmit}
-          disabled={loading} // Disable button while loading
+          disabled={loading} // Disable button when loading
         >
           <PiPaperPlaneRightFill />
         </button>

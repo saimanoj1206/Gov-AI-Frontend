@@ -12,13 +12,13 @@
   top: 0; /* Stick to the top of the sidebar */
 }
 .sidebar-logo {
-  width: 150px;
+  width: 125px;
   height: auto;
   margin-top: 10%;
 }
 .sidebar-title {
   color: #003333;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: bold;
   color: #000000;
   margin-top: 5%;
@@ -32,7 +32,7 @@
   font-weight: bold;
   color: #f3f7fb;
   margin-top: 5%;
-  padding: 15px 30px;
+  padding: 12px 24px;
 }
 .sidebar-chat {
   flex-grow: 1; /* Allow this section to take the remaining space */

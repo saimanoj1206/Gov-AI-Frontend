@@ -3,7 +3,7 @@
 }
 .section-title {
   font-size: 14px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .question-list {
@@ -26,9 +26,9 @@
   text-decoration: underline;
 }
 .view-all-link {
-  margin: 1px;
+  font-size: 14px;
+  margin-bottom: 8px;
   cursor: pointer;
-  text-decoration: none;
 }
 .view-all-link:hover {
   text-decoration: underline;

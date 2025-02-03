@@ -23,12 +23,11 @@
 }
 
 .response {
-  background-color: #fff; /* White background for the response */
-  color: #333; /* Slightly darker text color */
+  background-color: #fff;
+  color: #333;
   padding: 0px 15px;
   border-radius: 8px;
   word-wrap: break-word;
-  padding-bottom: 10%;
 }
 .response p {
   margin: 0;

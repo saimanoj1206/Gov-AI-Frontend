@@ -1,40 +1,31 @@
 import React, { useState } from "react";
 import "./Dashboard.css";
+
 import Sidebar from "../../components/Sidebar/Sidebar";
 import HelpPrompt from "../../components/HelpPrompt/HelpPrompt";
 import SearchInput from "../../components/SearchInput/SearchInput";
 import Chat from "../../components/Chat/Chat";
 import Faq from "../../components/Faq/Faq";
-import useApiCall from "../../hooks/useApiCallPost";
+import { useDispatch, useSelector } from "react-redux";
+import { clearChat, fetchChatData } from "../../store/slices/chatSlice"; // Import your async thunk
 
 const Dashboard = () => {
-  const [isChatActive, setIsChatActive] = useState(false);
-  const [chatData, setChatData] = useState(null);
-  const [shouldFocus, setShouldFocus] = useState(false);
-  const { makeApiCall, loading } = useApiCall(
-    "https://hcsc-test-ebf5gebgeae9gfcz.eastus2-01.azurewebsites.net/chatbot"
-  );
+  const [currentQuestion, setCurrentQuestion] = useState("");
+  const dispatch = useDispatch();
+  const { chatPage, loading } = useSelector((state) => state.chatUI);
+  const [isChatActive, setIsChatActive] = useState(false); // Initially false to show FAQ
 
-  const handleFaqClick = async (question) => {
-    setIsChatActive(true);
-    setChatData({ input: question, output: "", source_documents: "" });
+  // Handle FAQ click - Trigger API call
+  const handleFaqClick = (question) => {
+    setCurrentQuestion(question); // Set the question in state
+    setIsChatActive(true); // Switch to chat view
+    dispatch(fetchChatData({ question })); // Call API
+  };
 
-    const payload = {
-      question,
-      user_id: "kp1234",
-      session_id: "0011aA",
-    };
-
-    try {
-      const result = await makeApiCall(payload);
-      setChatData((prev) => ({
-        ...prev,
-        output: result.output,
-        source_documents: result.source_documents,
-      }));
-    } catch (error) {
-      console.error("Error during API call:", error);
-    }
+  const handleNewConversation = () => {
+    setIsChatActive(false); // Reset to show FAQ again
+    setCurrentQuestion("");
+    dispatch(clearChat());
   };
 
   return (
@@ -42,30 +33,21 @@ const Dashboard = () => {
       <div className="dashboard-header"></div>
       <div className="dashboard-content">
         <div className="sidebar">
-          <Sidebar
-            isChatActive={isChatActive}
-            setIsChatActive={setIsChatActive}
-            onNewConversation={() => {
-              setIsChatActive(true);
-              setChatData(null);
-              setShouldFocus(true);
-            }}
-          />
+          <Sidebar onNewConversation={handleNewConversation} />
         </div>
         <div className="main-content">
           <HelpPrompt />
           <div className="help-content">
-            {isChatActive ? (
-              <Chat chatData={chatData} loading={loading} />
+            {loading ? (
+              <Chat currentQuestion={currentQuestion} loading={loading} />
+            ) : chatPage.length > 0 ? (
+              <Chat currentQuestion={currentQuestion} loading={loading} />
             ) : (
-              <Faq handleFaqClick={handleFaqClick} />
+              !isChatActive && <Faq handleFaqClick={handleFaqClick} />
             )}
             <SearchInput
-              setChatData={setChatData}
-              shouldFocus={shouldFocus}
-              setIsChatActive={setIsChatActive}
-              loading={loading} // Pass loading state to SearchInput
-              makeApiCall={makeApiCall} // Pass makeApiCall to SearchInput
+              setCurrentQuestion={setCurrentQuestion}
+              setLoading={() => {}}
             />
           </div>
         </div>

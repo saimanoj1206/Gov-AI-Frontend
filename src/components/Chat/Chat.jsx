@@ -3,56 +3,56 @@ import "./chat.css";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { SiOctanerender } from "react-icons/si";
+import { useSelector } from "react-redux";
 import FeedbackAction from "../FeedbackAction/FeedbackAction";
 
-const Chat = ({ chatData, loading }) => {
-  const handleFeedback = (type) => {
-    console.log(`User feedback: ${type}`);
-  };
+const Chat = ({ currentQuestion }) => {
+  const { chatPage, loading, error } = useSelector((state) => state.chatUI);
 
   return (
-    <div className="chat-container">
-      <div className="chat-message">
-        {chatData?.input ? (
-          <div className="prompt">
-            <div>{chatData.input}</div>
-          </div>
-        ) : null}
+    <div>
+      {error && <div className="error-message">Error: {error}</div>}
 
-        {loading ? (
+      {chatPage.map((message, index) => (
+        <div key={index} className="chat-message">
+          <div className="prompt">{message.input}</div>
           <div className="response">
-            <div>
-              <SiOctanerender /> Please Wait...
+            <div className="markdown-container">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                {message.output}
+              </ReactMarkdown>
             </div>
-          </div>
-        ) : (
-          chatData?.output && (
-            <div className="response">
-              <div className="markdown-container">
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                  {chatData?.output}
-                </ReactMarkdown>
-              </div>
-              <div className="source-docs">
-                {chatData?.source_documents?.length ? "Source: " : ""}
-                {chatData?.source_documents.map((doc, index) => (
-                  <p key={index}>
-                    PDF{index + 1} Page No: ({doc.metadata.page_number[0] + 1}-
-                    {doc.metadata.page_number[1]
-                      ? doc.metadata.page_number[1] + 1
-                      : doc.metadata.page_number[0] + 1}
-                    )
-                  </p>
-                ))}
-              </div>
+            <div className="source-docs">
+              {message?.source_documents?.length ? "Source: " : ""}
+              {message?.source_documents.map((doc, index) => (
+                <p key={index}>
+                  PDF{index + 1}
+                  Page No: ({doc.metadata.page_number[0] + 1}-
+                  {doc.metadata.page_number[1]
+                    ? doc.metadata.page_number[1] + 1
+                    : doc.metadata.page_number[0] + 1}
+                  )
+                </p>
+              ))}
+            </div>
+            <div>
               <FeedbackAction
-                responseText={chatData?.output}
-                onFeedback={handleFeedback}
+                responseText={message.output}
+                // onFeedback={handleFeedback}
               />
             </div>
-          )
-        )}
-      </div>
+          </div>
+        </div>
+      ))}
+
+      {loading && (
+        <div className="chat-message">
+          <div className="prompt">{currentQuestion}</div>
+          <div>
+            <SiOctanerender /> Please Wait...
+          </div>
+        </div>
+      )}
     </div>
   );
 };

@@ -3,16 +3,14 @@ import "./Sidebar.css";
 import imgUrlLight from "../../logo/logo_light.png";
 import { BiMessageRoundedAdd } from "react-icons/bi";
 import ChatHistory from "../ChatHistory/ChatHistory";
+import ProfileBar from "../ProfileBar/ProfileBar";
 
-const Sidebar = ({ isChatActive, setIsChatActive, onNewConversation }) => {
+const Sidebar = ({ onNewConversation }) => {
   const handleClick = () => {
-    setIsChatActive(true);
     onNewConversation();
   };
 
-  const handleLogoClick = () => {
-    setIsChatActive(false);
-  };
+  const handleLogoClick = () => {};
 
   return (
     <div className="sidebar-options">
@@ -23,13 +21,16 @@ const Sidebar = ({ isChatActive, setIsChatActive, onNewConversation }) => {
           className="sidebar-logo"
           onClick={handleLogoClick}
         />
-        <span className="sidebar-title">Insights Agents</span>
+        <span className="sidebar-title">Systrans AI Assistant</span>
         <button className="sidebar-button" onClick={handleClick}>
           <BiMessageRoundedAdd /> New Conversation
         </button>
       </div>
       <div className="sidebar-chat">
         <ChatHistory />
+      </div>
+      <div>
+        <ProfileBar />
       </div>
     </div>
   );

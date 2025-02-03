@@ -1,0 +1,17 @@
+.icon-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 30px 20px;
+  background-color: #ffff;
+}
+
+.icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: gray;
+}

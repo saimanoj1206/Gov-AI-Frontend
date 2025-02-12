@@ -1,0 +1,99 @@
+.pdf-viewer-container {
+  width: 150%;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  background-color: #323639;
+}
+
+.pdf-wrapper {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  position: relative;
+}
+
+.pdf-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  box-sizing: border-box;
+  object-fit: contain;
+  overflow: visible;
+}
+
+.pdf-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  gap: 10px;
+}
+
+.close-button-container {
+  padding-right: 34%;
+  display: flex;
+  align-items: center;
+}
+
+.page-number {
+  font-weight: bold;
+  padding-left: 10px;
+  color: white;
+}
+
+.close-button {
+  background: rgb(77, 74, 74);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.close-button:hover {
+  background: #838789;
+}
+
+.pdf-loading-shimmer {
+  width: 100%;
+  height: 100%;
+  background-color: #393434;
+  position: relative;
+  overflow: hidden;
+}
+
+.pdf-shimmer-effect {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.15) 75%
+  );
+  animation: pdf-shimmer 4s infinite;
+}
+
+@keyframes pdf-shimmer {
+  0% {
+    top: -100%;
+  }
+  50% {
+    top: 100%;
+  }
+  100% {
+    top: 200%;
+  }
+}

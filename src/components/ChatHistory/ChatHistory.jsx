@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ChatHistory.css";
 
 const ChatHistory = () => {
+  const [isViewAll, setViewAll] = useState(false);
   const truncateText = (text, maxLength = 35) => {
     return text.length > maxLength ? text.slice(0, maxLength) + "... >" : text;
   };
@@ -23,23 +24,46 @@ const ChatHistory = () => {
       "Is There A List Of Procedure Codes?",
     ],
   };
+
+  const handleViewAll = () => {
+    setViewAll(!isViewAll);
+  };
   return (
     <div className="chat-history">
-      {Object.entries(chatData).map(([section, questions], index) => (
-        <div key={index} className="chat-section">
-          <h3 className="section-title">{section}</h3>
-          <ul className="question-list">
-            {questions.map((question, idx) => (
-              <li key={idx} className="question-item">
-                <p className="question-link">{truncateText(question)}</p>
-              </li>
-            ))}
-          </ul>
-          <hr className="separator-line" />
+      {!isViewAll ? (
+        <div>
+          {Object.entries(chatData).map(([section, questions], index) => (
+            <div key={index}>
+              <h3 className="section-title">{section}</h3>
+              <ul className="question-list">
+                {questions.map((question, idx) => (
+                  <li key={idx} className="question-item">
+                    <p className="question-link">{truncateText(question)}</p>
+                  </li>
+                ))}
+              </ul>
+              <hr className="separator-line" />
+            </div>
+          ))}
         </div>
-      ))}
+      ) : (
+        <div>
+          {Object.entries(chatData).map(([section, questions], index) => (
+            <ul className="question-list">
+              {questions.map((question, idx) => (
+                <li key={idx} className="question-item">
+                  <p className="question-link">{truncateText(question)}</p>
+                </li>
+              ))}
+            </ul>
+          ))}
+        </div>
+      )}
+
       <div className="view-all">
-        <h3 className="view-all-link">View All{"  >"}</h3>
+        <h3 className="view-all-link" onClick={handleViewAll}>
+          {!isViewAll ? "View All Questions" : "Previous Questions"}
+        </h3>
       </div>
     </div>
   );

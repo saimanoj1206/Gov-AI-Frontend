@@ -1,6 +1,6 @@
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
-import "./faq.css";
+import "./Faq.css";
 
 const FAQ = ({ handleFaqClick }) => {
   const questions = [

@@ -1,11 +1,11 @@
 .search-container-wrapper {
-  display: flex;
   position: fixed;
   width: 100%;
   background-color: rgba(244, 242, 242, 0.966);
   padding: 20px;
   bottom: 0px;
   margin: 0%;
+  z-index: 20000;
 }
 
 .search-container {
@@ -22,6 +22,7 @@
 
 .search-input {
   flex: 1;
+  flex-grow: 1;
   border: none;
   outline: none;
   font-size: 16px;

@@ -1,0 +1,43 @@
+.shimmer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 20%;
+}
+
+.shimmer-message {
+  height: 20px;
+  border-radius: 15px;
+  background: linear-gradient(to right, #e0e0e0 0%, #f7f7f7 50%, #e0e0e0 100%);
+  background-size: 200% 100%;
+  animation: shimmer 5s infinite;
+  padding: 12px;
+}
+
+.shimmer-message.bot {
+  width: 80%;
+}
+
+.shimmer-message.medium {
+  width: 60%;
+}
+
+.shimmer-message.small {
+  width: 40%;
+}
+
+.shimmer-message.short {
+  width: 20%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

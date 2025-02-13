@@ -12,7 +12,7 @@
 
 .dashboard-content {
   z-index: 2;
-  position: absolute;
+  position: fixed;
   top: 0;
   margin-left: 1%;
   margin-right: 1%;
@@ -23,18 +23,6 @@
   flex-wrap: wrap;
   border-radius: 5px;
   background-color: #fff;
-  height: 98vh;
-}
-
-.main-content {
-  margin-left: auto;
-  flex: 0.8;
-  background-color: #fefefd;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: 98vh;
-  overflow: hidden;
 }
 
 .sidebar {
@@ -45,16 +33,50 @@
   overflow-y: auto;
   height: 100%;
 }
-
-.help-content {
-  overflow-y: auto; /* Allow scrolling for help-content */
-  flex-grow: 1;
-  z-index: 8;
-  height: 100%;
-  bottom: 0;
-  height: calc(100% - 250px);
-  scrollbar-width: none;
+.main-content {
+  margin-left: auto;
+  flex: 0.8;
+  background-color: #fefefd;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 98vh;
+  overflow: hidden;
 }
-.help-content::-webkit-scrollbar {
-  display: none; /* Hide scrollbar in Webkit browsers (Chrome, Safari, Edge) */
+.pdf-container {
+  flex: 0;
+  flex-direction: row;
+  height: 100%;
+}
+
+.chat-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-content > :nth-child(2) {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.main-content.pdf-open {
+  display: flex;
+}
+
+.chat-content.pdf-open {
+  width: 60%;
+}
+
+.pdf-viewer-wrapper {
+  width: 40%;
+  height: 100vh;
+  background: #fff;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-content::-webkit-scrollbar {
+  display: none;
 }

@@ -2,20 +2,20 @@ import React, { useState } from "react";
 import "./SearchInput.css";
 import { useDispatch, useSelector } from "react-redux";
 import { PiPaperPlaneRightFill } from "react-icons/pi";
-import { fetchChatData } from "../../store/slices/chatSlice"; // Import thunk
+import { fetchChatData } from "../../store/slices/chatSlice";
 
 const SearchInput = ({ setCurrentQuestion }) => {
   const dispatch = useDispatch();
   const [question, setQuestion] = useState("");
 
-  const { loading } = useSelector((state) => state.chatUI); // Get loading state
+  const { loading } = useSelector((state) => state.chatUI);
 
   const handleSubmit = () => {
     if (!question.trim()) return;
 
-    setCurrentQuestion(question); // Update the UI with the current question
-    dispatch(fetchChatData({ question })); // Dispatch the thunk action
-    setQuestion(""); // Clear input field after submission
+    setCurrentQuestion(question);
+    dispatch(fetchChatData({ question }));
+    setQuestion("");
   };
 
   const handleKeyPress = (e) => {
@@ -38,7 +38,7 @@ const SearchInput = ({ setCurrentQuestion }) => {
         <button
           className="search-button"
           onClick={handleSubmit}
-          disabled={loading} // Disable button when loading
+          disabled={loading}
         >
           <PiPaperPlaneRightFill />
         </button>

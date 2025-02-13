@@ -1,0 +1,26 @@
+.scroll-to-bottom-button {
+  position: fixed;
+  bottom: 30px;
+  transform: translateX(-50%);
+  background: #f0eded;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease-in-out, transform 0.2s ease-in-out;
+  z-index: 999999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.scroll-to-bottom-button:hover {
+  background: rgb(225, 221, 221);
+}
+
+.scroll-to-bottom-button:active {
+  transform: translateX(-50%) scale(0.9);
+}

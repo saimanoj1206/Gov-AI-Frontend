@@ -1,7 +1,7 @@
 .sidebar-options {
   display: flex;
-  flex-direction: column; /* Arrange children vertically */
-  height: 100%; /* Full height of the parent */
+  flex-direction: column;
+  height: 100%;
 }
 .sidebar-container {
   display: flex;
@@ -9,7 +9,7 @@
   justify-content: center;
   flex-direction: column;
   position: sticky;
-  top: 0; /* Stick to the top of the sidebar */
+  top: 0;
 }
 .sidebar-logo {
   width: 125px;
@@ -35,12 +35,12 @@
   padding: 12px 24px;
 }
 .sidebar-chat {
-  flex-grow: 1; /* Allow this section to take the remaining space */
-  overflow-y: auto; /* Make it scrollable */
-  padding: 10px; /* Optional: Add padding for better spacing */
-  background-color: #ffffff; /* Background color for the chat area */
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #ffffff;
   scrollbar-width: none;
 }
 .sidebar-chat::-webkit-scrollbar {
-  display: none; /* Hide scrollbar in Webkit browsers (Chrome, Safari, Edge) */
+  display: none;
 }

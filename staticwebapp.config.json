@@ -2,9 +2,8 @@
     "auth": {
         "identityProviders": {
             "azureActiveDirectory": {
-                "userDetailsClaim": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
                 "registration": {
-                    "openIdIssuer": "https://login.microsoftonline.com/e714ef31-faab-41d2-9f1e-e6df4af16ab8",
+                    "openIdIssuer": "https://login.microsoftonline.com/e714ef31-faab-41d2-9f1e-e6df4af16ab8/v2.0",
                     "clientIdSettingName": "AADB2C_PROVIDER_CLIENT_ID",
                     "clientSecretSettingName": "ADB2C_PROVIDER_CLIENT_SECRET"
                 }

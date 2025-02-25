@@ -1,19 +1,20 @@
 import React, { useEffect, useState } from "react";
 import "./Dashboard.css";
-
 import Sidebar from "../../components/Sidebar/Sidebar";
 import HelpPrompt from "../../components/HelpPrompt/HelpPrompt";
 import SearchInput from "../../components/SearchInput/SearchInput";
 import Chat from "../../components/Chat/Chat";
 import Faq from "../../components/Faq/Faq";
-import PdfViewer from "../../components/PdfViewer/PdfViewer"; // Import PdfViewer
+import PdfViewer from "../../components/PdfViewer/PdfViewer";
 import { useDispatch, useSelector } from "react-redux";
 import { clearChat, fetchChatData } from "../../store/slices/chatSlice";
+import { setNewSession } from "../../store/slices/userSlice";
 
 const Dashboard = () => {
   const [currentQuestion, setCurrentQuestion] = useState("");
   const dispatch = useDispatch();
   const { chatPage, loading } = useSelector((state) => state.chatUI);
+  // const { session_id } = useSelector((state) => state.user);
   const [isChatActive, setIsChatActive] = useState(false);
   const [docView, setDocView] = useState(false);
   const [docId, setDocId] = useState("");
@@ -30,6 +31,7 @@ const Dashboard = () => {
     setIsChatActive(false);
     setCurrentQuestion("");
     dispatch(clearChat());
+    dispatch(setNewSession());
     setDocView(false);
     setFlex(0);
   };

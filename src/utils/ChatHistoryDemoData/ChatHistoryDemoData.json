@@ -1,0 +1,877 @@
+{
+  "input": "Is Revenue code 0653 covered?",
+  "history": [],
+  "output": "### Coverage of Revenue Code 0653\n\nRevenue code **0653** is associated with **Long Term Care (LTC) - Skilled Nursing Facility** services. Here are the key points regarding its coverage:\n\n1. **Eligibility**: \n   - A Medicaid recipient must be assessed and approved for long-term care services to qualify for coverage under this revenue code.\n\n2. **Billing Requirements**:\n   - Claims must be submitted electronically using the HIPAA 5010 837I format.\n   - The billing should reflect the appropriate service dates and must include the correct revenue code (0653) along with any necessary value codes.\n\n3. **Payment Structure**:\n   - Payment for long-term care services is typically on a **per diem basis**. This means that providers are reimbursed a set amount for each day a patient is in care.\n\n4. **Patient Credit File**:\n   - The Patient Credit File (PCF) is used to validate claims. It includes information about eligible services rendered to a Managed Care Organization's (MCO) members.\n   - Claims will be reviewed for patient liability, and payment may be adjusted based on the member's income responsibility.\n\n5. **Non-Covered Days**:\n   - While revenue code 0653 is covered, it is important to note that certain days, such as leave of absence days, may not be reimbursable.\n\n### Summary\nRevenue code 0653 is covered under Illinois Medicaid for long-term care services, provided that the necessary eligibility and billing requirements are met. Providers should ensure they are familiar with the specific guidelines and processes to facilitate proper reimbursement. If you have any further questions or need additional details, feel free to ask!",
+  "intermediate_steps": [
+    [
+      {
+        "tool": "search_pdf",
+        "tool_input": {
+          "query": "Is Revenue code 0653 covered?"
+        },
+        "log": "\nInvoking: `search_pdf` with `{'query': 'Is Revenue code 0653 covered?'}`\n\n\n",
+        "type": "AgentActionMessageLog",
+        "message_log": [
+          {
+            "content": "",
+            "additional_kwargs": {
+              "function_call": {
+                "arguments": "{\"query\":\"Is Revenue code 0653 covered?\"}",
+                "name": "search_pdf"
+              }
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 21,
+                "prompt_tokens": 1462,
+                "total_tokens": 1483,
+                "completion_tokens_details": {
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "accepted_prediction_tokens": 0,
+                  "rejected_prediction_tokens": 0
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cached_tokens": 0
+                }
+              },
+              "model_name": "gpt-4o-mini-2024-07-18",
+              "system_fingerprint": "fp_b045b4af17",
+              "prompt_filter_results": [
+                {
+                  "prompt_index": 0,
+                  "content_filter_results": {
+                    "hate": {
+                      "filtered": false,
+                      "severity": "safe"
+                    },
+                    "jailbreak": {
+                      "filtered": false,
+                      "detected": false
+                    },
+                    "self_harm": {
+                      "filtered": false,
+                      "severity": "safe"
+                    },
+                    "sexual": {
+                      "filtered": false,
+                      "severity": "safe"
+                    },
+                    "violence": {
+                      "filtered": false,
+                      "severity": "safe"
+                    }
+                  }
+                }
+              ],
+              "finish_reason": "function_call",
+              "logprobs": null,
+              "content_filter_results": {}
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run-84124ec7-797e-482e-885e-e939022f4679-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+              "input_tokens": 1462,
+              "output_tokens": 21,
+              "total_tokens": 1483
+            }
+          }
+        ]
+      },
+      "## VI. Long-term Care/ Skilled Nursing Facility\n### A. Purpose\n\nThe purpose of this section is to outline the billing policies and procedures related to Long-term Care/\nSkilled Nursing Facility providers.\n\n### B. Provider Type\n\nThe Long-term Care/ Skilled Nursing Facility section applies to provider type 033 which includes skilled\nnursing facilities, intermediate care facilities, and general acute hospital LTC wing.\n\n### C. Long Term Care (LTC) Eligibility\n\n· A Medicaid recipient must be assessed and their determination of need must be approved to\nqualify for long term care\n\n· The MCOs do not determine eligibility for long term care services\n\n· While HFS determines eligibility for services, many MCOs have a notification or authorization\nrequirement related to the admittance to the facility.\n\n· Exceptional care approval is determined by the state\n\no Member must be approved for exceptional care\n\no Provider must be enrolled with category of service 038 to provide/bill exceptional care\n\n· Exceptional care is on the patient credit file with approved providers/dates\n\n### D. IMPACT Enrollment Requirements\n\nProvider must be Enrolled in HFS IMPACT system as provider type 033\n\n· Skilled Nursing Facility\n\n· Nursing Facility/Intermediate Care\n\n· General Acute Care Hospital LTC Wing\n\nThe approved categories of service in IMPACT may include:\n\n· 070 LTC-Skilled\n\n· 071 LTC Intermediate\n\n· 038 Exceptional Care\n\n. 065 LTC Full Medicare Coverage\n\n· 072 LTC-NF/Skilled/Coinsurance (partial Medicare coverage)\n\n. 083 Developmental Training (not covered by MC plans at this time)\n\n### E. Patient Credit File\n\nThe Patient Credit File (PCF) is submitted to Managed Care Organizations (MCOs) weekly by the\nDepartment of Healthcare and Family Services (HFS). The PCF incorporates data regarding eligible\nservices rendered to a MCO's membership for a rolling 36-month period.\n\nIt is composed of individual member segments, each of which relay the following information:\n\n· Recipient Identification Number (RIN)\n\n· Last Name\n\n· First Name\n\n· LTC Provider ID\n\n##### Part B: Institutional Billing (837I or UB-04 claim types)\n\n· Hospice Provider ID (Conditional)\n\n· Patient Credit Segment Begin Date\n\n· Patient Credit Segment End Date\n\n· Patient Credit Amount\n\n· Exceptional Care (COS 038) (Conditional)\n\n· Exceptional Care Segment Begin Date (Conditional)\n\n· Exceptional Care Segment End Date (Conditional)\n\n· Provisional Eligibility Indicator (Conditional)\n\nThe PCF is a MCO's source of truth for validation.\n\n· HFS notifies the MCOs of patient income responsibilities via the weekly patient credit file (PCF).\n\no The member and the LTC provider (and when applicable, the hospice provider and\nExceptional Care Approval) must be on the patient credit file in order for the provider to\nreceive payment.\n\no All LTC claims are reviewed for patient liability using the patient credit file and the payment\nto LTC providers will be reduced should the member have income liability on the date of\nservice.\n\no Days reported on the PCF do not include the last day of a stay unless discharge was due to\ndeath.\n\n### F. Billing Requirements\n\n. All LTC claims must be billed in an electronic format using the HIPAA 5010 837i\n\n· Billing guidelines describe form locator fields on a UB04 as a point of reference\n\n· Covered Services\n\no Revenue codes 0110-0160: General room and board (except 0115, 0125, 0135, 0145 or\n0155)\n\no Revenue codes 0191-0193: Exceptional care for TBI Levels 1-3\n\no Revenue code 0194: Exceptional care for Vent\n\no Revenue code 0182: Leave of Absence Patient Convenience\n\no Revenue code 0183: Leave of Absence Therapeutic Leave\n\no Revenue code 0185: Hospitalization\n\n· Leave of Absence\n\no Leave of absence revenue codes are not reimbursable although it is required that you bill\nfor those days, the reimbursement will be $0.00.\n\n· Billing Cycle\n\no Claims should not be held by providers. Always submit the claim within the appropriate\ncycle for processing.\n\no Payment for long term care services is on a per diem basis. In determining the number of\ndays for which payment can be made, the day of admission to the facility is counted. The\nday of discharge from the facility is not counted, unless it is the day of death and death\noccurs in the facility or a reserved bed has been authorized for that day.\n\nVI Long-term Care/ Skilled Nursing Facility\n\n· Services billed should be in one-month increments\n\no Example 1: 3/1/19-3/31/19\n\no Example 2: with an admit date of 2/6/19\n\\- 2/6/19-2/28/19\n\no Example 3: with a discharge date of 2/20/19\n\\- 2/1/19-2/20/19\n\n· If a member transfers to a different level of care within a facility (e.g. moves to skilled care for a\nportion of the month), two separate claims using the appropriate bill type must be submitted.\nDates of service for the two claims must not overlap.\n\no Example (for member admitted to facility on 7/1/22)\n\n\\- Claim for intermediate care for the first 15 days of the month:\n\n\" Statement Period: 11/01/22 - 11/15/22\n\n· Bill Type: 0653\n\n\" Admit date on claim: 7/01/22\n\n\" Discharge date on claim: 11/15/22\n\n· Value Code 80 = 15\n\n· Revenue Code 0120 = 15\n\n\\- Claim for skilled care for last 15 days of the month:\n\n\" Statement Period: 11/16/22 - 11/30/22\n\n· Bill Type: 0213\n\n\" Admit date on claim: 7/1/22\n\n\" Discharge date on claim: 11/30/22\n\n· Value Code 80 = 15\n\n· Revenue Code 0120 = 15\n\nFor providers with Managed Long-Term Services and Supports (MLTSS) membership residing in their\nfacilities, one-month incremental billing is not always required due to Medicare components on the\nclaim. Covered days from received claim information will be handled as follows:\n\n· Medicaid covered services must be billed to the MCO.\n\n. Medicare covered services must first be billed to Medicare and then may be submitted to\nMedicaid after the adjudication of the Medicare claim.\n\n## II. Outpatient Hospital\n### C. Coding Guidance - EAPG Pricing\n#### viii. Pharmacy and Reporting of National Drug Codes\n\nFederal law requires Medicaid programs collect rebates from drug manufacturers on claims for\noutpatient drugs, including claims billed by non-pharmacy providers. To collect rebates, claims must\ncontain accurate NDCs and the quantity of the drug administered at the NDC level. Effective with dates\nof service on or after July 1, 2014, hospitals are required to identify the NDC in Field 43 of the UB-04\nfor ALL outpatient drugs billed.\n\nProviders are required to detail revenue code line reporting when billing for more than one NDC per\nHCPCS code in conjunction with ANY revenue code. Duplicate revenue codes identifying the same\nHCPCS code but different NDCs on the same claim are not to have the HCPCS Units and Charges rolled\ninto the first Revenue Code. Each Revenue Code line must contain detailed reporting.\n\nMCO's validate NDCs using a pharmacy database such as First Databank or MediSpan. Ensure NDCs\nused are validated against a similar pharmacy database and that the NDC is valid on the date of service\nto ensure a clean claim submission.\n\nThe standard code set for NDCs is eleven (11) digits in a 5-4-2 configuration with no hyphens, spaces,\nor other characters.\n\n##### IMPORTANT NOTE:\n\nSometimes the NDC on the actual product label might not contain 11 digits. The labeler may have\ndropped leading zeroes in a segment. In this situation, the appropriate number of leading zeroes must\nbe added at the beginning of each segment to ensure a 5-4-2 format. Where the zero is added will\ndepend upon the configuration of the NDC.\n\nFor illustration purposes, the table below provides examples on incorrectly configured NDCs and the\ncorresponding corrections:\n\n<table>\n<tr>\n<th>Label Configuration</th>\n<th>Add Leading Zero/Remove Hyphens</th>\n</tr>\n<tr>\n<td>4-4-2 (XXXX-XXXX-XX)</td>\n<td>0xxxxxxxxXX</td>\n</tr>\n<tr>\n<td>5-3-2 (XXXXX-XXX-XX)</td>\n<td>xxxxxxxxxxx</td>\n</tr>\n<tr>\n<td>5-4-1 (XXXXX-XXXX-X)</td>\n<td>xxxxXXXXX0X</td>\n</tr>\n</table>\n\nALL NDC codes must include a prefix qualifier of N4, the 11-digit NDC code (without hyphens) and unit\nof measurement in field 43 (with corresponding revenue code). See example below:\n\n<table>\n<tr>\n<th>42 REV. CO.</th>\n<th>43 DESCRIPTION</th>\n<th>44 HCPCS / RATE / HIPPS CODE</th>\n<th>45 SERV. DATE</th>\n<th>46 SERV. UNITS</th>\n<th>47 TOTAL CHARGES</th>\n<th>48 NON-COVERED CHARGES</th>\n<th>49</th>\n</tr>\n<tr>\n<td>0258</td>\n<td>N400338004904ML1000</td>\n<td>J7030</td>\n<td>102918</td>\n<td>10</td>\n<td>20:00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>0636</td>\n<td>N400409113403ML10</td>\n<td>J2270</td>\n<td>102918</td>\n<td>10</td>\n<td>1:00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>0636</td>\n<td>N400378031593ML1</td>\n<td>Q0162</td>\n<td>102918</td>\n<td>5</td>\n<td>3:00</td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n1\n\n1\n\n2\n\n2\n\n,\n\n3\n\n4\n4\n\n##### IMPORTANT NOTE:\n\nWhile general pharmacy services (e.g. Revenue Codes 025X) do not require NDC codes to be billed on\nthe corresponding revenue service line, if a facility provider does use a HCPCS code, the code will be\nvalidated against HFS' Practitioner Fee Schedule to determine if it requires an NDC code, regardless of\nthe revenue code used on the claim. If you do use a HCPCS code with Pharmacy Revenue Codes 0250-\n0259, be sure to verify the HFS Practitioner Fee Schedule to see if an NDC code must be added. If the\nfee schedule for the HCPCS has the 'NDC Ind' field = 'Y', then the revenue code/HCPCS combination\nmust contain a valid NDC. The Fee Schedule can be found [here.](https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/practitioner.html)\n\nExample:\n\nIllinois Department of Healthcare and Family Services\nPractitioner Fee Schedule\nEffective 10/01/2018\nUpdated 10/22/2018\nThis fee schedule applies to charges submitted by the following providers: Advanced Practice Nurses, Dentists providing medical services, Fee-For-Service Hospitals, Imaging Centers,\nIndependent Diagnostic Testing Facilities (IDTFs), Independent Laboratories, Local Health Departments, Optometrists providing medical services, Physicians, and Portable X-ray Companies.\nEncounter Rate Clinics (ERCs), Federally Qualified Health Centers (FQHCs), and Rural Health Centers (RHCs) should utilize this fee schedule for a listing of covered services billable as detail codes.\nPlease note the appearance of a code on this fee schedule does not guarantee payment. Services for which medical necessity is not clearly established are not covered by the Department's Medical\nPrograms. See Handbook for Providers of Medical Services, Topic 104 and Practitioners Handbook, Section 204 for additional exclusions. Updates are based on periodic modifications to the HCPCS/CPT code set.\nCPT codes and descriptions only are copyright 2018 by the American Medical Association. All Rights Reserved. Applicable FARS/DFARS apply. National Correct Coding Institute (NCCI) edits apply.\n*2.7% rate reductions shown in a separate column do not apply to: Physicians, Dentists, Advanced Practice Nurses, FQHCs, RHCs, ERCs, or Local Health Departments.\n\n## II. Outpatient Hospital\n### E. Outpatient Dialysis Services (ESRD)\n#### iii. Billing Requirements\n\n. All Dialysis claims must be billed in an electronic format using the HIPAA 5010 8371.\n\n· If CPT Q4081 for Erythropoietin (Epogen) billed on claim then,\n\n· must be billed with value code 68 (represents number of units billed)\n\n· must be accompanied with revenue codes 634 or 635\n\n· 261QE0700X must be billed on the claim indicating Renal Dialysis.\n\n· Dialysis revenue codes and injectable drug revenue codes 0634, 0635, and 0636 require a\nseparate service line for each date of service.\n\n· Modifier \"UD\" is required to denote all 340B-purchased drugs. Modifier \"UD\" must be the first\nmodifier listed after the HCPCS procedure code.\n\n· Dialysis is still considered a series billable service and as a result Value Code 80 with the number\nof dialysis treatments (Covered Days) must be part of the claim.\n\n· When billing outpatient ESRD, revenue codes 0821, 0831 or, 0881 must not be billed with\nrevenue codes 0841 or 0851 on the same claim. Series claims for renal dialysis must be split if the\npatient received more than one type of dialysis during the treatment span.\n\n. When billing for home daily dialysis revenue codes 0841 or 0851, the sum of Value code 80\nCovered Days plus Noncovered Days must equal the Statement Covers Period.\n\n· Claims should not be held by providers. Always submit the claim within the appropriate cycle for\nprocessing.\n\n· Revenue codes to be used for per diem billings, HFS COS 025, provided on a dedicated unit:\n\n<table>\n<tr>\n<th>Revenue Code</th>\n<th>Description</th>\n</tr>\n<tr>\n<td>0821</td>\n<td>Hemodialysis -Outpatient or Home Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0831</td>\n<td>Peritoneal Dialysis - Outpatient or Home Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0841</td>\n<td>Continuous Ambulatory Peritoneal Dialysis (CAPD)- Outpatient or Home- Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0851</td>\n<td>Continuous Cycling Peritoneal Dialysis (CCPD)-Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0881</td>\n<td>Miscellaneous dialysis-ultrafiltration</td>\n</tr>\n</table>\n\nThe following revenue codes are also eligible to be billed with the per diem codes, HFS COS 025 on an\noutpatient basis:\n\n<table>\n<tr>\n<th>Revenue Code</th>\n<th>Description</th>\n</tr>\n<tr>\n<td>0820</td>\n<td>General Hemodialysis Outpatient or Home</td>\n</tr>\n<tr>\n<td>0829</td>\n<td>Other Hemodialysis Outpatient or Home</td>\n</tr>\n<tr>\n<td>0830</td>\n<td>General Peritoneal Dialysis Outpatient or Home</td>\n</tr>\n<tr>\n<td>0839</td>\n<td>Other Peritoneal Dialysis Outpatient or Home</td>\n</tr>\n<tr>\n<td>0840</td>\n<td>General Continuous Ambulatory Peritoneal Dialysis (CAPD)-Outpatient or Home</td>\n</tr>\n<tr>\n<td>0849</td>\n<td>Other Continuous Ambulatory Peritoneal Dialysis (CAPD)-Outpatient or Home</td>\n</tr>\n<tr>\n<td>0850</td>\n<td>General Continuous Cycling Peritoneal Dialysis (CCPD)-Outpatient or Home</td>\n</tr>\n<tr>\n<td>0859</td>\n<td>Other Continuous Cycling Peritoneal Dialysis (CCPD)- Outpatient or Home</td>\n</tr>\n<tr>\n<td>0880</td>\n<td>General Miscellaneous Dialysis Code- Outpatient Home</td>\n</tr>\n<tr>\n<td>0889</td>\n<td>Other Miscellaneous Dialysis Code - Outpatient or Home</td>\n</tr>\n</table>\n\n##### a) Non-Covered Dialysis Revenue Codes\n\nProviders should note HFS has certain Non-Covered Revenue Codes related to dialysis treatment. The\nspecific dialysis codes are noted below from the list of non-covered revenue codes that is located at\nthe end of the outpatient section. You can also view the complete list by clicking [here and](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/h200a.pdf) scrolling to\nAppendix H-3.\n\n<table>\n<tr>\n<th>Non-Covered Revenue Code</th>\n<th>Description</th>\n</tr>\n<tr>\n<td>0822</td>\n<td>Hemodialysis / Home Supplies</td>\n</tr>\n<tr>\n<td>0823</td>\n<td>Hemodialysis / Home Equipment</td>\n</tr>\n<tr>\n<td>0824</td>\n<td>Hemodialysis / Home Equipment</td>\n</tr>\n<tr>\n<td>0825</td>\n<td>Hemodialysis / Support Services</td>\n</tr>\n<tr>\n<td>0832</td>\n<td>Peritoneal Dialysis / Home Supplies</td>\n</tr>\n<tr>\n<td>0833</td>\n<td>Peritoneal Dialysis / Home Equipment</td>\n</tr>\n<tr>\n<td>0834</td>\n<td>Peritoneal Dialysis / Maintenance 100%</td>\n</tr>\n<tr>\n<td>0835</td>\n<td>Peritoneal Dialysis / Support Services</td>\n</tr>\n<tr>\n<td>0842</td>\n<td>CAPD / Home Supplies</td>\n</tr>\n<tr>\n<td>0843</td>\n<td>CAPD / Home Supplies</td>\n</tr>\n<tr>\n<td>0844</td>\n<td>CAPD / Maintenance 100%</td>\n</tr>\n<tr>\n<td>0845</td>\n<td>CAPD/Support Services</td>\n</tr>\n<tr>\n<td>0852</td>\n<td>CCPD/Home Supplies</td>\n</tr>\n<tr>\n<td>0853</td>\n<td>CCPD/Home Equipment</td>\n</tr>\n<tr>\n<td>0854</td>\n<td>CCPD/Maintenance 100%</td>\n</tr>\n<tr>\n<td>0855</td>\n<td>CCPD/Support Services</td>\n</tr>\n<tr>\n<td>0882</td>\n<td>Home Dialysis Aide Visit</td>\n</tr>\n</table>\n\nThe following bill types are allowed for outpatient dialysis services:\n\nType of Bill\n\n131, 132, 133, 134, 135\n\n721, 722, 723, 724, 725\n\n731, 732, 733, 734, 735\n\n851, 852, 853, 854, 855\n\n##### b) Hospitals billing a single outpatient episode of care with ER service:\n\nThe following renal revenue codes can be billed by hospitals in the same episode of care when part of\nan ER episode of care:\n\n<table>\n<tr>\n<th>Revenue Code</th>\n<th>Description</th>\n</tr>\n<tr>\n<td>0810</td>\n<td>General Outpatient Acquisition of Body Components</td>\n</tr>\n<tr>\n<td>0820</td>\n<td>General Hemodialysis- Outpatient or Home</td>\n</tr>\n<tr>\n<td>0829</td>\n<td>Other Hemodialysis - Outpatient or Home</td>\n</tr>\n<tr>\n<td>0860</td>\n<td>General Magnetencephalography</td>\n</tr>\n<tr>\n<td>0861</td>\n<td>MEG</td>\n</tr>\n<tr>\n<td>0889</td>\n<td>Other Miscellaneous Dialysis</td>\n</tr>\n</table>\n\nNote: CPT Q4081 for Erythropoietin (Epogen) with revenue code 634 or 635 is not allowed to be billed when\npart of an ER episode of care.\n\n##### c) Series Billing Dialysis Revenue Codes\n\nThe following revenue codes are dialysis codes that can be billed as series billing. The specific dialysis\ncodes are noted below from the list of series billable revenue codes that is located at the end of the\noutpatient section. These dialysis codes are still series billable after 7/1/2020. You can also view by\nclicking [here for](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/apseriesbillable01012020final.pdf) the complete list.\n\n<table>\n<tr>\n<th>Revenue Code</th>\n<th>Description</th>\n</tr>\n<tr>\n<td>0820</td>\n<td>Hemodialysis - Outpatient or Home</td>\n</tr>\n<tr>\n<td>0821</td>\n<td>Hemodialysis - Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0829</td>\n<td>Hemodialysis - Other Outpatient Dialysis</td>\n</tr>\n<tr>\n<td>0830</td>\n<td>Peritoneal Dialysis - Outpatient or Home</td>\n</tr>\n<tr>\n<td>0831</td>\n<td>Peritoneal Dialysis - Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0839</td>\n<td>Other Outpatient Peritoneal Dialysis</td>\n</tr>\n<tr>\n<td>0840</td>\n<td>CAPD / Outpatient or Home</td>\n</tr>\n<tr>\n<td>0841</td>\n<td>CAPD/Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0849</td>\n<td>Other Outpatient CAPD</td>\n</tr>\n<tr>\n<td>0850</td>\n<td>CCPD / Outpatient or Home</td>\n</tr>\n<tr>\n<td>0851</td>\n<td>CCPD / Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0859</td>\n<td>Other Outpatient CCPD</td>\n</tr>\n</table>\n\n## I. Inpatient Hospital (General Acute Care and Children's Hospital)\n### C. Coding Guidance\n#### iii. Revenue Codes\n\nA valid HFS revenue code must be on the claim for it to be accepted by the MCO. On the UB-04 the\nRevenue Codes are located in FL 42.\n\nHFS maintains a list of non-covered revenue codes (click [here](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/h200a.pdf) and scroll to Appendix H-3 to view the\nlist). For dates of service prior to 4/1/24, these codes should not be billed on an Illinois Medicaid claim.\nBilling with these codes will result in a claim rejection.\n\nEffective with dates of service starting 4/1/24, the non-covered revenue codes should be billed to the\nMCOs to represent a full claim experience for the member. The MCOs will not pay these codes, but\nthey can be included on the claim and will not result in a claim rejection.\n\nIt is the expectation that facilities bill with the generally accepted and appropriate revenue codes for\nthe services being provided.\n\nAn example of revenue codes includes, but is not limited to:\n\n<table>\n<tr>\n<th>Bed Type</th>\n<th>Private Rev Code</th>\n<th>Semi-Private Rev Code</th>\n</tr>\n<tr>\n<td>Room &amp; Board</td>\n<td>0110</td>\n<td>0120</td>\n</tr>\n<tr>\n<td>Med/Surgical</td>\n<td>0111</td>\n<td>0121</td>\n</tr>\n<tr>\n<td>OB</td>\n<td>0112</td>\n<td>0122</td>\n</tr>\n<tr>\n<td>Psychiatric</td>\n<td>0114</td>\n<td>0124</td>\n</tr>\n<tr>\n<td>Rehabilitation</td>\n<td>0118</td>\n<td>0128</td>\n</tr>\n</table>\n\n#### iv. Covered and Non-Covered Days\n\nAll inpatient claims must report the covered and non-covered days.\n\nThe sum of covered and non-covered days must correspond to the Statement Covers Period in FL 6 and\nshould not reflect the day of discharge.\n\nIt is allowed for providers to submit Statement Covers Period in FL 6 equal to the same dates (same\n'Statement From' and 'Statement Through' date) on claims with one accommodation revenue code\nand the appropriate Value code 80 or 81 equal to 1.\n\nWhen submitting claims that are reimbursed on a DRG basis, only report value code 80 as the total\ndays of stay. Claims paid by Per Diem reimbursement should have the appropriate covered and non-\ncovered days reported to match the authorization.\n\n##### Meridian and Molina Only Requirement:\n\nMeridian and Molina require the use of Condition codes:\n\n· C1 would be used if the entire stay was fully covered.\n\n. C3 would be used when non-covered days were reported as well.\n\n· Condition codes are required for the claim to process. The absence of these condition codes will\nresult in a claim denial.\n\nAetna Better Health of Illinois Only Requirement:\n\nFor Aetna Better Health of Illinois, the sum of covered and non-covered days should be equal to or less\nthan the Statement Covers Period in FL 6, not including date of discharge. See UB-04 examples below.\n\n##### Example 1: Covered Days Only\n\nPatient in-house from 1/1/22 thru 1/17/22. 16 covered days. Value code 80 amount and service line\nunits are equal to or less than the statement from/through span.\n\n<table>\n<tr>\n<th>Major Hospital 2</th>\n<th>Ja PAL ONTL</th>\n<th colspan=\"3\">2222222222</th>\n<th>4 TYPE OF HILL</th>\n</tr>\n<tr>\n<td>1234 N Your Lane</td>\n<td>h. MEm REG.#</td>\n<td colspan=\"3\">2468101214</td>\n<td>0111</td>\n</tr>\n<tr>\n<td>Anytown IL 60601</td>\n<td colspan=\"2\">5 FED TAX NO.</td>\n<td colspan=\"2\">U STATEMENT COVERS PERICO 2 FROM THENINTH</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td colspan=\"2\"></td>\n<td>01012022</td>\n<td>01172022</td>\n<td></td>\n</tr>\n</table>\n\n<figure>\n\nV\n\n0\n\n2\n\n0\n\nb\n\nG\n\nd\n\n1\n\n1\n\n7\n\n1\n\na\n\na\n\n4\n\n4\n\n1\n\n:\n\nI\n\nm\n\n</figure>\n\n## II. Outpatient Hospital\n### A. Purpose\n\nThe purpose of this section is to outline policies and procedures for hospitals billing for outpatient\nservices.\n\n### B. Provider Type\n\nThis section applies to General Acute Care Hospitals.\n\nNPIs:\n\n. Both General Acute Care and Children's Hospitals are required to register their NPIs as a Provider\nType 30 - General Acute Care Hospital for outpatient billing.\n\n· Hospitals must bill all outpatient services under the NPI assigned for institutional services.\nHospitals should not use their professional services NPI for dates of service beginning July 1,\n2020. Hospitals must use the NPI associated with their outpatient Categories of Services as\nindicated in the IMPACT system.\n\nOutpatient billing Categories of Service:\n\nListed below are the allowable outpatient Categories of Service for UB-04/837I billing:\n\n024\nOutpatient Services (General)\n\n025\nOutpatient Services (ESRD)\n\n027\nPsychiatric Clinic Services (Type A)\n\n028\nPsychiatric Clinic Services (Type B)\n\n029\nClinic Services (Physical Rehabilitation)\n\nAlthough COS is not directly added to a claim submitted to a MCO, correct registration of specialties\nand sub-specialties in the HFS Provider IMPACT system is critical to accurate claims payment. If the\nappropriate specialty or sub-specialties is not registered with HFS, claims will deny. It is suggested\nproviders confirm they have the correct COS on file with HFS by reviewing the Provider Information\nSheet provided by HFS.\n\n##### Non-APL Categories of Service for billing for claims with dates of service PRIOR TO 7/1/2020:\n\nListed below are the allowable outpatient Categories of Service for CMS1500/837P billing for billing\ndates of service prior to 7/1/2020:\n\n001\nProvider Services\n\n011\nPhysical Therapy Services\n\n012\nOccupational Therapy Services\n\n013\nSpeech Therapy/Pathology Services\n\n014\nAudiology Services\n\n017\nAnesthesia Services\n\n030\nHealthy Kids Services\n\n040\nPharmacy Services (Legend and OTC)\n\n041\nMedical Equipment/Prosthetic Devices\n\n048\nMedical Supplies\n\n### C. Coding Guidance - EAPG Pricing\n#### i. Ambulatory Procedures Listing (APL): Claims with Dates of Service Prior to 7/1/2020\n\nAmbulatory services include all services that do not require an inpatient admission of a member to a\nhospital, including services provided in hospital outpatient departments, clinics, Ambulatory Surgical\nTreatment Centers (ASTCs), emergency departments, and observation units. Certain procedures\nprovided in an outpatient or ambulatory setting that have been determined to be either unique or\nmost appropriately provided in those settings are contained in the Ambulatory Procedures Listing\n(APL).\n\nAPL services generally fall into the following categories: surgical, diagnostic and therapeutic,\nemergency department, observation and psychiatric treatment services.\n\nEffective with dates of service beginning 7/1/2014, all outpatient/ambulatory claims are grouped and\nreimbursed through 3M™MEAPG software, or similar MCO grouper software. MCOs use the same\ngrouper version as HFS.\n\nAll hospital outpatient/ambulatory claims must be submitted on a UB-04 (837I) claim form and MUST\ninclude one of the following:\n\n· A valid Ambulatory Procedure Listing (APL) procedure code, which is valid on the date of service 8;\nand/or\n\n· At least one Emergency Department (ED) revenue code with an associated HCPCS code; and/or\n\n· At least one Observation (OBV) revenue code with any associated HCPCS codes.\n\nFailure to have an APL code, ED revenue code, and/or OBV revenue code will result in a denial of the\nentire claim by the MCO.\n\nAll hospital outpatient services billed that do not meet one of the above three (3) criteria must be\nbilled as FFS on a CMS 1500/837P with the registered professional service NPI.\n\nSee Non-APL Billing section for more detailed guidance.\n\nNot every revenue service line on a UB-04/837I claim needs to have an HCPCS/CPT code. However, if\none is reported it will be considered and weighted with all the other elements of the claim for EAPG\ndiscounting, consolidation and pricing.\n\nRevenue codes that do not require HCPCS:\n\n· Pharmacy (0250-0259)\n\n· M&S supplies and devices (0270-0273, 0275-0279)\n\n· Anesthesia (0370-0379)\n\n· Supplies (0620-0622)\n\n· Recovery Room (0710, 0719)\n\nOther pharmacy revenue codes (e.g. 026X, 063X) do require HCPCS codes with corresponding NDC\ncodes. Refer to the NDC billing section for more details.\n\n8 Note that if the APL code is from the [Series Billable list,](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/apseriesbillable01012020final.pdf) there must be an APL code present on each date of service (claims\nwith dates of service prior to 7/1/2020). If it is not a series billable service, it will be considered a single episode of care."
+    ]
+  ],
+  "source_documents": [
+    {
+      "id": null,
+      "metadata": {
+        "id": "ZTM2YTEwZTMtMmMzMi00NGRjLWFjNWEtYWVlZjRmYzQzNmI1",
+        "page_headers": [
+          "VI Long-term Care/ Skilled Nursing Facility",
+          "Part B: Institutional Billing (837I or UB-04 claim types)"
+        ],
+        "page_number": [121, 122, 123],
+        "page_footers": ["PROPRIETARY"],
+        "page_numbers_given": ["100", "101"],
+        "markdown_chunk_id": [96, 97, 98, 99, 100, 101],
+        "recursive_flag": [false],
+        "first_line_index": [2],
+        "first_line_text": ["A. Purpose"],
+        "first_line_polygon": [
+          [
+            53.0208, 87.15599999999999, 134.532, 87.6744, 134.4528, 100.6272,
+            52.992, 100.116
+          ]
+        ],
+        "last_line_index": [31],
+        "last_line_text": [
+          "Medicaid after the adjudication of the Medicare claim."
+        ],
+        "last_line_polygon": [
+          [
+            80.06400000000001, 573.0696, 347.0544, 573.012, 347.0544, 585.8784,
+            80.06400000000001, 585.9288
+          ]
+        ],
+        "doc_id": "006e0d7d-af6f-4ea2-843c-39739f93c07b",
+        "token_count": 1375,
+        "Header_1": "Part B: Institutional Billing (837I or UB-04 claim types)",
+        "Header_2": "VI. Long-term Care/ Skilled Nursing Facility",
+        "Header_3": "A. Purpose, B. Provider Type, C. Long Term Care (LTC) Eligibility, D. IMPACT Enrollment Requirements, E. Patient Credit File, F. Billing Requirements",
+        "Header_4": "",
+        "captions": {
+          "text": "...claim: 7/01/22  \" Discharge date on claim: 11/15/22  · Value Code 80 = 15  · Revenue Code 0120 = 15  \\- Claim for skilled care for last 15 days of the month:  \" Statement Period: 11/16/22 - 11/30/22  · Bill Type: 0213  \" Admit date on claim: 7/1/22  \" Discharge date on claim: 11/30/22  · Value Code 80 = Revenue Code 0120 = 15  For providers.",
+          "highlights": "...claim: 7/01/22  \" Discharge date on claim: 11/15/22  · Value Code 80 = 15  · Revenue Code 0120 = 15  \\- Claim for skilled care for last 15 days of the month:  \" Statement Period: 11/16/22 - 11/30/22  · Bill Type: 0213  \" Admit date on claim: 7/1/22  \" Discharge date on claim: 11/30/22  · Value Code 80 =<em> Revenue </em>Code 0120 = 15  For providers."
+        },
+        "answers": "",
+        "score": 0.015384615398943424,
+        "retriever_k": 5,
+        "retriever_score_threshold": 0
+      },
+      "page_content": "## VI. Long-term Care/ Skilled Nursing Facility\n### A. Purpose\n\nThe purpose of this section is to outline the billing policies and procedures related to Long-term Care/\nSkilled Nursing Facility providers.\n\n### B. Provider Type\n\nThe Long-term Care/ Skilled Nursing Facility section applies to provider type 033 which includes skilled\nnursing facilities, intermediate care facilities, and general acute hospital LTC wing.\n\n### C. Long Term Care (LTC) Eligibility\n\n· A Medicaid recipient must be assessed and their determination of need must be approved to\nqualify for long term care\n\n· The MCOs do not determine eligibility for long term care services\n\n· While HFS determines eligibility for services, many MCOs have a notification or authorization\nrequirement related to the admittance to the facility.\n\n· Exceptional care approval is determined by the state\n\no Member must be approved for exceptional care\n\no Provider must be enrolled with category of service 038 to provide/bill exceptional care\n\n· Exceptional care is on the patient credit file with approved providers/dates\n\n### D. IMPACT Enrollment Requirements\n\nProvider must be Enrolled in HFS IMPACT system as provider type 033\n\n· Skilled Nursing Facility\n\n· Nursing Facility/Intermediate Care\n\n· General Acute Care Hospital LTC Wing\n\nThe approved categories of service in IMPACT may include:\n\n· 070 LTC-Skilled\n\n· 071 LTC Intermediate\n\n· 038 Exceptional Care\n\n. 065 LTC Full Medicare Coverage\n\n· 072 LTC-NF/Skilled/Coinsurance (partial Medicare coverage)\n\n. 083 Developmental Training (not covered by MC plans at this time)\n\n### E. Patient Credit File\n\nThe Patient Credit File (PCF) is submitted to Managed Care Organizations (MCOs) weekly by the\nDepartment of Healthcare and Family Services (HFS). The PCF incorporates data regarding eligible\nservices rendered to a MCO's membership for a rolling 36-month period.\n\nIt is composed of individual member segments, each of which relay the following information:\n\n· Recipient Identification Number (RIN)\n\n· Last Name\n\n· First Name\n\n· LTC Provider ID\n\n##### Part B: Institutional Billing (837I or UB-04 claim types)\n\n· Hospice Provider ID (Conditional)\n\n· Patient Credit Segment Begin Date\n\n· Patient Credit Segment End Date\n\n· Patient Credit Amount\n\n· Exceptional Care (COS 038) (Conditional)\n\n· Exceptional Care Segment Begin Date (Conditional)\n\n· Exceptional Care Segment End Date (Conditional)\n\n· Provisional Eligibility Indicator (Conditional)\n\nThe PCF is a MCO's source of truth for validation.\n\n· HFS notifies the MCOs of patient income responsibilities via the weekly patient credit file (PCF).\n\no The member and the LTC provider (and when applicable, the hospice provider and\nExceptional Care Approval) must be on the patient credit file in order for the provider to\nreceive payment.\n\no All LTC claims are reviewed for patient liability using the patient credit file and the payment\nto LTC providers will be reduced should the member have income liability on the date of\nservice.\n\no Days reported on the PCF do not include the last day of a stay unless discharge was due to\ndeath.\n\n### F. Billing Requirements\n\n. All LTC claims must be billed in an electronic format using the HIPAA 5010 837i\n\n· Billing guidelines describe form locator fields on a UB04 as a point of reference\n\n· Covered Services\n\no Revenue codes 0110-0160: General room and board (except 0115, 0125, 0135, 0145 or\n0155)\n\no Revenue codes 0191-0193: Exceptional care for TBI Levels 1-3\n\no Revenue code 0194: Exceptional care for Vent\n\no Revenue code 0182: Leave of Absence Patient Convenience\n\no Revenue code 0183: Leave of Absence Therapeutic Leave\n\no Revenue code 0185: Hospitalization\n\n· Leave of Absence\n\no Leave of absence revenue codes are not reimbursable although it is required that you bill\nfor those days, the reimbursement will be $0.00.\n\n· Billing Cycle\n\no Claims should not be held by providers. Always submit the claim within the appropriate\ncycle for processing.\n\no Payment for long term care services is on a per diem basis. In determining the number of\ndays for which payment can be made, the day of admission to the facility is counted. The\nday of discharge from the facility is not counted, unless it is the day of death and death\noccurs in the facility or a reserved bed has been authorized for that day.\n\nVI Long-term Care/ Skilled Nursing Facility\n\n· Services billed should be in one-month increments\n\no Example 1: 3/1/19-3/31/19\n\no Example 2: with an admit date of 2/6/19\n\\- 2/6/19-2/28/19\n\no Example 3: with a discharge date of 2/20/19\n\\- 2/1/19-2/20/19\n\n· If a member transfers to a different level of care within a facility (e.g. moves to skilled care for a\nportion of the month), two separate claims using the appropriate bill type must be submitted.\nDates of service for the two claims must not overlap.\n\no Example (for member admitted to facility on 7/1/22)\n\n\\- Claim for intermediate care for the first 15 days of the month:\n\n\" Statement Period: 11/01/22 - 11/15/22\n\n· Bill Type: 0653\n\n\" Admit date on claim: 7/01/22\n\n\" Discharge date on claim: 11/15/22\n\n· Value Code 80 = 15\n\n· Revenue Code 0120 = 15\n\n\\- Claim for skilled care for last 15 days of the month:\n\n\" Statement Period: 11/16/22 - 11/30/22\n\n· Bill Type: 0213\n\n\" Admit date on claim: 7/1/22\n\n\" Discharge date on claim: 11/30/22\n\n· Value Code 80 = 15\n\n· Revenue Code 0120 = 15\n\nFor providers with Managed Long-Term Services and Supports (MLTSS) membership residing in their\nfacilities, one-month incremental billing is not always required due to Medicare components on the\nclaim. Covered days from received claim information will be handled as follows:\n\n· Medicaid covered services must be billed to the MCO.\n\n. Medicare covered services must first be billed to Medicare and then may be submitted to\nMedicaid after the adjudication of the Medicare claim.",
+      "type": "Document"
+    },
+    {
+      "id": null,
+      "metadata": {
+        "id": "MzM2M2JjYTItOWE1MC00YTk0LTkyZDgtMjQ1NmRhNjc2NDk0",
+        "page_headers": [
+          "II Outpatient Hospital",
+          "Part B: Institutional Billing (837I or UB-04 claim types)"
+        ],
+        "page_number": [89, 90],
+        "page_footers": ["PROPRIETARY"],
+        "page_numbers_given": ["69", "68"],
+        "split_id": [0, 1, 2],
+        "markdown_chunk_id": [64],
+        "recursive_flag": [true],
+        "first_line_index": [2],
+        "first_line_text": [
+          "viii. Pharmacy and Reporting of National Drug Codes"
+        ],
+        "first_line_polygon": [
+          [
+            52.6824, 55.872, 350.8632, 55.7064, 350.87039999999996, 69.5376,
+            52.6896, 69.7032
+          ]
+        ],
+        "last_line_index": [13],
+        "last_line_text": [
+          "*2.7% rate reductions shown in a separate column do not apply to: Physicians, Dentists, Advanced Practice Nurses, FQHCs, RHCs, ERCs, or Local Health Departments."
+        ],
+        "last_line_polygon": [
+          [
+            55.512, 139.1112, 433.6992, 138.9168, 433.7064, 145.7352, 55.5192,
+            145.88639999999998
+          ]
+        ],
+        "doc_id": "43416445-90e5-4d14-873c-3b192310d1f1",
+        "token_count": 1322,
+        "Header_1": "Part B: Institutional Billing (837I or UB-04 claim types)",
+        "Header_2": "II. Outpatient Hospital",
+        "Header_3": "C. Coding Guidance - EAPG Pricing",
+        "Header_4": "viii. Pharmacy and Reporting of National Drug Codes",
+        "captions": {
+          "text": "The Fee Schedule can be found [here.](https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/practitioner.html)  Example:  Illinois Department of Healthcare and Family Services Practitioner Fee Schedule Effective 10/01/2018 Updated 10/22/2018 This fee schedule applies to charges submitted by the following providers: Advanced Practice.",
+          "highlights": ""
+        },
+        "answers": "",
+        "score": 0.010638297535479069,
+        "retriever_k": 5,
+        "retriever_score_threshold": 0
+      },
+      "page_content": "## II. Outpatient Hospital\n### C. Coding Guidance - EAPG Pricing\n#### viii. Pharmacy and Reporting of National Drug Codes\n\nFederal law requires Medicaid programs collect rebates from drug manufacturers on claims for\noutpatient drugs, including claims billed by non-pharmacy providers. To collect rebates, claims must\ncontain accurate NDCs and the quantity of the drug administered at the NDC level. Effective with dates\nof service on or after July 1, 2014, hospitals are required to identify the NDC in Field 43 of the UB-04\nfor ALL outpatient drugs billed.\n\nProviders are required to detail revenue code line reporting when billing for more than one NDC per\nHCPCS code in conjunction with ANY revenue code. Duplicate revenue codes identifying the same\nHCPCS code but different NDCs on the same claim are not to have the HCPCS Units and Charges rolled\ninto the first Revenue Code. Each Revenue Code line must contain detailed reporting.\n\nMCO's validate NDCs using a pharmacy database such as First Databank or MediSpan. Ensure NDCs\nused are validated against a similar pharmacy database and that the NDC is valid on the date of service\nto ensure a clean claim submission.\n\nThe standard code set for NDCs is eleven (11) digits in a 5-4-2 configuration with no hyphens, spaces,\nor other characters.\n\n##### IMPORTANT NOTE:\n\nSometimes the NDC on the actual product label might not contain 11 digits. The labeler may have\ndropped leading zeroes in a segment. In this situation, the appropriate number of leading zeroes must\nbe added at the beginning of each segment to ensure a 5-4-2 format. Where the zero is added will\ndepend upon the configuration of the NDC.\n\nFor illustration purposes, the table below provides examples on incorrectly configured NDCs and the\ncorresponding corrections:\n\n<table>\n<tr>\n<th>Label Configuration</th>\n<th>Add Leading Zero/Remove Hyphens</th>\n</tr>\n<tr>\n<td>4-4-2 (XXXX-XXXX-XX)</td>\n<td>0xxxxxxxxXX</td>\n</tr>\n<tr>\n<td>5-3-2 (XXXXX-XXX-XX)</td>\n<td>xxxxxxxxxxx</td>\n</tr>\n<tr>\n<td>5-4-1 (XXXXX-XXXX-X)</td>\n<td>xxxxXXXXX0X</td>\n</tr>\n</table>\n\nALL NDC codes must include a prefix qualifier of N4, the 11-digit NDC code (without hyphens) and unit\nof measurement in field 43 (with corresponding revenue code). See example below:\n\n<table>\n<tr>\n<th>42 REV. CO.</th>\n<th>43 DESCRIPTION</th>\n<th>44 HCPCS / RATE / HIPPS CODE</th>\n<th>45 SERV. DATE</th>\n<th>46 SERV. UNITS</th>\n<th>47 TOTAL CHARGES</th>\n<th>48 NON-COVERED CHARGES</th>\n<th>49</th>\n</tr>\n<tr>\n<td>0258</td>\n<td>N400338004904ML1000</td>\n<td>J7030</td>\n<td>102918</td>\n<td>10</td>\n<td>20:00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>0636</td>\n<td>N400409113403ML10</td>\n<td>J2270</td>\n<td>102918</td>\n<td>10</td>\n<td>1:00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>0636</td>\n<td>N400378031593ML1</td>\n<td>Q0162</td>\n<td>102918</td>\n<td>5</td>\n<td>3:00</td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n1\n\n1\n\n2\n\n2\n\n,\n\n3\n\n4\n4\n\n##### IMPORTANT NOTE:\n\nWhile general pharmacy services (e.g. Revenue Codes 025X) do not require NDC codes to be billed on\nthe corresponding revenue service line, if a facility provider does use a HCPCS code, the code will be\nvalidated against HFS' Practitioner Fee Schedule to determine if it requires an NDC code, regardless of\nthe revenue code used on the claim. If you do use a HCPCS code with Pharmacy Revenue Codes 0250-\n0259, be sure to verify the HFS Practitioner Fee Schedule to see if an NDC code must be added. If the\nfee schedule for the HCPCS has the 'NDC Ind' field = 'Y', then the revenue code/HCPCS combination\nmust contain a valid NDC. The Fee Schedule can be found [here.](https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/practitioner.html)\n\nExample:\n\nIllinois Department of Healthcare and Family Services\nPractitioner Fee Schedule\nEffective 10/01/2018\nUpdated 10/22/2018\nThis fee schedule applies to charges submitted by the following providers: Advanced Practice Nurses, Dentists providing medical services, Fee-For-Service Hospitals, Imaging Centers,\nIndependent Diagnostic Testing Facilities (IDTFs), Independent Laboratories, Local Health Departments, Optometrists providing medical services, Physicians, and Portable X-ray Companies.\nEncounter Rate Clinics (ERCs), Federally Qualified Health Centers (FQHCs), and Rural Health Centers (RHCs) should utilize this fee schedule for a listing of covered services billable as detail codes.\nPlease note the appearance of a code on this fee schedule does not guarantee payment. Services for which medical necessity is not clearly established are not covered by the Department's Medical\nPrograms. See Handbook for Providers of Medical Services, Topic 104 and Practitioners Handbook, Section 204 for additional exclusions. Updates are based on periodic modifications to the HCPCS/CPT code set.\nCPT codes and descriptions only are copyright 2018 by the American Medical Association. All Rights Reserved. Applicable FARS/DFARS apply. National Correct Coding Institute (NCCI) edits apply.\n*2.7% rate reductions shown in a separate column do not apply to: Physicians, Dentists, Advanced Practice Nurses, FQHCs, RHCs, ERCs, or Local Health Departments.",
+      "type": "Document"
+    },
+    {
+      "id": null,
+      "metadata": {
+        "id": "ZTFmYThmMTEtYWE3NC00NDVjLWI3NzMtYjhkZTVjODJlYTRk",
+        "page_headers": [
+          "II Outpatient Hospital",
+          "Part B: Institutional Billing (837I or UB-04 claim types)"
+        ],
+        "page_number": [94, 95, 96],
+        "page_footers": ["PROPRIETARY"],
+        "page_numbers_given": ["75", "73", "74"],
+        "markdown_chunk_id": [69],
+        "recursive_flag": [false],
+        "first_line_index": [0],
+        "first_line_text": [
+          "Part B: Institutional Billing (837I or UB-04 claim types)"
+        ],
+        "first_line_polygon": [
+          [
+            52.9704, 29.124000000000002, 272.0808, 29.7936, 272.0448, 41.2704,
+            52.9344, 40.6008
+          ]
+        ],
+        "last_line_index": [59],
+        "last_line_text": ["75"],
+        "last_line_polygon": [
+          [
+            548.6256, 762.0768, 558.2736, 762.1272, 558.2376, 769.428, 548.5824,
+            769.3776
+          ]
+        ],
+        "doc_id": "c68e4caf-1417-4419-a10b-383227fbfc26",
+        "token_count": 2183,
+        "Header_1": "Part B: Institutional Billing (837I or UB-04 claim types)",
+        "Header_2": "II. Outpatient Hospital",
+        "Header_3": "E. Outpatient Dialysis Services (ESRD)",
+        "Header_4": "iii. Billing Requirements",
+        "captions": {
+          "text": "Outpatient Hospital ### E. Outpatient Dialysis Services (ESRD) #### iii. Billing Requirements. · Dialysis revenue codes and injectable drug revenue codes 0634, 0635, and 0636 require a separate service line for each date of service.  ...utpatient Acquisition of Body Components   0820 General Hemodialysis- Outpatient or Home   0829 Other.",
+          "highlights": "<em>Outpatient Hospital </em>### E.<em> Outpatient Dialysis Services (ESRD) </em>#### iii. <em>Billing Requirements.</em> · Dialysis revenue<em> codes </em>and injectable drug revenue codes 0634,<em> 0635, </em>and 0636 require a separate service line for each date of service.  ...utpatient Acquisition of Body Components   0820 General Hemodialysis- Outpatient or Home   0829 Other."
+        },
+        "answers": "",
+        "score": 0.012048192322254181,
+        "retriever_k": 5,
+        "retriever_score_threshold": 0
+      },
+      "page_content": "## II. Outpatient Hospital\n### E. Outpatient Dialysis Services (ESRD)\n#### iii. Billing Requirements\n\n. All Dialysis claims must be billed in an electronic format using the HIPAA 5010 8371.\n\n· If CPT Q4081 for Erythropoietin (Epogen) billed on claim then,\n\n· must be billed with value code 68 (represents number of units billed)\n\n· must be accompanied with revenue codes 634 or 635\n\n· 261QE0700X must be billed on the claim indicating Renal Dialysis.\n\n· Dialysis revenue codes and injectable drug revenue codes 0634, 0635, and 0636 require a\nseparate service line for each date of service.\n\n· Modifier \"UD\" is required to denote all 340B-purchased drugs. Modifier \"UD\" must be the first\nmodifier listed after the HCPCS procedure code.\n\n· Dialysis is still considered a series billable service and as a result Value Code 80 with the number\nof dialysis treatments (Covered Days) must be part of the claim.\n\n· When billing outpatient ESRD, revenue codes 0821, 0831 or, 0881 must not be billed with\nrevenue codes 0841 or 0851 on the same claim. Series claims for renal dialysis must be split if the\npatient received more than one type of dialysis during the treatment span.\n\n. When billing for home daily dialysis revenue codes 0841 or 0851, the sum of Value code 80\nCovered Days plus Noncovered Days must equal the Statement Covers Period.\n\n· Claims should not be held by providers. Always submit the claim within the appropriate cycle for\nprocessing.\n\n· Revenue codes to be used for per diem billings, HFS COS 025, provided on a dedicated unit:\n\n<table>\n<tr>\n<th>Revenue Code</th>\n<th>Description</th>\n</tr>\n<tr>\n<td>0821</td>\n<td>Hemodialysis -Outpatient or Home Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0831</td>\n<td>Peritoneal Dialysis - Outpatient or Home Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0841</td>\n<td>Continuous Ambulatory Peritoneal Dialysis (CAPD)- Outpatient or Home- Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0851</td>\n<td>Continuous Cycling Peritoneal Dialysis (CCPD)-Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0881</td>\n<td>Miscellaneous dialysis-ultrafiltration</td>\n</tr>\n</table>\n\nThe following revenue codes are also eligible to be billed with the per diem codes, HFS COS 025 on an\noutpatient basis:\n\n<table>\n<tr>\n<th>Revenue Code</th>\n<th>Description</th>\n</tr>\n<tr>\n<td>0820</td>\n<td>General Hemodialysis Outpatient or Home</td>\n</tr>\n<tr>\n<td>0829</td>\n<td>Other Hemodialysis Outpatient or Home</td>\n</tr>\n<tr>\n<td>0830</td>\n<td>General Peritoneal Dialysis Outpatient or Home</td>\n</tr>\n<tr>\n<td>0839</td>\n<td>Other Peritoneal Dialysis Outpatient or Home</td>\n</tr>\n<tr>\n<td>0840</td>\n<td>General Continuous Ambulatory Peritoneal Dialysis (CAPD)-Outpatient or Home</td>\n</tr>\n<tr>\n<td>0849</td>\n<td>Other Continuous Ambulatory Peritoneal Dialysis (CAPD)-Outpatient or Home</td>\n</tr>\n<tr>\n<td>0850</td>\n<td>General Continuous Cycling Peritoneal Dialysis (CCPD)-Outpatient or Home</td>\n</tr>\n<tr>\n<td>0859</td>\n<td>Other Continuous Cycling Peritoneal Dialysis (CCPD)- Outpatient or Home</td>\n</tr>\n<tr>\n<td>0880</td>\n<td>General Miscellaneous Dialysis Code- Outpatient Home</td>\n</tr>\n<tr>\n<td>0889</td>\n<td>Other Miscellaneous Dialysis Code - Outpatient or Home</td>\n</tr>\n</table>\n\n##### a) Non-Covered Dialysis Revenue Codes\n\nProviders should note HFS has certain Non-Covered Revenue Codes related to dialysis treatment. The\nspecific dialysis codes are noted below from the list of non-covered revenue codes that is located at\nthe end of the outpatient section. You can also view the complete list by clicking [here and](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/h200a.pdf) scrolling to\nAppendix H-3.\n\n<table>\n<tr>\n<th>Non-Covered Revenue Code</th>\n<th>Description</th>\n</tr>\n<tr>\n<td>0822</td>\n<td>Hemodialysis / Home Supplies</td>\n</tr>\n<tr>\n<td>0823</td>\n<td>Hemodialysis / Home Equipment</td>\n</tr>\n<tr>\n<td>0824</td>\n<td>Hemodialysis / Home Equipment</td>\n</tr>\n<tr>\n<td>0825</td>\n<td>Hemodialysis / Support Services</td>\n</tr>\n<tr>\n<td>0832</td>\n<td>Peritoneal Dialysis / Home Supplies</td>\n</tr>\n<tr>\n<td>0833</td>\n<td>Peritoneal Dialysis / Home Equipment</td>\n</tr>\n<tr>\n<td>0834</td>\n<td>Peritoneal Dialysis / Maintenance 100%</td>\n</tr>\n<tr>\n<td>0835</td>\n<td>Peritoneal Dialysis / Support Services</td>\n</tr>\n<tr>\n<td>0842</td>\n<td>CAPD / Home Supplies</td>\n</tr>\n<tr>\n<td>0843</td>\n<td>CAPD / Home Supplies</td>\n</tr>\n<tr>\n<td>0844</td>\n<td>CAPD / Maintenance 100%</td>\n</tr>\n<tr>\n<td>0845</td>\n<td>CAPD/Support Services</td>\n</tr>\n<tr>\n<td>0852</td>\n<td>CCPD/Home Supplies</td>\n</tr>\n<tr>\n<td>0853</td>\n<td>CCPD/Home Equipment</td>\n</tr>\n<tr>\n<td>0854</td>\n<td>CCPD/Maintenance 100%</td>\n</tr>\n<tr>\n<td>0855</td>\n<td>CCPD/Support Services</td>\n</tr>\n<tr>\n<td>0882</td>\n<td>Home Dialysis Aide Visit</td>\n</tr>\n</table>\n\nThe following bill types are allowed for outpatient dialysis services:\n\nType of Bill\n\n131, 132, 133, 134, 135\n\n721, 722, 723, 724, 725\n\n731, 732, 733, 734, 735\n\n851, 852, 853, 854, 855\n\n##### b) Hospitals billing a single outpatient episode of care with ER service:\n\nThe following renal revenue codes can be billed by hospitals in the same episode of care when part of\nan ER episode of care:\n\n<table>\n<tr>\n<th>Revenue Code</th>\n<th>Description</th>\n</tr>\n<tr>\n<td>0810</td>\n<td>General Outpatient Acquisition of Body Components</td>\n</tr>\n<tr>\n<td>0820</td>\n<td>General Hemodialysis- Outpatient or Home</td>\n</tr>\n<tr>\n<td>0829</td>\n<td>Other Hemodialysis - Outpatient or Home</td>\n</tr>\n<tr>\n<td>0860</td>\n<td>General Magnetencephalography</td>\n</tr>\n<tr>\n<td>0861</td>\n<td>MEG</td>\n</tr>\n<tr>\n<td>0889</td>\n<td>Other Miscellaneous Dialysis</td>\n</tr>\n</table>\n\nNote: CPT Q4081 for Erythropoietin (Epogen) with revenue code 634 or 635 is not allowed to be billed when\npart of an ER episode of care.\n\n##### c) Series Billing Dialysis Revenue Codes\n\nThe following revenue codes are dialysis codes that can be billed as series billing. The specific dialysis\ncodes are noted below from the list of series billable revenue codes that is located at the end of the\noutpatient section. These dialysis codes are still series billable after 7/1/2020. You can also view by\nclicking [here for](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/apseriesbillable01012020final.pdf) the complete list.\n\n<table>\n<tr>\n<th>Revenue Code</th>\n<th>Description</th>\n</tr>\n<tr>\n<td>0820</td>\n<td>Hemodialysis - Outpatient or Home</td>\n</tr>\n<tr>\n<td>0821</td>\n<td>Hemodialysis - Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0829</td>\n<td>Hemodialysis - Other Outpatient Dialysis</td>\n</tr>\n<tr>\n<td>0830</td>\n<td>Peritoneal Dialysis - Outpatient or Home</td>\n</tr>\n<tr>\n<td>0831</td>\n<td>Peritoneal Dialysis - Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0839</td>\n<td>Other Outpatient Peritoneal Dialysis</td>\n</tr>\n<tr>\n<td>0840</td>\n<td>CAPD / Outpatient or Home</td>\n</tr>\n<tr>\n<td>0841</td>\n<td>CAPD/Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0849</td>\n<td>Other Outpatient CAPD</td>\n</tr>\n<tr>\n<td>0850</td>\n<td>CCPD / Outpatient or Home</td>\n</tr>\n<tr>\n<td>0851</td>\n<td>CCPD / Composite or Other Rate</td>\n</tr>\n<tr>\n<td>0859</td>\n<td>Other Outpatient CCPD</td>\n</tr>\n</table>",
+      "type": "Document"
+    },
+    {
+      "id": null,
+      "metadata": {
+        "id": "YzYzNTFiODItMTE0Ny00YmYyLTk3ZjctMDMzMTZkOTcyZWM5",
+        "page_headers": [
+          "I Inpatient Hospital (General Acute Care and Children's Hospital)",
+          "Part B: Institutional Billing (837I or UB-04 claim types)",
+          "Part B: Institutional Billing (837I or UB-04 claim types) I Inpatient Hospital (General Acute Care and Children's Hospital)"
+        ],
+        "page_number": [65, 66, 67],
+        "page_footers": ["PROPRIETARY"],
+        "page_numbers_given": ["44", "45", "46"],
+        "markdown_chunk_id": [46, 47],
+        "recursive_flag": [false, true],
+        "first_line_index": [0],
+        "first_line_text": [
+          "Part B: Institutional Billing (837I or UB-04 claim types)"
+        ],
+        "first_line_polygon": [
+          [
+            52.9056, 29.095200000000002, 272.2464, 29.7648, 272.2104, 41.2704,
+            52.8696, 40.5504
+          ]
+        ],
+        "last_line_index": [290],
+        "last_line_text": ["46"],
+        "last_line_polygon": [
+          [
+            548.4024, 762.1992, 558.1296, 762.3144, 558.0432000000001, 769.4928,
+            548.316, 769.3704
+          ]
+        ],
+        "split_id": [0],
+        "doc_id": "b5fb4350-e3e6-4e52-8109-a6a200926f90",
+        "token_count": 990,
+        "Header_1": "Part B: Institutional Billing (837I or UB-04 claim types)",
+        "Header_2": "I. Inpatient Hospital (General Acute Care and Children's Hospital)",
+        "Header_3": "C. Coding Guidance",
+        "Header_4": "iii. Revenue Codes, iv. Covered and Non-Covered Days",
+        "captions": {
+          "text": "## I. Inpatient Hospital (General Acute Care and Children's Hospital) ### C. Coding Guidance #### iii. Revenue Codes  A valid HFS revenue code must be on the claim for it to be accepted by the MCO. On the UB-04 the Revenue Codes are located in FL 42. HFS maintains a list of non-covered revenue codes (click.",
+          "highlights": "## I.<em> Inpatient Hospital (General Acute </em>Care and<em> Children's </em>Hospital) ### C. Coding Guidance #### iii. <em>Revenue Codes </em> A<em> valid HFS revenue code must </em>be on the claim for it to be accepted by the MCO. On the UB-04 the<em> Revenue Codes </em>are<em> located </em>in<em> FL 42.</em> HFS maintains a<em> list </em>of<em> non-covered revenue codes </em>(click."
+        },
+        "answers": "",
+        "score": 0.03306011110544205,
+        "retriever_k": 5,
+        "retriever_score_threshold": 0
+      },
+      "page_content": "## I. Inpatient Hospital (General Acute Care and Children's Hospital)\n### C. Coding Guidance\n#### iii. Revenue Codes\n\nA valid HFS revenue code must be on the claim for it to be accepted by the MCO. On the UB-04 the\nRevenue Codes are located in FL 42.\n\nHFS maintains a list of non-covered revenue codes (click [here](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/h200a.pdf) and scroll to Appendix H-3 to view the\nlist). For dates of service prior to 4/1/24, these codes should not be billed on an Illinois Medicaid claim.\nBilling with these codes will result in a claim rejection.\n\nEffective with dates of service starting 4/1/24, the non-covered revenue codes should be billed to the\nMCOs to represent a full claim experience for the member. The MCOs will not pay these codes, but\nthey can be included on the claim and will not result in a claim rejection.\n\nIt is the expectation that facilities bill with the generally accepted and appropriate revenue codes for\nthe services being provided.\n\nAn example of revenue codes includes, but is not limited to:\n\n<table>\n<tr>\n<th>Bed Type</th>\n<th>Private Rev Code</th>\n<th>Semi-Private Rev Code</th>\n</tr>\n<tr>\n<td>Room &amp; Board</td>\n<td>0110</td>\n<td>0120</td>\n</tr>\n<tr>\n<td>Med/Surgical</td>\n<td>0111</td>\n<td>0121</td>\n</tr>\n<tr>\n<td>OB</td>\n<td>0112</td>\n<td>0122</td>\n</tr>\n<tr>\n<td>Psychiatric</td>\n<td>0114</td>\n<td>0124</td>\n</tr>\n<tr>\n<td>Rehabilitation</td>\n<td>0118</td>\n<td>0128</td>\n</tr>\n</table>\n\n#### iv. Covered and Non-Covered Days\n\nAll inpatient claims must report the covered and non-covered days.\n\nThe sum of covered and non-covered days must correspond to the Statement Covers Period in FL 6 and\nshould not reflect the day of discharge.\n\nIt is allowed for providers to submit Statement Covers Period in FL 6 equal to the same dates (same\n'Statement From' and 'Statement Through' date) on claims with one accommodation revenue code\nand the appropriate Value code 80 or 81 equal to 1.\n\nWhen submitting claims that are reimbursed on a DRG basis, only report value code 80 as the total\ndays of stay. Claims paid by Per Diem reimbursement should have the appropriate covered and non-\ncovered days reported to match the authorization.\n\n##### Meridian and Molina Only Requirement:\n\nMeridian and Molina require the use of Condition codes:\n\n· C1 would be used if the entire stay was fully covered.\n\n. C3 would be used when non-covered days were reported as well.\n\n· Condition codes are required for the claim to process. The absence of these condition codes will\nresult in a claim denial.\n\nAetna Better Health of Illinois Only Requirement:\n\nFor Aetna Better Health of Illinois, the sum of covered and non-covered days should be equal to or less\nthan the Statement Covers Period in FL 6, not including date of discharge. See UB-04 examples below.\n\n##### Example 1: Covered Days Only\n\nPatient in-house from 1/1/22 thru 1/17/22. 16 covered days. Value code 80 amount and service line\nunits are equal to or less than the statement from/through span.\n\n<table>\n<tr>\n<th>Major Hospital 2</th>\n<th>Ja PAL ONTL</th>\n<th colspan=\"3\">2222222222</th>\n<th>4 TYPE OF HILL</th>\n</tr>\n<tr>\n<td>1234 N Your Lane</td>\n<td>h. MEm REG.#</td>\n<td colspan=\"3\">2468101214</td>\n<td>0111</td>\n</tr>\n<tr>\n<td>Anytown IL 60601</td>\n<td colspan=\"2\">5 FED TAX NO.</td>\n<td colspan=\"2\">U STATEMENT COVERS PERICO 2 FROM THENINTH</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td colspan=\"2\"></td>\n<td>01012022</td>\n<td>01172022</td>\n<td></td>\n</tr>\n</table>\n\n<figure>\n\nV\n\n0\n\n2\n\n0\n\nb\n\nG\n\nd\n\n1\n\n1\n\n7\n\n1\n\na\n\na\n\n4\n\n4\n\n1\n\n:\n\nI\n\nm\n\n</figure>",
+      "type": "Document"
+    },
+    {
+      "id": null,
+      "metadata": {
+        "id": "YzMzZGUwMzctOTA4Mi00YzAyLWE3OTktYTg3MTkxODI3NjY0",
+        "page_headers": [
+          "II Outpatient Hospital",
+          "Part B: Institutional Billing (837I or UB-04 claim types)"
+        ],
+        "page_number": [76, 77],
+        "page_footers": ["PROPRIETARY"],
+        "page_numbers_given": ["55", "56"],
+        "markdown_chunk_id": [55, 56, 57],
+        "recursive_flag": [false],
+        "first_line_index": [4],
+        "first_line_text": ["Purpose"],
+        "first_line_polygon": [
+          [
+            89.0784, 87.7464, 134.2296, 87.94800000000001, 134.17919999999998,
+            100.6416, 89.0208, 100.44
+          ]
+        ],
+        "last_line_index": [39],
+        "last_line_text": [
+          "with dates of service prior to 7/1/2020). If it is not a series billable service, it will be considered a single episode of care."
+        ],
+        "last_line_polygon": [
+          [
+            52.9272, 726.6312, 541.872, 726.8904, 541.872, 737.82, 52.92,
+            737.5608
+          ]
+        ],
+        "doc_id": "7bb3fbda-ce1e-46e8-b669-cc5cb8e3c8e8",
+        "token_count": 1083,
+        "Header_1": "Part B: Institutional Billing (837I or UB-04 claim types)",
+        "Header_2": "II. Outpatient Hospital",
+        "Header_3": "A. Purpose, B. Provider Type, C. Coding Guidance - EAPG Pricing",
+        "Header_4": "i. Ambulatory Procedures Listing (APL): Claims with Dates of Service Prior to 7/1/2020",
+        "captions": {
+          "text": "Outpatient Hospital ### A. Purpose  The purpose of this section is to outline policies and procedures for hospitals billing for outpatient services. Ambulatory Procedures Listing (APL): Claims with Dates of Service Prior to 7/1/2020  Ambulatory services include all services that do not require an inpatient admission of a member to a hospital,.",
+          "highlights": "Outpatient<em> Hospital </em>### A. Purpose  The purpose of this section is to<em> outline policies and procedures for hospitals billing for outpatient services.</em> Ambulatory Procedures Listing (APL):<em> Claims with Dates of Service </em>Prior to 7/1/2020<em>  Ambulatory services </em>include<em> all services </em>that do<em> not require </em>an inpatient admission<em> of </em>a member to a hospital,."
+        },
+        "answers": "",
+        "score": 0.012987012974917889,
+        "retriever_k": 5,
+        "retriever_score_threshold": 0
+      },
+      "page_content": "## II. Outpatient Hospital\n### A. Purpose\n\nThe purpose of this section is to outline policies and procedures for hospitals billing for outpatient\nservices.\n\n### B. Provider Type\n\nThis section applies to General Acute Care Hospitals.\n\nNPIs:\n\n. Both General Acute Care and Children's Hospitals are required to register their NPIs as a Provider\nType 30 - General Acute Care Hospital for outpatient billing.\n\n· Hospitals must bill all outpatient services under the NPI assigned for institutional services.\nHospitals should not use their professional services NPI for dates of service beginning July 1,\n2020. Hospitals must use the NPI associated with their outpatient Categories of Services as\nindicated in the IMPACT system.\n\nOutpatient billing Categories of Service:\n\nListed below are the allowable outpatient Categories of Service for UB-04/837I billing:\n\n024\nOutpatient Services (General)\n\n025\nOutpatient Services (ESRD)\n\n027\nPsychiatric Clinic Services (Type A)\n\n028\nPsychiatric Clinic Services (Type B)\n\n029\nClinic Services (Physical Rehabilitation)\n\nAlthough COS is not directly added to a claim submitted to a MCO, correct registration of specialties\nand sub-specialties in the HFS Provider IMPACT system is critical to accurate claims payment. If the\nappropriate specialty or sub-specialties is not registered with HFS, claims will deny. It is suggested\nproviders confirm they have the correct COS on file with HFS by reviewing the Provider Information\nSheet provided by HFS.\n\n##### Non-APL Categories of Service for billing for claims with dates of service PRIOR TO 7/1/2020:\n\nListed below are the allowable outpatient Categories of Service for CMS1500/837P billing for billing\ndates of service prior to 7/1/2020:\n\n001\nProvider Services\n\n011\nPhysical Therapy Services\n\n012\nOccupational Therapy Services\n\n013\nSpeech Therapy/Pathology Services\n\n014\nAudiology Services\n\n017\nAnesthesia Services\n\n030\nHealthy Kids Services\n\n040\nPharmacy Services (Legend and OTC)\n\n041\nMedical Equipment/Prosthetic Devices\n\n048\nMedical Supplies\n\n### C. Coding Guidance - EAPG Pricing\n#### i. Ambulatory Procedures Listing (APL): Claims with Dates of Service Prior to 7/1/2020\n\nAmbulatory services include all services that do not require an inpatient admission of a member to a\nhospital, including services provided in hospital outpatient departments, clinics, Ambulatory Surgical\nTreatment Centers (ASTCs), emergency departments, and observation units. Certain procedures\nprovided in an outpatient or ambulatory setting that have been determined to be either unique or\nmost appropriately provided in those settings are contained in the Ambulatory Procedures Listing\n(APL).\n\nAPL services generally fall into the following categories: surgical, diagnostic and therapeutic,\nemergency department, observation and psychiatric treatment services.\n\nEffective with dates of service beginning 7/1/2014, all outpatient/ambulatory claims are grouped and\nreimbursed through 3M™MEAPG software, or similar MCO grouper software. MCOs use the same\ngrouper version as HFS.\n\nAll hospital outpatient/ambulatory claims must be submitted on a UB-04 (837I) claim form and MUST\ninclude one of the following:\n\n· A valid Ambulatory Procedure Listing (APL) procedure code, which is valid on the date of service 8;\nand/or\n\n· At least one Emergency Department (ED) revenue code with an associated HCPCS code; and/or\n\n· At least one Observation (OBV) revenue code with any associated HCPCS codes.\n\nFailure to have an APL code, ED revenue code, and/or OBV revenue code will result in a denial of the\nentire claim by the MCO.\n\nAll hospital outpatient services billed that do not meet one of the above three (3) criteria must be\nbilled as FFS on a CMS 1500/837P with the registered professional service NPI.\n\nSee Non-APL Billing section for more detailed guidance.\n\nNot every revenue service line on a UB-04/837I claim needs to have an HCPCS/CPT code. However, if\none is reported it will be considered and weighted with all the other elements of the claim for EAPG\ndiscounting, consolidation and pricing.\n\nRevenue codes that do not require HCPCS:\n\n· Pharmacy (0250-0259)\n\n· M&S supplies and devices (0270-0273, 0275-0279)\n\n· Anesthesia (0370-0379)\n\n· Supplies (0620-0622)\n\n· Recovery Room (0710, 0719)\n\nOther pharmacy revenue codes (e.g. 026X, 063X) do require HCPCS codes with corresponding NDC\ncodes. Refer to the NDC billing section for more details.\n\n8 Note that if the APL code is from the [Series Billable list,](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/apseriesbillable01012020final.pdf) there must be an APL code present on each date of service (claims\nwith dates of service prior to 7/1/2020). If it is not a series billable service, it will be considered a single episode of care.",
+      "type": "Document"
+    }
+  ],
+  "model_name": "gpt-4o-mini",
+  "temperature": 0,
+  "id": 1
+}
+{
+    "input": "Can T1015 be reimbursed more than once?",
+    "history": [],
+    "output": "### Reimbursement for T1015\n\nThe procedure code **T1015** is used for **encounter services** provided by Federally Qualified Health Centers (FQHCs) and Rural Health Centers (RHCs). Here are the key points regarding its reimbursement:\n\n1. **Multiple Encounters**:\n   - T1015 can be billed for multiple encounters on the same day, provided that each encounter is distinct and meets the criteria for separate billing.\n   - If multiple units of the same service are provided to the same recipient on the same day, they must be rolled up onto one service line on a single claim to avoid rejection for duplicate claims.\n\n2. **Detail Codes**:\n   - When billing T1015, providers should include detail codes for any additional services rendered during the encounter. However, these detail codes will be reimbursed at $0.00.\n\n3. **Limitations**:\n   - While T1015 can be billed multiple times for different encounters, it cannot be billed more than once for the same encounter on the same day. Each encounter must be for a different service or a different patient.\n\n### Summary\nT1015 can be reimbursed more than once, but only for distinct encounters on the same day. Providers must ensure they follow the billing guidelines to avoid duplicate claim rejections. If you have further questions or need clarification, feel free to ask!",
+    "intermediate_steps": [
+        [
+            {
+                "tool": "search_pdf",
+                "tool_input": {
+                    "query": "Can T1015 be reimbursed more than once?"
+                },
+                "log": "\nInvoking: `search_pdf` with `{'query': 'Can T1015 be reimbursed more than once?'}`\n\n\n",
+                "type": "AgentActionMessageLog",
+                "message_log": [
+                    {
+                        "content": "",
+                        "additional_kwargs": {
+                            "function_call": {
+                                "arguments": "{\"query\":\"Can T1015 be reimbursed more than once?\"}",
+                                "name": "search_pdf"
+                            }
+                        },
+                        "response_metadata": {
+                            "token_usage": {
+                                "completion_tokens": 24,
+                                "prompt_tokens": 1400,
+                                "total_tokens": 1424,
+                                "completion_tokens_details": {
+                                    "audio_tokens": 0,
+                                    "reasoning_tokens": 0,
+                                    "accepted_prediction_tokens": 0,
+                                    "rejected_prediction_tokens": 0
+                                },
+                                "prompt_tokens_details": {
+                                    "audio_tokens": 0,
+                                    "cached_tokens": 0
+                                }
+                            },
+                            "model_name": "gpt-4o-mini-2024-07-18",
+                            "system_fingerprint": "fp_b045b4af17",
+                            "prompt_filter_results": [
+                                {
+                                    "prompt_index": 0,
+                                    "content_filter_results": {
+                                        "hate": {
+                                            "filtered": false,
+                                            "severity": "safe"
+                                        },
+                                        "jailbreak": {
+                                            "filtered": false,
+                                            "detected": false
+                                        },
+                                        "self_harm": {
+                                            "filtered": false,
+                                            "severity": "safe"
+                                        },
+                                        "sexual": {
+                                            "filtered": false,
+                                            "severity": "safe"
+                                        },
+                                        "violence": {
+                                            "filtered": false,
+                                            "severity": "safe"
+                                        }
+                                    }
+                                }
+                            ],
+                            "finish_reason": "function_call",
+                            "logprobs": null,
+                            "content_filter_results": {}
+                        },
+                        "type": "ai",
+                        "name": null,
+                        "id": "run-9ae7712a-a2a3-4309-93b8-4c3d1382fcc2-0",
+                        "example": false,
+                        "tool_calls": [],
+                        "invalid_tool_calls": [],
+                        "usage_metadata": {
+                            "input_tokens": 1400,
+                            "output_tokens": 24,
+                            "total_tokens": 1424
+                        }
+                    }
+                ]
+            },
+            "## I. Federally Qualified Health Centers, Rural Health Centers, and Encounter Rate Clinics\n### E. Coding Requirements\n#### ii. Specific Encounter Clinic Billing Information\n\nClaims must be submitted with the encounter rate CPT code of T1015, T1040, or S5190 for\nmedical/behavioral health services or D0999 for dental services listed in the first service line of the\nclaim, along with the clinic's assigned encounter rate. The CPT codes for the services rendered must\nthen be listed in the remaining service lines as detail codes. The detail codes will be reimbursed at\n$0.00.\n\nDetail codes should include all services provided so long as they are provided as part of a billable\nencounter.\n\nFor Maternity services, FQHC, RHC, and ERC providers should follow the coding guidance for individual\nmaternity services as outlined in the Family Planning, Maternity and Reproductive Care section of the\nProfessional Services chapter of this manual.\n\n##### a) Procedure Code S5190\n\n· Procedure code S5190 must be billed when a wellness assessment is performed by a non-\nphysician.\n\n· S5190 is used instead of T1015 and cannot be billed on the same claim as T1015.\n\n· S5190 is used for reporting purposes only and is not payable.\n\n· Detail lines should still be reported when billing S5190.\n\nExample: A vaccine given by a RN without a physician visit.\n\n##### b) Behavioral Health Encounters\n\nEncounters should be submitted with the encounter CPT code of T1040 with the appropriate modifier\noutlined below in the first service section along with the clinic's assigned behavioral health encounter\nrate. The CPT codes for the services rendered must then be listed in the remaining service sections as\ndetail codes. The detail codes will be reimbursed at $0.00.\n\nBehavioral health encounters are limited to one visit per day. FQHCs and RHCs can bill for a medical\nencounter and a behavioral health encounter for the same member on the same date of service.\nHowever, ERC payment policy does not allow for billing of both a medical and behavioral health\nencounter on the same day of service.\n\nSpecific modifiers must be appended to the first service line based on the rendering provider's\nregistered IMPACT specialty and Category of Service:\n\n<table>\n<tr>\n<th>Specialty</th>\n<th>Category of Service</th>\n<th>CPT &amp; Modifier Claims prior to 2/1/2023</th>\n<th>CPT &amp; Modifier Claims 2/1/2023 forward</th>\n</tr>\n<tr>\n<td>Licensed Clinical Social Worker (LCSW)</td>\n<td>058</td>\n<td>T1015 AJ modifier</td>\n<td>T1040 AJ modifier</td>\n</tr>\n<tr>\n<td>Licensed Clinical Psychologist</td>\n<td>059</td>\n<td>T1015 AH modifier</td>\n<td>T1040 AH modifier</td>\n</tr>\n<tr>\n<td>Licensed Clinical Professional Counselor (LCPC)</td>\n<td>088</td>\n<td>T1015 HO modifier</td>\n<td>T1040 HO modifier</td>\n</tr>\n<tr>\n<td>Licensed Marriage and Family Therapist (LMFT)</td>\n<td>088</td>\n<td>T1015 HO modifier</td>\n<td>T1040 HO modifier</td>\n</tr>\n</table>\n\n##### c) Dental Encounters\n\nNote the following requirements when submitting dental encounters:\n\n· Claims must be submitted with D0999 for dental on the first service line of the claim.\n\n· Submit one encounter claim for each unique member visit. Dental encounters are limited to\none visit per day.\n\n· Submit codes for every procedure performed on the encounter claim to ensure member\nutilization data are complete.\n\n· Ensure every code includes corresponding tooth numbers, quads, arches and any other\nrequired identifiers.\n\n· Include applicable authorization numbers.\n\n· Include all documentation requirements.\n\n· When billing D0999, claims should be submitted to the MCO's dental vendor, not the MCO\ndirectly (see Dental Section for further details).\n\n##### d) Denture Billing\n\nAn encounter clinic may bill up to three additional encounters per prosthesis for a member receiving a\ncomplete or partial denture. Partial dentures are limited to children aged 2 through 20 only.\n\nUse code D5899 - Unspecified Removable Prosthodontic Procedure - for eligible members receiving\ndentures in an encounter clinic.\n\nTo receive consideration for additional reimbursement, a clinic must submit prior authorization for a\nmaximum of three (3) procedure codes (D5899) along with authorization for the complete or partial\ndenture. If the authorization for the complete or partial denture is approved, the clinic will also receive\napproval for up to three of the additional codes (D5899).\n\nAppropriate Visits for Procedure Code D5899\n\n· Initial denture impressions\n\n· Final denture impressions\n\n· Vertical dimension of occlusion visits\n\n· Wax tray in visits\n\n· Necessary adjustments post insertion.\n\n· Repairs or relines during the six (6) month period following the insertion of the new prosthesis.\n\nIn each case, a narrative of the service performed must be provided at the time procedure code D5899\nis billed.\n\nProviders should submit for payment for the complete or partial denture (D5110, D5120, D5211,\nD5212) at the time the prosthesis is inserted.\n\n##### e) Telehealth Encounters\n\nTelehealth Encounters when the clinic is the Originating Site should be submitted with the encounter\nCPT code (T1015 or T1040 as applicable) listed in the first service section along with the clinic's\nassigned encounter rate. Appropriate CPT codes for the services rendered must be billed in the\nremaining service sections. The detail codes will be reimbursed at $0.00.\n\nThe Place of Service code for Telehealth claims must be the appropriate POS for the clinic type (e.g. 50\nfor FQHC's, 72 for RHCs) when clinic is the Originating Site. When the clinic is the Distant Site, POS 02\nor POS 10 will be used, depending on the location of the patient. If the service is delivered via audio\nand video conferencing modifier GT should be used. If the service is delivered via audio conferencing\nonly, the modifier 93 should be used.\n\nIf an encounter rate clinic is the Distant Site, there may or may not be a billable service. If there is a\nbillable service (because the Originating Site is not another encounter clinic or the patient is in their\nhome), then the clinic billing the distant site service must use POS 02 or POS 10 respectively.\n\nTelehealth billing examples:\n\n##### 1. Originating Site: Encounter Clinic\n\nBill the encounter HCPCS code T1015 (or T1040 as appropriate) and HCPCS code Q3014, along\nwith any additional appropriate detail codes. POS code will match clinic type (e.g. 50 for FQHC).\nMaximum reimbursement will be the clinic's encounter rate.\n\nDistant Site: Encounter Clinic\n\nThere is no billable service; the Originating Encounter Clinic is responsible for payment to the\nDistant Site provider.\n\nDistant Site: Physician/APN/Podiatrist's Office\n\nThere is no billable service; the Originating Encounter Clinic is responsible for the payment to\nthe Distant Site provider.\n\n##### 2. Originating Site: Physician/APN/Podiatrist's Office\n\nOriginating Provider will bill HCPCS code Q3014\n\n##### Distant Site: Encounter Clinic\n\nBill the Encounter HCPCS code T1015 (or T1040 as appropriate) and any appropriate detail\ncodes with GT (audio and video modality) or 93 (audio modality only) on the detail lines; POS is\n02. Maximum reimbursement will be the clinic's encounter rate. The rendering provider's name\nand NPI must also be reported on the claim.\n\n3\\. Originating Site: Patient in their Home\n\nDistant Site: Encounter Clinic\n\nBill the Encounter HCPCS code T1015 and any appropriate detail codes with modifier GT (audio\nand video modality) or 93 (audio modality only) on the detail lines; POS is 10 (telehealth\nprovided in Patient's Home). Maximum reimbursement will be the clinic's encounter rate.\n\n## VI. Community Based Behavioral Services(CBS)\n### C. Coding and Billing Guidelines\n#### i. Coding Requirements\n\n##### d) Rendering and Billing Providers\n\n##### Billing Provider:\n\nBilling Provider represents the payee on an individual claim. The NPI corresponding to the payee ID\nwhere a provider wants remittance advice and payments sent should be reported in loop 2010AA on\n837P submissions or Box 33 on a CMS 1500 form. If the billing NPI also corresponds to the rendering\nprovider site, no rendering provider NPI is required on the claim.\n\n##### Rendering Provider:\n\nRendering Provider represents the specific CMHC site that delivered the services on the claim. For\nCMHCs, Rendering Provider can be captured at the entity level, not the individual clinician level. The\nNPI for the Rendering Provider must be reported if the Billing Provider NPI corresponds only to a payee\nID or to a different provider site location. HFS advises that the rendering provider must have the payee\nID associated to the Billing Provider NPI at HFS. The Rendering Provider is reported in loop 2310B on\n837P submissions or Box 24J on a CMS 1500 form.\n\n##### CMHC as the Payee:\n\nIt is allowable for qualified practitioners (i.e., physicians, psychiatric advanced practice nurses) to\ndeliver psychiatric services in a CMHC and list the CMHC as the Billing Provider (loop 2010AA on 837P\nsubmissions or Box 33 on a CMS 1500 form) on the claim. For these claims to adjudicate appropriately\nas a practitioner service rather than a CMHC service, the claim must list the NPI for the practitioner\ndelivering services in the Rendering Provider field (loop 2310B on 837P submissions or Box 24J on a\nCMS 1500 form) and report an allowable procedure code from the appropriate [practitioner fee](https://www.illinois.gov/hfs/MedicalProviders/MedicaidReimbursement/Pages/Practitioner.aspx)\n[schedule.](https://www.illinois.gov/hfs/MedicalProviders/MedicaidReimbursement/Pages/Practitioner.aspx) The Rendering Provider must comply with MCO's policies, procedures, and service\nrequirements corresponding to the practitioner's provider type, including being enrolled as an active\nprovider with HFS and MCO on the date of service.\n\n##### e) Duplicate Claiming\n\nCMHCs may provide multiple units of the same service to the same recipient on the same day. MCO\nclaiming systems shall be set up to recognize each distinct procedure code, modifier, and place of\nservice combination covered under the HFS Medical Assistance Programs as a unique service.\n\nPlease review the billing examples below.\n\nBilling Guidelines and Examples:\n\nProviders may only be reimbursed once for delivering multiple units of the same procedure/modifier\nand place of service combination to one recipient on the same day. These services must be \"rolled up\"\nonto one service line on a single claim to avoid a rejection for a duplicate claim.\n\nExample 1: An MHP-level staff at a CMHC provides a total of two units of Case Management - Mental\nHealth in the office to a single recipient, but at separate times of the day (not back to back). The\nservice (same code/modifier/place of service combination), the provider NPI, the recipient, the date of\nservice, and place of service all remain the same. The provider correctly bills Case Management -\nMental Health on one service line using the following coding summary:\n\n<table>\n<tr>\n<th>Service Line</th>\n<th>Procedure Code</th>\n<th>Modifier(s)</th>\n<th>Place of Service</th>\n<th>Units</th>\n</tr>\n<tr>\n<td>1</td>\n<td>T1016</td>\n<td>HN</td>\n<td>11</td>\n<td>2</td>\n</tr>\n</table>\n\nExample 2: An MHP-level staff at a CMHC provides two units of Crisis Intervention in the office to a\nsingle recipient. Later that same day, the same recipient returns to the same CMHC and a different\nMHP-level staff provides two additional units of Crisis Intervention to the recipient. The CMHC provider\nbills Crisis Intervention on two service lines on a single claim using the following coding summary:\n\n<table>\n<tr>\n<th>Service Line</th>\n<th>Procedure Code</th>\n<th>Modifier(s)</th>\n<th>Place of Service</th>\n<th>Units</th>\n</tr>\n<tr>\n<td>1</td>\n<td>H2011</td>\n<td>HN</td>\n<td>11</td>\n<td>2</td>\n</tr>\n<tr>\n<td>1</td>\n<td>H2011</td>\n<td>HN</td>\n<td>11</td>\n<td>2</td>\n</tr>\n</table>\n\nThis claim has not been billed appropriately. Service Line 1 will positively adjudicate, but Service Line\n2 will be denied as a duplicate claim. For CMHC services, the provider is identified at the entity level,\nnot the clinician level. Therefore, because the recipient, the service (procedure code/modifier/place of\nservice combination), the provider NPI, and the date of service all remained the same, the provider\nshould roll up the services and bill Crisis Intervention on one service line using the following coding\nsummary:\n\n## IV. Professional Services\n### I. Family Planning, Pregnancy/Maternity Care and Reproductive Health Care\n\n· Multiple Providers who are not in the same provider group render maternity services,\n\n. If the Pregnancy ends early (Miscarriage or premature delivery with less than four Antepartum\nvisits,\n\n· Antepartum care only or Delivery service only ---- One or the other\n\nPractitioners may submit an evaluation and management CPT or a Category II CPT code for antepartum\ncare for the initial visit to determine pregnancy.\n\n##### Prenatal Care\n\nThe appropriate CPT code for the initial prenatal visit is to be reported on the first prenatal encounter\nwith the health care professional providing obstetrical care. Reporting of the last date of menstrual\nperiod (LMP) must be reported when billing for the initial prenatal CPT code. For perinatal depression\nservices, refer to the Pediatric Services of this billing guide.\n\n· The initial claim is billed with 0500F with U4 modifier- initial prenatal care visit. The U4\nmodifier will drive reimbursement for the initial prenatal visit effective 10/1/23 *.\n\n· Subsequent prenatal office visits are to be billed using the appropriate Category II CPT codes for\nantepartum care with the U5 modifier effective 10/1/2023 *.\n\n*Note: FQHCs, RHCs and ERCs are still required to follow the T1015 medical encounter code but use all\nthe appropriate coding and modifiers as indicated in this guidance for detail coding lines.\n\n##### Visits for Medical Complications of Pregnancy:\n\nEmergency room or inpatient hospital visits for complications of pregnancy or other\ndiagnosis/conditions related to pregnancy should be billed separately using the appropriate visit codes\nand not the prenatal visit code. The diagnosis code(s) shown on the claim must be pertinent to the\ncondition(s), which necessitated the hospital visit(s). Providers should bill the day of hospital admission\nusing the appropriate \"subsequent\" visit code when the admitting practitioner has also been providing\nprenatal care.\n\n##### Treatment to Prevent Premature Delivery:\n\nClaims can be submitted for the following:\n\n· Injection of Alpha Hydroxyprogesterone (17P). Providers will be reimbursed to administer one\ndose per week during weeks 16 through 36 of the pregnancy. Administering practitioners who\npurchase the product from a 17P compounding pharmacy may bill for the product, in addition\nto the administration. 17P should be restricted to pregnant women with a single gestation and\na history of prior spontaneous preterm delivery.\n\n· Home uterine monitoring in cases where the woman has been hospitalized and is being\ndischarged on tocolytic drugs. An all-inclusive daily rate is paid directly to the supplier of the\nmonitoring device.\n\n##### Visits for Medical Conditions not related to Pregnancy:\n\nMedical office visits that occur during the prenatal period for conditions other than pregnancy should\nbe billed using the appropriate office visit procedure code for the level of service provided.\n\nServices unrelated to pregnancy should continue to be documented and billed separately with the\nappropriate E/M code. DO NOT USE U5 modifier when the service is unrelated to pregnancy.\n\n##### Delivery:\n\nUse the appropriate CPT code for either vaginal delivery or Cesarean Section to bill the delivery. All\nmaternity care services must be billed with separate codes, dates, and charges. An all-inclusive \"global\"\ncare package will not be reimbursed in cases where Medicaid is not the primary payor (Refer to\nAppendix L: Coordination of Benefits [COB]/Third Party Liability [TPL] Policies).\n\nPayment for delivery includes admission to the hospital, the admission history and physical,\nmanagement of labor, vaginal or cesarean delivery, and post-partum hospital care.\n\n. 59409 - Vaginal delivery only (with or without episiotomy and/or forceps)\n\n· 59412- ECV effective as of 1/1/2023\n\n· 59514 - Cesarean delivery only\n\n. 59612 - Vaginal delivery only, after previous cesarean delivery (with or without episiotomy\nand/or forceps)\n\n. 59620 - Cesarean delivery only, following attempted vaginal delivery after previous cesarean\ndelivery\n\nProcedure for billing multiple births:\n\nEnter the appropriate delivery CPT code for the first baby and the unlisted procedure code for all\nadditional babies when billing for multiple births. Enter the description \"twin, triplet, etc.\" in the\ndescription section and a separate charge for each delivery. If one baby is delivered vaginally and the\nother by Cesarean section, bill the correct code for each with separate charges, and attach both\ndelivery reports.\n\nPayment may also be made for a vaginal delivery that the practitioner performs in the participant's\nhome. The appropriate vaginal delivery CPT code is to be used and Place of Service (POS) - 12 home.\n\nPayment is allowed for initiation and/or supervision of internal fetal monitoring during labor only when\nperformed by a consulting practitioner. This service must be billed with a diagnosis code(s), which\nreflects medical necessity, e.g., high-risk pregnancy.\n\nFor information regarding deliveries at Birthing Centers, refer to Birthing Center section of this billing\nguide.\n\n##### Postpartum:\n\nPostpartum care begins after the member is discharged from the hospital stay for delivery and extends\nthroughout the postpartum period of 12 months. Providers may bill for a postpartum visit twice during\nthis postpartum period.\n\n· 59430 - Postpartum care code - effective 10/1/23\n\n· 0503F was discontinued by HFS as of 9/30/2023 and should no longer be billed.\n\n· Postpartum bonus payments were introduced effective January 1, 2023. In accordance with the\n[February 21, 2023 provider notice,](https://hfs.illinois.gov/medicalproviders/notices/notice.prn230221a.html) bonus payments are dependent upon reporting of the actual\ndelivery date on the postpartum visit claim.\n\n· Providers must include the actual delivery date in Loop 2300, Segment DTP*454 'Initial\nTreatment Date', of the 837P. If filing paper claims using the CMS-1500, complete Box 15 with the\nqualifier 454 (initial treatment). The provider is eligible for bonus payments if a postpartum visit\noccurs within the first 26 days following the delivery date, and/or if a postpartum visit occurs\nwithin 27-89 days following the delivery date, as reported on the claim. Each of these time\nperiods will have a limit of one payable bonus payment. Payment of a bonus payment for the 27-\n89 days post-delivery time period is not dependent upon there having been a payment during the\nfirst 26-days post-delivery time period. For instances when more than one claim is received\nduring the same time period, the bonus payment will be reimbursed on the first claim received.\n\n## IV. Professional Services\n### F. Evaluation/Management Services\n\nOne additional preventive medical\nvisit may be allowed within that same time frame when rendered by a new primary care physician\n(PCP) or for a female annual exam visit.\n\nProviders should bill using the appropriate procedure code for the evaluation and management\nservice. Additional risk assessments, diagnostic tests performed, and immunizations may be billed\nseparately using the appropriate procedure code(s).\n\n##### Hospital Outpatient Services:\n\nNon-Emergency Services:\n\nWhen a practitioner sees a member in the outpatient department of a hospital on a non-emergency\nbasis, for the convenience of either the member or the practitioner, the visit is considered the same as\nan office visit. If a charge is being submitted for the visit, the appropriate evaluation and management\nCPT code is to be entered on the billing form. The place of service (POS) must be \"11\", Office. For POS\n\"11\", the claim should be submitted under the rendering practitioner's name and NPI rather than the\nhospital.\n\n##### Hospital Observation Care:\n\nA practitioner may charge for hospital observation care by using the appropriate CPT codes and in\naccordance with CPT guidelines. If the member is admitted to the hospital on the same service date as\nthe observation, a charge may be submitted only for the initial inpatient visit. No payment will be\nmade for the observation services. If the member is seen in the emergency room and placed in\nobservation by the same practitioner, a charge may be submitted for the observation care only.\nPayment is allowed for observation care for consecutive dates of service. Also, only one observation\nCPT code may be billed. The code for observation care \"discharge\" is not a covered service.\n\nPayment is not allowed for observation care for obstetrical cases in labor if the member is admitted to\nthe hospital from concurrent observation and delivers the same day.\n\n##### Hospital Inpatient Services:\n\nA practitioner may admit a member for essential inpatient hospital services in connection with covered\ntreatment of an illness or injury. The practitioner should assure that the member meets the established\ninpatient criteria.\n\nBilling statements submitted for hospital visits are to show the appropriate CPT code designating the\nlevel of care provided.\n\n##### Initial Hospital Care:\n\nThe admitting practitioner may charge for the initial hospital care of the member only if this has not\npreviously been provided in the practitioner's office or on an outpatient basis prior to the scheduling of\nthe hospital admission. The initial hospital care includes comprehensive history, physical examination,\nand the initiation of the diagnostic and treatment program. Only the admitting practitioner named on\nthe admission History and Physical reports is eligible for payment for the initial hospital visit for a single\nhospital stay.\n\nAfter the day of admission, the attending practitioner may bill one subsequent visit per day. When the\nmember's condition warrants the services of one or more additional practitioners of different\nspecialties, charges are to be submitted as outlined in Concurrent Care below.\n\n##### Emergency Services:\n\nIf a member presents at a hospital for emergency care, the hospital's emergency department physician\nmust provide and direct or coordinate the initial service.\n\nPayment for emergency services will be made for either the visit or for specific procedures performed,\nsuch as suturing, lavage, application of cast, etc. Payment will be made for the service with the higher\nState maximum allowable rate. The emergency room practitioner may not submit separate charges for\nthe interpretation of X-rays or EKGs. When the practitioner is assigned to the emergency department,\nuse the appropriate CPT code or evaluation and management CPT code for emergency department\nservices. In this situation, the practitioner must bill using his/her name and NPI. Under no\ncircumstances may the hospital bill the practitioner's service.\n\n##### Critical Care Services:\n\nWhen a member receives critical care services in the inpatient, outpatient or emergency room setting,\nthe practitioner is to bill using the appropriate critical care evaluation and management CPT codes.\nPayments will be allowed to one practitioner for a maximum of one and one half (1 1/2) hours of critical\ncare daily for up to ten (10) days per hospital stay for a single participant.\n\nA practitioner may bill the CPT code for an additional thirty (30) minute increment once per day per\npatient. A quantity of \"1\" should be entered in the Days/Units field when billing for this service. Do not\nuse this field to indicate time. The same practitioner may bill for both the first hour and the additional\nthirty (30) minutes, or two (2) different practitioners may bill the two (2) services. However, payment\nwill be limited to one (1) initial and one (1) subsequent critical care CPT code per day per patient.\n\nPayment is not allowed for postoperative critical care visits by the surgeon for surgical procedures that\nroutinely require critical/intensive care for one or more days. This postoperative period includes the\nday of surgery and thirty (30) days after surgery.\n\nThe critical care visit includes certain services for which separate payment is not allowable on the same\nday by the same practitioner, e.g., gastric intubation, ventilator management, or the interpretation of\ndiagnostic tests. When the same practitioner performs a procedure outside the all-inclusive list of\n\ncodes, as well as providing the critical care, payment will be made for the service with the higher state\nmaximum allowable fee.\n\n##### Concurrent Care:\n\nWhen a participant requires the specialized service(s) of an additional practitioner(s), either\nconcurrently or intermittently during a period of hospitalization, claims can be submitted for the\nservices of both the attending and consultant practitioners. Each practitioner must identify the\ndiagnosis he/she is personally treating.\n\nLong Term Care Facility Visits and Procedures\n\nCharges may be made for a long-term care facility visit and for any procedures performed by the\npractitioner at the time of the visit in accordance with policy applicable to office services. A\npractitioner may submit charges for essential services to a member in the participant's place of\nresidence (i.e., home, long-term care facility, or sheltered care and other custodial facility) when the\nmember is physically unable to go to the practitioner's office.\n\n##### Newborn Care:\n\n· Postpartum Care Billing- (0503F will be discontinued by HFS as of 9/30/2023)\n\no 59430 - Postpartum care code\n\n· As a reminder, postpartum bonus payments were introduced effective January 1, 2023. In\naccordance with the February 21, 2023 provider notice, bonus payments will be reimbursed\nand are dependent upon reporting of the actual delivery date on the postpartum visit claim.\n\no Providers must include the actual delivery date in Loop 2300, Segment DTP*454 'Initial\nTreatment Date', of the 837P. The provider is eligible for bonus payments if a postpartum\nvisit occurs within the first 26 days following the delivery date, and/or if a postpartum visit\noccurs within 27-89 days following the delivery date, as reported on the claim. Each of these\ntime periods will have a limit of one payable bonus payment. Payment of a bonus payment\nfor the 27-89 days post-delivery time period is not dependent upon there having been a\npayment during the first 26-days post-delivery time period. For instances when more than\none claim is received during the same time period, the bonus payment will be reimbursed\non the first claim received.\n\n##### MCO-Specific Guidance when Provider Discovers TPL Coverage is Termed"
+        ]
+    ],
+    "source_documents": [
+        {
+            "id": null,
+            "metadata": {
+                "id": "N2M1MjE4OGQtNjhhMi00MjgyLTllMWQtYzEwNTAwM2U2ZmZm",
+                "page_headers": [
+                    "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)",
+                    "I Federally Qualified Health Centers, Rural Health Centers, and Encounter Rate Clinics"
+                ],
+                "page_number": [
+                    155,
+                    156,
+                    157,
+                    158
+                ],
+                "page_footers": [
+                    "PROPRIETARY"
+                ],
+                "page_numbers_given": [
+                    "134",
+                    "136",
+                    "135"
+                ],
+                "markdown_chunk_id": [
+                    158
+                ],
+                "recursive_flag": [
+                    false
+                ],
+                "first_line_index": [
+                    0
+                ],
+                "first_line_text": [
+                    "I Federally Qualified Health Centers, Rural Health Centers,"
+                ],
+                "first_line_polygon": [
+                    [
+                        322.00559999999996,
+                        29.3904,
+                        557.7624,
+                        29.5704,
+                        557.7552,
+                        40.982400000000005,
+                        321.9984,
+                        40.7952
+                    ]
+                ],
+                "last_line_index": [
+                    7
+                ],
+                "last_line_text": [
+                    "provided in Patient's Home). Maximum reimbursement will be the clinic's encounter rate."
+                ],
+                "last_line_polygon": [
+                    [
+                        89.1144,
+                        136.8648,
+                        526.7952,
+                        136.3176,
+                        526.8095999999999,
+                        149.21999999999997,
+                        89.136,
+                        149.8032
+                    ]
+                ],
+                "doc_id": "6420690b-4ff5-45a3-89cf-5378cd29f2d9",
+                "token_count": 1726,
+                "Header_1": "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)",
+                "Header_2": "I. Federally Qualified Health Centers, Rural Health Centers, and Encounter Rate Clinics",
+                "Header_3": "E. Coding Requirements",
+                "Header_4": "ii. Specific Encounter Clinic Billing Information",
+                "captions": {
+                    "text": "## I. Federally Qualified Health Centers, Rural Health Centers, and Encounter Rate Clinics ### E. Coding Requirements #### ii. Specific Encounter Clinic Billing Information  Claims must be submitted with the encounter rate CPT code of T1015, T1040, or S5190 for medical/behavioral health services or D0999 for dental services listed in the first.",
+                    "highlights": "## I. Federally Qualified Health Centers, Rural Health Centers, and<em> Encounter Rate Clinics </em>### E. Coding Requirements #### ii. Specific Encounter Clinic Billing Information  Claims must be submitted<em> with the encounter rate CPT code of T1015, T1040, </em>or S5190 for medical/behavioral health services or D0999 for dental services listed in the first."
+                },
+                "answers": "",
+                "score": 0.03128054738044739,
+                "retriever_k": 5,
+                "retriever_score_threshold": 0
+            },
+            "page_content": "## I. Federally Qualified Health Centers, Rural Health Centers, and Encounter Rate Clinics\n### E. Coding Requirements\n#### ii. Specific Encounter Clinic Billing Information\n\nClaims must be submitted with the encounter rate CPT code of T1015, T1040, or S5190 for\nmedical/behavioral health services or D0999 for dental services listed in the first service line of the\nclaim, along with the clinic's assigned encounter rate. The CPT codes for the services rendered must\nthen be listed in the remaining service lines as detail codes. The detail codes will be reimbursed at\n$0.00.\n\nDetail codes should include all services provided so long as they are provided as part of a billable\nencounter.\n\nFor Maternity services, FQHC, RHC, and ERC providers should follow the coding guidance for individual\nmaternity services as outlined in the Family Planning, Maternity and Reproductive Care section of the\nProfessional Services chapter of this manual.\n\n##### a) Procedure Code S5190\n\n· Procedure code S5190 must be billed when a wellness assessment is performed by a non-\nphysician.\n\n· S5190 is used instead of T1015 and cannot be billed on the same claim as T1015.\n\n· S5190 is used for reporting purposes only and is not payable.\n\n· Detail lines should still be reported when billing S5190.\n\nExample: A vaccine given by a RN without a physician visit.\n\n##### b) Behavioral Health Encounters\n\nEncounters should be submitted with the encounter CPT code of T1040 with the appropriate modifier\noutlined below in the first service section along with the clinic's assigned behavioral health encounter\nrate. The CPT codes for the services rendered must then be listed in the remaining service sections as\ndetail codes. The detail codes will be reimbursed at $0.00.\n\nBehavioral health encounters are limited to one visit per day. FQHCs and RHCs can bill for a medical\nencounter and a behavioral health encounter for the same member on the same date of service.\nHowever, ERC payment policy does not allow for billing of both a medical and behavioral health\nencounter on the same day of service.\n\nSpecific modifiers must be appended to the first service line based on the rendering provider's\nregistered IMPACT specialty and Category of Service:\n\n<table>\n<tr>\n<th>Specialty</th>\n<th>Category of Service</th>\n<th>CPT &amp; Modifier Claims prior to 2/1/2023</th>\n<th>CPT &amp; Modifier Claims 2/1/2023 forward</th>\n</tr>\n<tr>\n<td>Licensed Clinical Social Worker (LCSW)</td>\n<td>058</td>\n<td>T1015 AJ modifier</td>\n<td>T1040 AJ modifier</td>\n</tr>\n<tr>\n<td>Licensed Clinical Psychologist</td>\n<td>059</td>\n<td>T1015 AH modifier</td>\n<td>T1040 AH modifier</td>\n</tr>\n<tr>\n<td>Licensed Clinical Professional Counselor (LCPC)</td>\n<td>088</td>\n<td>T1015 HO modifier</td>\n<td>T1040 HO modifier</td>\n</tr>\n<tr>\n<td>Licensed Marriage and Family Therapist (LMFT)</td>\n<td>088</td>\n<td>T1015 HO modifier</td>\n<td>T1040 HO modifier</td>\n</tr>\n</table>\n\n##### c) Dental Encounters\n\nNote the following requirements when submitting dental encounters:\n\n· Claims must be submitted with D0999 for dental on the first service line of the claim.\n\n· Submit one encounter claim for each unique member visit. Dental encounters are limited to\none visit per day.\n\n· Submit codes for every procedure performed on the encounter claim to ensure member\nutilization data are complete.\n\n· Ensure every code includes corresponding tooth numbers, quads, arches and any other\nrequired identifiers.\n\n· Include applicable authorization numbers.\n\n· Include all documentation requirements.\n\n· When billing D0999, claims should be submitted to the MCO's dental vendor, not the MCO\ndirectly (see Dental Section for further details).\n\n##### d) Denture Billing\n\nAn encounter clinic may bill up to three additional encounters per prosthesis for a member receiving a\ncomplete or partial denture. Partial dentures are limited to children aged 2 through 20 only.\n\nUse code D5899 - Unspecified Removable Prosthodontic Procedure - for eligible members receiving\ndentures in an encounter clinic.\n\nTo receive consideration for additional reimbursement, a clinic must submit prior authorization for a\nmaximum of three (3) procedure codes (D5899) along with authorization for the complete or partial\ndenture. If the authorization for the complete or partial denture is approved, the clinic will also receive\napproval for up to three of the additional codes (D5899).\n\nAppropriate Visits for Procedure Code D5899\n\n· Initial denture impressions\n\n· Final denture impressions\n\n· Vertical dimension of occlusion visits\n\n· Wax tray in visits\n\n· Necessary adjustments post insertion.\n\n· Repairs or relines during the six (6) month period following the insertion of the new prosthesis.\n\nIn each case, a narrative of the service performed must be provided at the time procedure code D5899\nis billed.\n\nProviders should submit for payment for the complete or partial denture (D5110, D5120, D5211,\nD5212) at the time the prosthesis is inserted.\n\n##### e) Telehealth Encounters\n\nTelehealth Encounters when the clinic is the Originating Site should be submitted with the encounter\nCPT code (T1015 or T1040 as applicable) listed in the first service section along with the clinic's\nassigned encounter rate. Appropriate CPT codes for the services rendered must be billed in the\nremaining service sections. The detail codes will be reimbursed at $0.00.\n\nThe Place of Service code for Telehealth claims must be the appropriate POS for the clinic type (e.g. 50\nfor FQHC's, 72 for RHCs) when clinic is the Originating Site. When the clinic is the Distant Site, POS 02\nor POS 10 will be used, depending on the location of the patient. If the service is delivered via audio\nand video conferencing modifier GT should be used. If the service is delivered via audio conferencing\nonly, the modifier 93 should be used.\n\nIf an encounter rate clinic is the Distant Site, there may or may not be a billable service. If there is a\nbillable service (because the Originating Site is not another encounter clinic or the patient is in their\nhome), then the clinic billing the distant site service must use POS 02 or POS 10 respectively.\n\nTelehealth billing examples:\n\n##### 1. Originating Site: Encounter Clinic\n\nBill the encounter HCPCS code T1015 (or T1040 as appropriate) and HCPCS code Q3014, along\nwith any additional appropriate detail codes. POS code will match clinic type (e.g. 50 for FQHC).\nMaximum reimbursement will be the clinic's encounter rate.\n\nDistant Site: Encounter Clinic\n\nThere is no billable service; the Originating Encounter Clinic is responsible for payment to the\nDistant Site provider.\n\nDistant Site: Physician/APN/Podiatrist's Office\n\nThere is no billable service; the Originating Encounter Clinic is responsible for the payment to\nthe Distant Site provider.\n\n##### 2. Originating Site: Physician/APN/Podiatrist's Office\n\nOriginating Provider will bill HCPCS code Q3014\n\n##### Distant Site: Encounter Clinic\n\nBill the Encounter HCPCS code T1015 (or T1040 as appropriate) and any appropriate detail\ncodes with GT (audio and video modality) or 93 (audio modality only) on the detail lines; POS is\n02. Maximum reimbursement will be the clinic's encounter rate. The rendering provider's name\nand NPI must also be reported on the claim.\n\n3\\. Originating Site: Patient in their Home\n\nDistant Site: Encounter Clinic\n\nBill the Encounter HCPCS code T1015 and any appropriate detail codes with modifier GT (audio\nand video modality) or 93 (audio modality only) on the detail lines; POS is 10 (telehealth\nprovided in Patient's Home). Maximum reimbursement will be the clinic's encounter rate.",
+            "type": "Document"
+        },
+        {
+            "id": null,
+            "metadata": {
+                "id": "ZWM4MzJjZmUtNGMxZC00MDhiLThkNGEtMmVjMGFiMGZkZGI2",
+                "page_headers": [
+                    "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)",
+                    "VI Community Based Behavioral Services(CBS)",
+                    "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types) VI Community Based Behavioral Services(CBS)"
+                ],
+                "page_number": [
+                    225,
+                    226
+                ],
+                "page_footers": [
+                    "PROPRIETARY"
+                ],
+                "page_numbers_given": [
+                    "202",
+                    "200",
+                    "206",
+                    "207",
+                    "205",
+                    "203",
+                    "201",
+                    "208",
+                    "199",
+                    "204"
+                ],
+                "split_id": [
+                    9,
+                    10
+                ],
+                "markdown_chunk_id": [
+                    225
+                ],
+                "recursive_flag": [
+                    true
+                ],
+                "first_line_index": [
+                    0
+                ],
+                "first_line_text": [
+                    "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)"
+                ],
+                "first_line_polygon": [
+                    [
+                        52.8696,
+                        36.2736,
+                        354.7944,
+                        36.8352,
+                        354.7584,
+                        48.794399999999996,
+                        52.833600000000004,
+                        47.779199999999996
+                    ]
+                ],
+                "last_line_index": [
+                    60
+                ],
+                "last_line_text": [
+                    "summary:"
+                ],
+                "last_line_polygon": [
+                    [
+                        53.1432,
+                        704.3544,
+                        102.7944,
+                        704.5272,
+                        102.7656,
+                        715.3632,
+                        53.107200000000006,
+                        715.1904
+                    ]
+                ],
+                "doc_id": "64d53f17-e6c4-4eeb-8390-cca5b273d10e",
+                "token_count": 1119,
+                "Header_1": "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)",
+                "Header_2": "VI. Community Based Behavioral Services(CBS)",
+                "Header_3": "C. Coding and Billing Guidelines",
+                "Header_4": "i. Coding Requirements",
+                "captions": {
+                    "text": "Community Based Behavioral Services(CBS) ### C. Coding and Billing Guidelines #### i. Coding Requirements  ##### d) Rendering and Billing Providers  ##### Billing Provider:  Billing Provider represents the payee on an individual claim. ##### e) Duplicate Claiming  CMHCs may provide multiple units of the ... Billing Guidelines and Examples: .",
+                    "highlights": ""
+                },
+                "answers": "",
+                "score": 0.010989011265337467,
+                "retriever_k": 5,
+                "retriever_score_threshold": 0
+            },
+            "page_content": "## VI. Community Based Behavioral Services(CBS)\n### C. Coding and Billing Guidelines\n#### i. Coding Requirements\n\n##### d) Rendering and Billing Providers\n\n##### Billing Provider:\n\nBilling Provider represents the payee on an individual claim. The NPI corresponding to the payee ID\nwhere a provider wants remittance advice and payments sent should be reported in loop 2010AA on\n837P submissions or Box 33 on a CMS 1500 form. If the billing NPI also corresponds to the rendering\nprovider site, no rendering provider NPI is required on the claim.\n\n##### Rendering Provider:\n\nRendering Provider represents the specific CMHC site that delivered the services on the claim. For\nCMHCs, Rendering Provider can be captured at the entity level, not the individual clinician level. The\nNPI for the Rendering Provider must be reported if the Billing Provider NPI corresponds only to a payee\nID or to a different provider site location. HFS advises that the rendering provider must have the payee\nID associated to the Billing Provider NPI at HFS. The Rendering Provider is reported in loop 2310B on\n837P submissions or Box 24J on a CMS 1500 form.\n\n##### CMHC as the Payee:\n\nIt is allowable for qualified practitioners (i.e., physicians, psychiatric advanced practice nurses) to\ndeliver psychiatric services in a CMHC and list the CMHC as the Billing Provider (loop 2010AA on 837P\nsubmissions or Box 33 on a CMS 1500 form) on the claim. For these claims to adjudicate appropriately\nas a practitioner service rather than a CMHC service, the claim must list the NPI for the practitioner\ndelivering services in the Rendering Provider field (loop 2310B on 837P submissions or Box 24J on a\nCMS 1500 form) and report an allowable procedure code from the appropriate [practitioner fee](https://www.illinois.gov/hfs/MedicalProviders/MedicaidReimbursement/Pages/Practitioner.aspx)\n[schedule.](https://www.illinois.gov/hfs/MedicalProviders/MedicaidReimbursement/Pages/Practitioner.aspx) The Rendering Provider must comply with MCO's policies, procedures, and service\nrequirements corresponding to the practitioner's provider type, including being enrolled as an active\nprovider with HFS and MCO on the date of service.\n\n##### e) Duplicate Claiming\n\nCMHCs may provide multiple units of the same service to the same recipient on the same day. MCO\nclaiming systems shall be set up to recognize each distinct procedure code, modifier, and place of\nservice combination covered under the HFS Medical Assistance Programs as a unique service.\n\nPlease review the billing examples below.\n\nBilling Guidelines and Examples:\n\nProviders may only be reimbursed once for delivering multiple units of the same procedure/modifier\nand place of service combination to one recipient on the same day. These services must be \"rolled up\"\nonto one service line on a single claim to avoid a rejection for a duplicate claim.\n\nExample 1: An MHP-level staff at a CMHC provides a total of two units of Case Management - Mental\nHealth in the office to a single recipient, but at separate times of the day (not back to back). The\nservice (same code/modifier/place of service combination), the provider NPI, the recipient, the date of\nservice, and place of service all remain the same. The provider correctly bills Case Management -\nMental Health on one service line using the following coding summary:\n\n<table>\n<tr>\n<th>Service Line</th>\n<th>Procedure Code</th>\n<th>Modifier(s)</th>\n<th>Place of Service</th>\n<th>Units</th>\n</tr>\n<tr>\n<td>1</td>\n<td>T1016</td>\n<td>HN</td>\n<td>11</td>\n<td>2</td>\n</tr>\n</table>\n\nExample 2: An MHP-level staff at a CMHC provides two units of Crisis Intervention in the office to a\nsingle recipient. Later that same day, the same recipient returns to the same CMHC and a different\nMHP-level staff provides two additional units of Crisis Intervention to the recipient. The CMHC provider\nbills Crisis Intervention on two service lines on a single claim using the following coding summary:\n\n<table>\n<tr>\n<th>Service Line</th>\n<th>Procedure Code</th>\n<th>Modifier(s)</th>\n<th>Place of Service</th>\n<th>Units</th>\n</tr>\n<tr>\n<td>1</td>\n<td>H2011</td>\n<td>HN</td>\n<td>11</td>\n<td>2</td>\n</tr>\n<tr>\n<td>1</td>\n<td>H2011</td>\n<td>HN</td>\n<td>11</td>\n<td>2</td>\n</tr>\n</table>\n\nThis claim has not been billed appropriately. Service Line 1 will positively adjudicate, but Service Line\n2 will be denied as a duplicate claim. For CMHC services, the provider is identified at the entity level,\nnot the clinician level. Therefore, because the recipient, the service (procedure code/modifier/place of\nservice combination), the provider NPI, and the date of service all remained the same, the provider\nshould roll up the services and bill Crisis Intervention on one service line using the following coding\nsummary:",
+            "type": "Document"
+        },
+        {
+            "id": null,
+            "metadata": {
+                "id": "ZjZkODVjOGEtZDNjNC00ODYwLTgxMzItMGZlY2Q2NzgyNzlk",
+                "page_headers": [
+                    "IV Professional Services",
+                    "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)"
+                ],
+                "page_number": [
+                    199,
+                    200,
+                    201
+                ],
+                "page_footers": [
+                    "PROPRIETARY"
+                ],
+                "page_numbers_given": [
+                    "176",
+                    "175",
+                    "177",
+                    "179",
+                    "178"
+                ],
+                "split_id": [
+                    3,
+                    4,
+                    5
+                ],
+                "markdown_chunk_id": [
+                    196
+                ],
+                "recursive_flag": [
+                    true
+                ],
+                "first_line_index": [
+                    0
+                ],
+                "first_line_text": [
+                    "IV Professional Services"
+                ],
+                "first_line_polygon": [
+                    [
+                        461.7936,
+                        36.8352,
+                        558.6912,
+                        37.0296,
+                        558.6696,
+                        47.3256,
+                        461.772,
+                        47.123999999999995
+                    ]
+                ],
+                "last_line_index": [
+                    13
+                ],
+                "last_line_text": [
+                    "during the same time period, the bonus payment will be reimbursed on the first claim received."
+                ],
+                "last_line_polygon": [
+                    [
+                        80.172,
+                        230.2776,
+                        546.3648000000001,
+                        229.8312,
+                        546.3792,
+                        243.3888,
+                        80.18639999999999,
+                        243.83520000000001
+                    ]
+                ],
+                "doc_id": "29300911-e26e-4f9b-b408-062946a28f0a",
+                "token_count": 1416,
+                "Header_1": "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)",
+                "Header_2": "IV. Professional Services",
+                "Header_3": "I. Family Planning, Pregnancy/Maternity Care and Reproductive Health Care",
+                "Header_4": "",
+                "captions": {
+                    "text": "· Subsequent prenatal office visits ... *Note: FQHCs, RHCs and ERCs are still required to follow the T1015 medical encounter code but use all the appropriate coding and modifiers as indicated in this guidance for detail coding lines. ##### Visits for Medical Complications of Pregnancy:  Emergency room or inpatient hospital visits for complications.",
+                    "highlights": "· Subsequent prenatal office visits ... *Note: FQHCs, RHCs and ERCs are still required to follow the<em> T1015 medical </em>encounter<em> code </em>but use all the appropriate coding and modifiers as indicated in this guidance for detail coding lines. ##### Visits for Medical Complications of Pregnancy:  Emergency room or inpatient hospital visits for complications."
+                },
+                "answers": "",
+                "score": 0.016129031777381897,
+                "retriever_k": 5,
+                "retriever_score_threshold": 0
+            },
+            "page_content": "## IV. Professional Services\n### I. Family Planning, Pregnancy/Maternity Care and Reproductive Health Care\n\n· Multiple Providers who are not in the same provider group render maternity services,\n\n. If the Pregnancy ends early (Miscarriage or premature delivery with less than four Antepartum\nvisits,\n\n· Antepartum care only or Delivery service only ---- One or the other\n\nPractitioners may submit an evaluation and management CPT or a Category II CPT code for antepartum\ncare for the initial visit to determine pregnancy.\n\n##### Prenatal Care\n\nThe appropriate CPT code for the initial prenatal visit is to be reported on the first prenatal encounter\nwith the health care professional providing obstetrical care. Reporting of the last date of menstrual\nperiod (LMP) must be reported when billing for the initial prenatal CPT code. For perinatal depression\nservices, refer to the Pediatric Services of this billing guide.\n\n· The initial claim is billed with 0500F with U4 modifier- initial prenatal care visit. The U4\nmodifier will drive reimbursement for the initial prenatal visit effective 10/1/23 *.\n\n· Subsequent prenatal office visits are to be billed using the appropriate Category II CPT codes for\nantepartum care with the U5 modifier effective 10/1/2023 *.\n\n*Note: FQHCs, RHCs and ERCs are still required to follow the T1015 medical encounter code but use all\nthe appropriate coding and modifiers as indicated in this guidance for detail coding lines.\n\n##### Visits for Medical Complications of Pregnancy:\n\nEmergency room or inpatient hospital visits for complications of pregnancy or other\ndiagnosis/conditions related to pregnancy should be billed separately using the appropriate visit codes\nand not the prenatal visit code. The diagnosis code(s) shown on the claim must be pertinent to the\ncondition(s), which necessitated the hospital visit(s). Providers should bill the day of hospital admission\nusing the appropriate \"subsequent\" visit code when the admitting practitioner has also been providing\nprenatal care.\n\n##### Treatment to Prevent Premature Delivery:\n\nClaims can be submitted for the following:\n\n· Injection of Alpha Hydroxyprogesterone (17P). Providers will be reimbursed to administer one\ndose per week during weeks 16 through 36 of the pregnancy. Administering practitioners who\npurchase the product from a 17P compounding pharmacy may bill for the product, in addition\nto the administration. 17P should be restricted to pregnant women with a single gestation and\na history of prior spontaneous preterm delivery.\n\n· Home uterine monitoring in cases where the woman has been hospitalized and is being\ndischarged on tocolytic drugs. An all-inclusive daily rate is paid directly to the supplier of the\nmonitoring device.\n\n##### Visits for Medical Conditions not related to Pregnancy:\n\nMedical office visits that occur during the prenatal period for conditions other than pregnancy should\nbe billed using the appropriate office visit procedure code for the level of service provided.\n\nServices unrelated to pregnancy should continue to be documented and billed separately with the\nappropriate E/M code. DO NOT USE U5 modifier when the service is unrelated to pregnancy.\n\n##### Delivery:\n\nUse the appropriate CPT code for either vaginal delivery or Cesarean Section to bill the delivery. All\nmaternity care services must be billed with separate codes, dates, and charges. An all-inclusive \"global\"\ncare package will not be reimbursed in cases where Medicaid is not the primary payor (Refer to\nAppendix L: Coordination of Benefits [COB]/Third Party Liability [TPL] Policies).\n\nPayment for delivery includes admission to the hospital, the admission history and physical,\nmanagement of labor, vaginal or cesarean delivery, and post-partum hospital care.\n\n. 59409 - Vaginal delivery only (with or without episiotomy and/or forceps)\n\n· 59412- ECV effective as of 1/1/2023\n\n· 59514 - Cesarean delivery only\n\n. 59612 - Vaginal delivery only, after previous cesarean delivery (with or without episiotomy\nand/or forceps)\n\n. 59620 - Cesarean delivery only, following attempted vaginal delivery after previous cesarean\ndelivery\n\nProcedure for billing multiple births:\n\nEnter the appropriate delivery CPT code for the first baby and the unlisted procedure code for all\nadditional babies when billing for multiple births. Enter the description \"twin, triplet, etc.\" in the\ndescription section and a separate charge for each delivery. If one baby is delivered vaginally and the\nother by Cesarean section, bill the correct code for each with separate charges, and attach both\ndelivery reports.\n\nPayment may also be made for a vaginal delivery that the practitioner performs in the participant's\nhome. The appropriate vaginal delivery CPT code is to be used and Place of Service (POS) - 12 home.\n\nPayment is allowed for initiation and/or supervision of internal fetal monitoring during labor only when\nperformed by a consulting practitioner. This service must be billed with a diagnosis code(s), which\nreflects medical necessity, e.g., high-risk pregnancy.\n\nFor information regarding deliveries at Birthing Centers, refer to Birthing Center section of this billing\nguide.\n\n##### Postpartum:\n\nPostpartum care begins after the member is discharged from the hospital stay for delivery and extends\nthroughout the postpartum period of 12 months. Providers may bill for a postpartum visit twice during\nthis postpartum period.\n\n· 59430 - Postpartum care code - effective 10/1/23\n\n· 0503F was discontinued by HFS as of 9/30/2023 and should no longer be billed.\n\n· Postpartum bonus payments were introduced effective January 1, 2023. In accordance with the\n[February 21, 2023 provider notice,](https://hfs.illinois.gov/medicalproviders/notices/notice.prn230221a.html) bonus payments are dependent upon reporting of the actual\ndelivery date on the postpartum visit claim.\n\n· Providers must include the actual delivery date in Loop 2300, Segment DTP*454 'Initial\nTreatment Date', of the 837P. If filing paper claims using the CMS-1500, complete Box 15 with the\nqualifier 454 (initial treatment). The provider is eligible for bonus payments if a postpartum visit\noccurs within the first 26 days following the delivery date, and/or if a postpartum visit occurs\nwithin 27-89 days following the delivery date, as reported on the claim. Each of these time\nperiods will have a limit of one payable bonus payment. Payment of a bonus payment for the 27-\n89 days post-delivery time period is not dependent upon there having been a payment during the\nfirst 26-days post-delivery time period. For instances when more than one claim is received\nduring the same time period, the bonus payment will be reimbursed on the first claim received.",
+            "type": "Document"
+        },
+        {
+            "id": null,
+            "metadata": {
+                "id": "NTllMGY1MjEtMDg1ZC00OTAyLThmZTctYmQyNzIxNDExM2Ji",
+                "page_headers": [
+                    "IV Professional Services",
+                    "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)"
+                ],
+                "page_number": [
+                    190,
+                    191,
+                    192
+                ],
+                "page_footers": [
+                    "PROPRIETARY"
+                ],
+                "page_numbers_given": [
+                    "168",
+                    "167",
+                    "170",
+                    "169"
+                ],
+                "split_id": [
+                    3,
+                    4,
+                    5
+                ],
+                "markdown_chunk_id": [
+                    187
+                ],
+                "recursive_flag": [
+                    true
+                ],
+                "first_line_index": [
+                    0
+                ],
+                "first_line_text": [
+                    "IV Professional Services"
+                ],
+                "first_line_polygon": [
+                    [
+                        461.8008,
+                        37.0656,
+                        558.7632,
+                        37.1736,
+                        558.7416,
+                        47.203199999999995,
+                        461.772,
+                        46.9656
+                    ]
+                ],
+                "last_line_index": [
+                    15
+                ],
+                "last_line_text": [
+                    "Newborn Care:"
+                ],
+                "last_line_polygon": [
+                    [
+                        53.1504,
+                        275.82480000000004,
+                        129.0024,
+                        276.14160000000004,
+                        128.9448,
+                        288.2088,
+                        53.092800000000004,
+                        287.8704
+                    ]
+                ],
+                "doc_id": "9b94d4eb-5a9b-448c-841c-8c314dae250b",
+                "token_count": 1263,
+                "Header_1": "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)",
+                "Header_2": "IV. Professional Services",
+                "Header_3": "F. Evaluation/Management Services",
+                "Header_4": "",
+                "captions": {
+                    "text": "## IV. Professional Services ### F. Evaluation/Management Services  One additional preventive medical visit may be allowed within that same time frame when rendered by a new primary care physician (PCP) or for a female annual exam visit. Providers should bill using the appropriate procedure code for the evaluation and management service..",
+                    "highlights": "## IV. <em>Professional Services </em>### F.<em> Evaluation/Management Services  One additional preventive medical visit may be allowed within that same time frame when </em>rendered by a new primary care physician (PCP) or for a female annual exam visit. Providers should bill using the appropriate procedure code for the evaluation and management service.."
+                },
+                "answers": "",
+                "score": 0.011627906933426857,
+                "retriever_k": 5,
+                "retriever_score_threshold": 0
+            },
+            "page_content": "## IV. Professional Services\n### F. Evaluation/Management Services\n\nOne additional preventive medical\nvisit may be allowed within that same time frame when rendered by a new primary care physician\n(PCP) or for a female annual exam visit.\n\nProviders should bill using the appropriate procedure code for the evaluation and management\nservice. Additional risk assessments, diagnostic tests performed, and immunizations may be billed\nseparately using the appropriate procedure code(s).\n\n##### Hospital Outpatient Services:\n\nNon-Emergency Services:\n\nWhen a practitioner sees a member in the outpatient department of a hospital on a non-emergency\nbasis, for the convenience of either the member or the practitioner, the visit is considered the same as\nan office visit. If a charge is being submitted for the visit, the appropriate evaluation and management\nCPT code is to be entered on the billing form. The place of service (POS) must be \"11\", Office. For POS\n\"11\", the claim should be submitted under the rendering practitioner's name and NPI rather than the\nhospital.\n\n##### Hospital Observation Care:\n\nA practitioner may charge for hospital observation care by using the appropriate CPT codes and in\naccordance with CPT guidelines. If the member is admitted to the hospital on the same service date as\nthe observation, a charge may be submitted only for the initial inpatient visit. No payment will be\nmade for the observation services. If the member is seen in the emergency room and placed in\nobservation by the same practitioner, a charge may be submitted for the observation care only.\nPayment is allowed for observation care for consecutive dates of service. Also, only one observation\nCPT code may be billed. The code for observation care \"discharge\" is not a covered service.\n\nPayment is not allowed for observation care for obstetrical cases in labor if the member is admitted to\nthe hospital from concurrent observation and delivers the same day.\n\n##### Hospital Inpatient Services:\n\nA practitioner may admit a member for essential inpatient hospital services in connection with covered\ntreatment of an illness or injury. The practitioner should assure that the member meets the established\ninpatient criteria.\n\nBilling statements submitted for hospital visits are to show the appropriate CPT code designating the\nlevel of care provided.\n\n##### Initial Hospital Care:\n\nThe admitting practitioner may charge for the initial hospital care of the member only if this has not\npreviously been provided in the practitioner's office or on an outpatient basis prior to the scheduling of\nthe hospital admission. The initial hospital care includes comprehensive history, physical examination,\nand the initiation of the diagnostic and treatment program. Only the admitting practitioner named on\nthe admission History and Physical reports is eligible for payment for the initial hospital visit for a single\nhospital stay.\n\nAfter the day of admission, the attending practitioner may bill one subsequent visit per day. When the\nmember's condition warrants the services of one or more additional practitioners of different\nspecialties, charges are to be submitted as outlined in Concurrent Care below.\n\n##### Emergency Services:\n\nIf a member presents at a hospital for emergency care, the hospital's emergency department physician\nmust provide and direct or coordinate the initial service.\n\nPayment for emergency services will be made for either the visit or for specific procedures performed,\nsuch as suturing, lavage, application of cast, etc. Payment will be made for the service with the higher\nState maximum allowable rate. The emergency room practitioner may not submit separate charges for\nthe interpretation of X-rays or EKGs. When the practitioner is assigned to the emergency department,\nuse the appropriate CPT code or evaluation and management CPT code for emergency department\nservices. In this situation, the practitioner must bill using his/her name and NPI. Under no\ncircumstances may the hospital bill the practitioner's service.\n\n##### Critical Care Services:\n\nWhen a member receives critical care services in the inpatient, outpatient or emergency room setting,\nthe practitioner is to bill using the appropriate critical care evaluation and management CPT codes.\nPayments will be allowed to one practitioner for a maximum of one and one half (1 1/2) hours of critical\ncare daily for up to ten (10) days per hospital stay for a single participant.\n\nA practitioner may bill the CPT code for an additional thirty (30) minute increment once per day per\npatient. A quantity of \"1\" should be entered in the Days/Units field when billing for this service. Do not\nuse this field to indicate time. The same practitioner may bill for both the first hour and the additional\nthirty (30) minutes, or two (2) different practitioners may bill the two (2) services. However, payment\nwill be limited to one (1) initial and one (1) subsequent critical care CPT code per day per patient.\n\nPayment is not allowed for postoperative critical care visits by the surgeon for surgical procedures that\nroutinely require critical/intensive care for one or more days. This postoperative period includes the\nday of surgery and thirty (30) days after surgery.\n\nThe critical care visit includes certain services for which separate payment is not allowable on the same\nday by the same practitioner, e.g., gastric intubation, ventilator management, or the interpretation of\ndiagnostic tests. When the same practitioner performs a procedure outside the all-inclusive list of\n\ncodes, as well as providing the critical care, payment will be made for the service with the higher state\nmaximum allowable fee.\n\n##### Concurrent Care:\n\nWhen a participant requires the specialized service(s) of an additional practitioner(s), either\nconcurrently or intermittently during a period of hospitalization, claims can be submitted for the\nservices of both the attending and consultant practitioners. Each practitioner must identify the\ndiagnosis he/she is personally treating.\n\nLong Term Care Facility Visits and Procedures\n\nCharges may be made for a long-term care facility visit and for any procedures performed by the\npractitioner at the time of the visit in accordance with policy applicable to office services. A\npractitioner may submit charges for essential services to a member in the participant's place of\nresidence (i.e., home, long-term care facility, or sheltered care and other custodial facility) when the\nmember is physically unable to go to the practitioner's office.\n\n##### Newborn Care:",
+            "type": "Document"
+        },
+        {
+            "id": null,
+            "metadata": {
+                "id": "ZDNjY2E0MWUtZWMxNi00YmZhLThjMGEtMWI0YmEyOTM2M2Qw",
+                "page_headers": [
+                    "Illinois Association of Medicaid Health Plans Comprehensive Billing Manual Appendix L - Coordination of Benefits (COB)/Third Party Liability (TPL) Policies",
+                    "Illinois Association of Medicaid Health Plans Comprehensive Billing Manual Appendix M - HBIA/HBIS Populations"
+                ],
+                "page_number": [
+                    356
+                ],
+                "page_footers": [
+                    "PROPRIETARY"
+                ],
+                "page_numbers_given": [
+                    "L-3",
+                    "L-10",
+                    "L-5",
+                    "L-11",
+                    "L-2",
+                    "L-7",
+                    "L-8",
+                    "L-1",
+                    "L-4",
+                    "L-9",
+                    "L-6"
+                ],
+                "split_id": [
+                    6
+                ],
+                "markdown_chunk_id": [
+                    334
+                ],
+                "recursive_flag": [
+                    true
+                ],
+                "first_line_index": [
+                    1
+                ],
+                "first_line_text": [
+                    "Appendix L - Coordination of Benefits (COB)/Third Party Liability (TPL) Policies"
+                ],
+                "first_line_polygon": [
+                    [
+                        240.2712,
+                        41.6808,
+                        558.6912,
+                        41.7888,
+                        558.684,
+                        53.388000000000005,
+                        240.2712,
+                        53.272800000000004
+                    ]
+                ],
+                "last_line_index": [
+                    11
+                ],
+                "last_line_text": [
+                    "MCO-Specific Guidance when Provider Discovers TPL Coverage is Termed"
+                ],
+                "last_line_polygon": [
+                    [
+                        53.1792,
+                        210.96,
+                        417.4488,
+                        211.1472,
+                        417.4416,
+                        224.2368,
+                        53.172000000000004,
+                        224.0496
+                    ]
+                ],
+                "doc_id": "01d3aa5d-483e-481e-a82d-69ad36e9e93f",
+                "token_count": 277,
+                "Header_1": "Appendix L: Coordination of Benefits (COB)/Third Party Liability (TPL) Policies",
+                "Header_2": "",
+                "Header_3": "",
+                "Header_4": "",
+                "captions": {
+                    "text": "· Postpartum Care Billing- (0503F will be discontinued by HFS as of 9/30/2023)  o 59430 - Postpartum care code  · As a reminder, postpartum bonus payments were introduced effective January 1, 2023. In accordance with the February 21, 2023 provider notice, bonus payments will be reimbursed and are dependent upon reporting of the actual delivery.",
+                    "highlights": ""
+                },
+                "answers": "",
+                "score": 0.013513513840734959,
+                "retriever_k": 5,
+                "retriever_score_threshold": 0
+            },
+            "page_content": "· Postpartum Care Billing- (0503F will be discontinued by HFS as of 9/30/2023)\n\no 59430 - Postpartum care code\n\n· As a reminder, postpartum bonus payments were introduced effective January 1, 2023. In\naccordance with the February 21, 2023 provider notice, bonus payments will be reimbursed\nand are dependent upon reporting of the actual delivery date on the postpartum visit claim.\n\no Providers must include the actual delivery date in Loop 2300, Segment DTP*454 'Initial\nTreatment Date', of the 837P. The provider is eligible for bonus payments if a postpartum\nvisit occurs within the first 26 days following the delivery date, and/or if a postpartum visit\noccurs within 27-89 days following the delivery date, as reported on the claim. Each of these\ntime periods will have a limit of one payable bonus payment. Payment of a bonus payment\nfor the 27-89 days post-delivery time period is not dependent upon there having been a\npayment during the first 26-days post-delivery time period. For instances when more than\none claim is received during the same time period, the bonus payment will be reimbursed\non the first claim received.\n\n##### MCO-Specific Guidance when Provider Discovers TPL Coverage is Termed",
+            "type": "Document"
+        }
+    ],
+    "model_name": "gpt-4o-mini",
+    "temperature": 0,
+    "id": 1
+}

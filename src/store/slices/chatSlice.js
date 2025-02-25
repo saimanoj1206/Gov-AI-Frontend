@@ -1,14 +1,16 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
-// Async thunk for fetching chat data
 export const fetchChatData = createAsyncThunk(
   "chat/fetchChatData",
-  async ({ question }, { rejectWithValue }) => {
+  async ({ question }, { getState, rejectWithValue }) => {
     try {
+      const { user } = getState();
+      const { session_id } = user;
+
       const payload = {
         question: question,
         user_id: "kp1234",
-        session_id: "abc123",
+        session_id: session_id,
       };
 
       console.log("Sending payload:", payload);
@@ -28,7 +30,7 @@ export const fetchChatData = createAsyncThunk(
 
       const result = await response.json();
       console.log("Received response:", result);
-      return result; // This will be automatically stored in Redux state
+      return result;
     } catch (error) {
       console.error("API call failed:", error);
       return rejectWithValue(error.message);

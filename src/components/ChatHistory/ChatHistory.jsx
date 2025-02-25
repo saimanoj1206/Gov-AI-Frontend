@@ -37,7 +37,13 @@ const ChatHistory = () => {
               <h3 className="section-title">{section}</h3>
               <ul className="question-list">
                 {questions.map((question, idx) => (
-                  <li key={idx} className="question-item">
+                  <li
+                    key={idx}
+                    className="question-item"
+                    onClick={() => {
+                      console.log("Question Clicked");
+                    }}
+                  >
                     <p className="question-link">{truncateText(question)}</p>
                   </li>
                 ))}
@@ -51,7 +57,13 @@ const ChatHistory = () => {
           {Object.entries(chatData).map(([section, questions], index) => (
             <ul className="question-list">
               {questions.map((question, idx) => (
-                <li key={idx} className="question-item">
+                <li
+                  key={idx}
+                  className="question-item"
+                  onClick={() => {
+                    console.log("Question Clicked");
+                  }}
+                >
                   <p className="question-link">{truncateText(question)}</p>
                 </li>
               ))}

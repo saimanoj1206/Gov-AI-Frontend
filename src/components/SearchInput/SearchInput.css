@@ -1,27 +1,22 @@
 .search-container-wrapper {
-  position: fixed;
   width: 100%;
-  background-color: rgba(244, 242, 242, 0.966);
-  padding: 20px;
-  bottom: 0px;
-  margin: 0%;
-  z-index: 20000;
+  padding: 10px;
+  display: flex;
 }
 
 .search-container {
   display: flex;
-  flex: 0.75;
   justify-content: center;
   align-items: center;
-  border: 2px solid #000000;
-  border-radius: 10px;
   width: 100%;
+  max-width: 800px; /* Prevents it from being too wide */
+  border: 2px solid #000;
+  border-radius: 10px;
   background-color: white;
   padding: 4px;
 }
 
 .search-input {
-  flex: 1;
   flex-grow: 1;
   border: none;
   outline: none;
@@ -36,10 +31,15 @@
   background: transparent;
   cursor: pointer;
   font-size: 18px;
-  color: #000000;
+  color: #000;
   margin-left: 8px;
 }
 
 .search-button:hover {
   color: black;
+}
+
+/* Adjust width when PdfViewer is open */
+.pdf-open .search-container {
+  width: 50%;
 }

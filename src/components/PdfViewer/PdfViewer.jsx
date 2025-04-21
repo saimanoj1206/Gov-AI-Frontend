@@ -7,10 +7,9 @@ const PdfViewer = ({ doc_id, pageNumbers, closePdfViewer }) => {
 
   useEffect(() => {
     setPdfUrl(
-      `https://hcsc-test-ebf5gebgeae9gfcz.eastus2-01.azurewebsites.net/blob/data/billing_guide_v7/pdf_splits/${doc_id}.pdf#toolbar=1&view=Fit`
+      `https://hcsc-test-ebf5gebgeae9gfcz.eastus2-01.azurewebsites.net/api/v1/blob/billing_guide_v7/${doc_id}.pdf#toolbar=1&view=Fit`
     );
   }, [doc_id]);
-  console.log("pdfUrl", pdfUrl);
 
   return (
     <div className="pdf-viewer-container">

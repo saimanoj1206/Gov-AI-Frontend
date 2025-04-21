@@ -12,7 +12,7 @@ const ScrollToBottomButton = ({ bottomRef, docView }) => {
       className="scroll-to-bottom-button"
       onClick={scrollToBottom}
       style={{
-        left: docView ? "42.5%" : "60%",
+        left: docView ? "36.5%" : "60%",
       }}
     >
       <FaArrowDown />

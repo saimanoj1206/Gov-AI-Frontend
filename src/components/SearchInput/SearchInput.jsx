@@ -3,18 +3,22 @@ import "./SearchInput.css";
 import { useDispatch, useSelector } from "react-redux";
 import { PiPaperPlaneRightFill } from "react-icons/pi";
 import { fetchChatData } from "../../store/slices/chatSlice";
+import { postThreadHistory } from "../../store/slices/historySlice";
 
-const SearchInput = ({ setCurrentQuestion }) => {
+const SearchInput = ({ setCurrentQuestion, faqQuestion, docView }) => {
   const dispatch = useDispatch();
   const [question, setQuestion] = useState("");
-
   const { loading } = useSelector((state) => state.chatUI);
+  const { session_id } = useSelector((state) => state.user);
+  const { activeThreadId } = useSelector((state) => state.history);
+  console.log("activeThreadId", activeThreadId);
+  console.log("session_id", session_id);
 
   const handleSubmit = () => {
     if (!question.trim()) return;
-
     setCurrentQuestion(question);
     dispatch(fetchChatData({ question }));
+    dispatch(postThreadHistory({ threadName: question }));
     setQuestion("");
   };
 
@@ -25,7 +29,10 @@ const SearchInput = ({ setCurrentQuestion }) => {
   };
 
   return (
-    <div className="search-container-wrapper">
+    <div
+      style={{ marginLeft: docView ? "5%" : "9%" }}
+      className="search-container-wrapper"
+    >
       <div className="search-container">
         <input
           value={question}

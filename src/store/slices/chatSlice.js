@@ -1,22 +1,23 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { v4 as uuidv4 } from "uuid";
 
 export const fetchChatData = createAsyncThunk(
   "chat/fetchChatData",
-  async ({ question }, { getState, rejectWithValue }) => {
+  async ({ question, messageId = null }, { getState, rejectWithValue }) => {
     try {
-      const { user } = getState();
+      const { user, history } = getState();
       const { session_id } = user;
+      const activeThreadId = history.activeThreadId;
+      const threadId = activeThreadId ? activeThreadId : session_id;
 
       const payload = {
-        question: question,
         user_id: "kp1234",
-        session_id: session_id,
+        session_id: threadId,
+        question: question,
       };
 
-      console.log("Sending payload:", payload);
-
       const response = await fetch(
-        "https://hcsc-test-ebf5gebgeae9gfcz.eastus2-01.azurewebsites.net/chatbot",
+        "https://hcsc-test-ebf5gebgeae9gfcz.eastus2-01.azurewebsites.net/api/v1/chat/",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -29,8 +30,7 @@ export const fetchChatData = createAsyncThunk(
       }
 
       const result = await response.json();
-      console.log("Received response:", result);
-      return result;
+      return { ...result, question, messageId, threadId }; // Include threadId for history
     } catch (error) {
       console.error("API call failed:", error);
       return rejectWithValue(error.message);
@@ -39,8 +39,10 @@ export const fetchChatData = createAsyncThunk(
 );
 
 const initialState = {
-  chatPage: [],
+  chatData: [],
   loading: false,
+  loadingMessageId: null,
+  editingMessageId: null,
   error: null,
 };
 
@@ -49,28 +51,60 @@ const chatSlice = createSlice({
   initialState,
   reducers: {
     clearChat(state) {
-      state.chatPage = [];
+      state.chatData = [];
+    },
+    setChatHistory(state, action) {
+      state.chatData = action.payload;
     },
   },
   extraReducers: (builder) => {
     builder
-      .addCase(fetchChatData.pending, (state) => {
+      .addCase(fetchChatData.pending, (state, action) => {
         state.loading = true;
         state.error = null;
+        state.loadingMessageId = action.meta.arg.messageId || null;
+        console.log("Pending action:", action.meta.arg.messageId);
+        if (action.meta.arg.messageId) {
+          console.log("Editing message ID:", state.editingMessageId);
+          state.editingMessageId = action.meta.arg.messageId;
+          // Remove the old message immediately
+          state.chatData = state.chatData.filter(
+            (msg) => msg.messageId !== action.meta.arg.messageId
+          );
+        }
+        console.log("State after pending:", state.chatData);
       })
       .addCase(fetchChatData.fulfilled, (state, action) => {
-        if (action.payload.input && action.payload.output) {
-          action.payload.id = state.chatPage.length + 1;
-          state.chatPage.push(action.payload);
-        }
         state.loading = false;
+        state.editingMessageId = null;
+
+        const messageId = action.meta.arg.messageId || uuidv4();
+        action.payload.messageId = messageId;
+
+        const newMessage = {
+          ...action.payload,
+          input: action.payload.question,
+        };
+
+        // Push the new edited message
+        state.chatData.push(newMessage);
       })
       .addCase(fetchChatData.rejected, (state, action) => {
         state.loading = false;
+        state.editingMessageId = null;
         state.error = action.payload;
+
+        if (action.meta.arg.messageId) {
+          state.chatData.push({
+            messageId: action.meta.arg.messageId,
+            input: action.meta.arg.question,
+            output: "Failed to edit. Try again.",
+            isError: true,
+          });
+        }
       });
   },
 });
 
-export const { clearChat } = chatSlice.actions;
+export const { clearChat, setChatHistory } = chatSlice.actions;
 export default chatSlice.reducer;

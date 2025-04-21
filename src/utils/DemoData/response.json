@@ -1,405 +1,128 @@
-{
-  "input": "Is there a list of procedure codes that are not allowed?",
-  "history": [
-    {
-      "content": "### Reimbursement Process for CPT Code 90935\n\nCPT code **90935** is used for billing **hemodialysis** services. The reimbursement process for this code involves several key steps, which are outlined below:\n\n#### 1. **Claim Submission**\n   - Providers must submit a claim for the services rendered using the appropriate claim form (e.g., CMS-1500 for professional services).\n   - Ensure that all required information is included, such as:\n     - Patient's name and Medicaid ID\n     - Provider's name, Tax Identification Number (TIN), and National Provider Identifier (NPI)\n     - Date of service\n     - Diagnosis codes that support medical necessity for the service\n\n#### 2. **Clean Claim Requirements**\n   - A **clean claim** is defined as a claim that is submitted correctly and does not require additional information for processing.\n   - HFS (Illinois Department of Healthcare and Family Services) mandates that 90% of clean claims must be processed within **30 days** and 99% within **90 days**.\n\n#### 3. **Claim Processing**\n   - Once submitted, the claim will be processed by the Managed Care Organization (MCO) or the state Medicaid program.\n   - Claims are validated against provider and member eligibility records. If the claim meets all requirements, it will be processed for payment.\n\n#### 4. **Payment Determination**\n   - After processing, the MCO will determine the payment amount based on the established fee schedule for the service.\n   - Providers will receive a remittance advice detailing the payment amount, any adjustments, and the reason for any denials or reductions.\n\n#### 5. **Handling Denials and Adjustments**\n   - If a claim is denied, providers should review the denial reason and correct any errors before resubmitting the claim.\n   - Common reasons for denial may include:\n     - Missing or invalid member information\n     - Incorrect procedure codes\n     - Lack of medical necessity documentation\n\n#### 6. **Overpayment and Recoupment**\n   - If an overpayment is identified, providers will be notified and must submit a refund check within **90 days** to avoid recoupment from future claims.\n   - Overpayments can occur due to various reasons, including changes in eligibility or billing errors.\n\n#### 7. **Dispute Process**\n   - If providers disagree with the reimbursement amount or claim determination, they can initiate a claims dispute by contacting the MCO.\n   - It is essential to have relevant information ready, such as patient details, service dates, and a description of the dispute.\n\n### Summary\nThe reimbursement process for CPT code 90935 involves careful claim submission, adherence to clean claim requirements, timely processing, and addressing any denials or overpayments. Providers must ensure accurate documentation and coding to facilitate smooth reimbursement from Medicaid managed care plans in Illinois.",
-      "additional_kwargs": {},
-      "response_metadata": {},
-      "type": "ai",
-      "name": null,
-      "id": null,
-      "example": false,
-      "tool_calls": [],
-      "invalid_tool_calls": [],
-      "usage_metadata": null
-    },
-    {
-      "content": "How is 90935 reimbursed and elaborate the overall process?",
-      "additional_kwargs": {},
-      "response_metadata": {},
-      "type": "human",
-      "name": null,
-      "id": null,
-      "example": false
-    },
-    {
-      "content": "### Reimbursement Process for CPT Code 90935\n\nCPT code **90935** is used for billing **hemodialysis** services. The reimbursement process for this code involves several key steps, which are outlined below:\n\n#### 1. **Claim Submission**\n   - Providers must submit a claim for the services rendered using the appropriate claim form (e.g., CMS-1500 for professional services).\n   - Ensure that all required information is included, such as:\n     - Patient's name and Medicaid ID\n     - Provider's name, Tax Identification Number (TIN), and National Provider Identifier (NPI)\n     - Date of service\n     - Diagnosis codes that support medical necessity for the service\n\n#### 2. **Clean Claim Requirements**\n   - A **clean claim** is defined as a claim that is submitted correctly and does not require additional information for processing.\n   - HFS (Illinois Department of Healthcare and Family Services) mandates that 90% of clean claims must be processed within **30 days** and 99% within **90 days**.\n\n#### 3. **Claim Processing**\n   - Once submitted, the claim will be processed by the Managed Care Organization (MCO) or the state Medicaid program.\n   - Claims are validated against provider and member eligibility records. If the claim meets all requirements, it will be processed for payment.\n\n#### 4. **Payment Determination**\n   - After processing, the MCO will determine the payment amount based on the established fee schedule for the service.\n   - Providers will receive a remittance advice detailing the payment amount, any adjustments, and the reason for any denials or reductions.\n\n#### 5. **Handling Denials and Adjustments**\n   - If a claim is denied, providers should review the denial reason and correct any errors before resubmitting the claim.\n   - Common reasons for denial may include:\n     - Missing or invalid member information\n     - Incorrect procedure codes\n     - Lack of medical necessity documentation\n\n#### 6. **Overpayment and Recoupment**\n   - If an overpayment is identified, providers will be notified and must submit a refund check within **90 days** to avoid recoupment from future claims.\n   - Overpayments can occur due to various reasons, including changes in eligibility or billing errors.\n\n#### 7. **Dispute Process**\n   - If providers disagree with the reimbursement amount or claim determination, they can initiate a claims dispute by contacting the MCO.\n   - It is essential to have relevant information ready, such as patient details, service dates, and a description of the dispute.\n\n### Summary\nThe reimbursement process for CPT code 90935 involves careful claim submission, adherence to clean claim requirements, timely processing, and addressing any denials or overpayments. Providers must ensure accurate documentation and coding to facilitate smooth reimbursement from Medicaid managed care plans in Illinois.",
-      "additional_kwargs": {},
-      "response_metadata": {},
-      "type": "ai",
-      "name": null,
-      "id": null,
-      "example": false,
-      "tool_calls": [],
-      "invalid_tool_calls": [],
-      "usage_metadata": null
-    },
-    {
-      "content": "Can T1015 be reimbursed more then once in a day?",
-      "additional_kwargs": {},
-      "response_metadata": {},
-      "type": "human",
-      "name": null,
-      "id": null,
-      "example": false
-    },
-    {
-      "content": "### Reimbursement of T1015\n\nThe CPT code **T1015** is used for billing **encounter services** provided by Federally Qualified Health Centers (FQHCs) and Rural Health Centers (RHCs). \n\n#### Can T1015 Be Reimbursed More Than Once in a Day?\n\n- **General Rule**: T1015 is typically limited to **one encounter per day** for each member. This means that a provider cannot bill for T1015 multiple times for the same member on the same day.\n\n- **Exceptions**: \n  - While T1015 cannot be billed more than once in a day, FQHCs and RHCs can bill for a **medical encounter** and a **behavioral health encounter** for the same member on the same date of service. However, both encounters must be billed separately using their respective codes (T1015 for medical and T1040 for behavioral health).\n\n#### Summary of Billing Guidelines for T1015\n\n- **Single Encounter**: Only one T1015 can be billed per member per day.\n- **Separate Encounters**: Medical and behavioral health encounters can be billed on the same day, but they must use different codes.\n- **Detail Codes**: Any additional services provided during the encounter should be listed as detail codes, but these will be reimbursed at $0.00.\n\n### Conclusion\n\nIn summary, T1015 cannot be reimbursed more than once in a day for the same member, with the exception of billing for different types of encounters (medical and behavioral health) on the same day. Providers should ensure they follow these guidelines to avoid claim denials.",
-      "additional_kwargs": {},
-      "response_metadata": {},
-      "type": "ai",
-      "name": null,
-      "id": null,
-      "example": false,
-      "tool_calls": [],
-      "invalid_tool_calls": [],
-      "usage_metadata": null
-    }
-  ],
-  "output": "### List of Procedure Codes That Are Not Allowed\n\nIn the context of billing for Medicaid services in Illinois, certain procedure codes are explicitly not allowed for reimbursement. Below is a summary of some of these codes, particularly focusing on IV drugs and other specific services that cannot be billed to Managed Care Organizations (MCOs).\n\n#### 1. **IV Drugs Not Allowed for Billing**\nPharmacies cannot bill the following drug codes to the medical plans:\n\n| **HCPC Procedure Code** | **Description**                                           | **GPI**                |\n|-------------------------|-----------------------------------------------------------|------------------------|\n| J7121                   | DEXTROSE 5% IN LACTATED RINGERS                          | 9270070102120          |\n| J3285                   | TREPROSTINIL INJ SOLN 200 MG/20ML (10 MG/ML)            | 16220020312040         |\n| J1569                   | IMMUNE GLOBULIN (HUMAN) IV OR SUBCUTANEOUS SOLN 30 GM/300ML | 21500011002120         |\n\n#### 2. **General Restrictions**\n- **Drug Codes**: As noted, drug codes for IV medications cannot be billed to MCOs.\n- **Certain Services**: Some services may have restrictions based on the provider type or the nature of the service provided. For example, certain anesthesia services and surgical procedures may have specific billing guidelines that limit their reimbursement.\n\n#### 3. **Additional Notes**\n- Providers should refer to the **Illinois HFS Handbook** for a comprehensive list of non-covered services and procedure codes.\n- It is essential to stay updated with the latest billing guidelines and restrictions as they may change over time.\n\n### Conclusion\nThe above table highlights specific IV drug codes that are not allowed for billing to Medicaid managed care plans in Illinois. Providers should ensure they are familiar with these restrictions to avoid claim denials and ensure compliance with billing regulations. For a complete list of non-covered codes and services, it is advisable to consult the Illinois HFS Handbook or relevant billing guidelines.",
-  "intermediate_steps": [
-    [
+[
+  {
+    "input": "Is Revenue code 0653 covered for a Hospice claim?",
+    "history": [],
+    "output": "### Coverage of Revenue Code 0653 for Hospice Claims\n\n**Revenue Code 0653** is not specifically mentioned in the context provided for hospice billing. The covered revenue codes for hospice services include:\n\n- **0651**: Routine Home Care\n- **0652**: Continuous Home Care\n- **0655**: Inpatient Respite Care\n- **0656**: General Inpatient Care\n- **0657**: Physician Services\n- **0658**: LTC Room & Board\n\nSince **0653** is not listed among the covered revenue codes for hospice claims, it can be inferred that it is **not covered** for hospice claims under the current billing policies and procedures.\n\nIf you have further questions or need additional clarification, feel free to ask!",
+    "intermediate_steps": [[]],
+    "source_documents": [
       {
-        "tool": "search_pdf",
-        "tool_input": {
-          "query": "list of procedure codes that are not allowed"
+        "id": null,
+        "metadata": {
+          "id": "ZTM2YTEwZTMtMmMzMi00NGRjLWFjNWEtYWVlZjRmYzQzNmI1",
+          "page_headers": [
+            "VI Long-term Care/ Skilled Nursing Facility",
+            "Part B: Institutional Billing (837I or UB-04 claim types)"
+          ],
+          "page_number": [121, 122, 123],
+          "page_footers": ["PROPRIETARY"],
+          "page_numbers_given": ["100", "101"],
+          "markdown_chunk_id": [96, 97, 98, 99, 100, 101],
+          "recursive_flag": [false],
+          "first_line_index": [2],
+          "first_line_text": ["A. Purpose"],
+          "first_line_polygon": [
+            [
+              53.0208, 87.15599999999999, 134.532, 87.6744, 134.4528, 100.6272,
+              52.992, 100.116
+            ]
+          ],
+          "last_line_index": [31],
+          "last_line_text": [
+            "Medicaid after the adjudication of the Medicare claim."
+          ],
+          "last_line_polygon": [
+            [
+              80.06400000000001, 573.0696, 347.0544, 573.012, 347.0544,
+              585.8784, 80.06400000000001, 585.9288
+            ]
+          ],
+          "doc_id": "006e0d7d-af6f-4ea2-843c-39739f93c07b",
+          "token_count": 1375,
+          "Header_1": "Part B: Institutional Billing (837I or UB-04 claim types)",
+          "Header_2": "VI. Long-term Care/ Skilled Nursing Facility",
+          "Header_3": "A. Purpose, B. Provider Type, C. Long Term Care (LTC) Eligibility, D. IMPACT Enrollment Requirements, E. Patient Credit File, F. Billing Requirements",
+          "Header_4": "",
+          "captions": {
+            "text": "...for member admitted to facility on 7/1/22)  \\- Claim for intermediate care for the first 15 days of the month:  \" Statement Period: 11/01/22 - 11/15/22  · Bill 0653  \" Admit date on claim: 7/01/22  \" Discharge date on claim: 11/15/22  · Value Code 80 = 15  · Revenue Code 0120 = 15  \\- Claim for skilled care for last 15 days of the month:  \".",
+            "highlights": "...for member admitted to facility on 7/1/22)  \\- Claim for intermediate care for the first 15 days of the month:  \" Statement Period: 11/01/22 - 11/15/22  · Bill<em> 0653 </em> \" Admit date on claim: 7/01/22  \" Discharge date on claim: 11/15/22  · Value Code 80 = 15  ·<em> Revenue </em>Code 0120 = 15  \\- Claim for skilled care for last 15 days of the month:  \"."
+          },
+          "answers": "",
+          "score": 0.016129031777381897,
+          "retriever_k": 5,
+          "retriever_score_threshold": 0
         },
-        "log": "\nInvoking: `search_pdf` with `{'query': 'list of procedure codes that are not allowed'}`\n\n\n",
-        "type": "AgentActionMessageLog",
-        "message_log": [
-          {
-            "content": "",
-            "additional_kwargs": {
-              "function_call": {
-                "arguments": "{\"query\":\"list of procedure codes that are not allowed\"}",
-                "name": "search_pdf"
-              }
-            },
-            "response_metadata": {
-              "token_usage": {
-                "completion_tokens": 21,
-                "prompt_tokens": 1762,
-                "total_tokens": 1783,
-                "completion_tokens_details": {
-                  "audio_tokens": 0,
-                  "reasoning_tokens": 0,
-                  "accepted_prediction_tokens": 0,
-                  "rejected_prediction_tokens": 0
-                },
-                "prompt_tokens_details": {
-                  "audio_tokens": 0,
-                  "cached_tokens": 0
-                }
-              },
-              "model_name": "gpt-4o-mini-2024-07-18",
-              "system_fingerprint": "fp_f3927aa00d",
-              "prompt_filter_results": [
-                {
-                  "prompt_index": 0,
-                  "content_filter_results": {
-                    "hate": {
-                      "filtered": false,
-                      "severity": "safe"
-                    },
-                    "jailbreak": {
-                      "filtered": false,
-                      "detected": false
-                    },
-                    "self_harm": {
-                      "filtered": false,
-                      "severity": "safe"
-                    },
-                    "sexual": {
-                      "filtered": false,
-                      "severity": "safe"
-                    },
-                    "violence": {
-                      "filtered": false,
-                      "severity": "safe"
-                    }
-                  }
-                }
-              ],
-              "finish_reason": "function_call",
-              "logprobs": null,
-              "content_filter_results": {}
-            },
-            "type": "ai",
-            "name": null,
-            "id": "run-a7eeaad0-056d-44ae-89a1-1929bbaef1a1-0",
-            "example": false,
-            "tool_calls": [],
-            "invalid_tool_calls": [],
-            "usage_metadata": {
-              "input_tokens": 1762,
-              "output_tokens": 21,
-              "total_tokens": 1783
-            }
-          }
-        ]
-      },
-      "## V. Pharmacy Providers\n### D. Billable Services\n#### ii. HFS Provider Type 060- Billing for Durable Medical Equipment via the Medical Claim Process\n\nPharmacies must be registered in IMPACT with the following COS or specialties in order to bill an MCO\nfor DME via the medical claim process.\n\n· 041 - Medical Equipment/Prosthetic Devices\n\n· 048 - Medical Supplies\n\nThe charges must be submitted on a CMS 1500 form or 837P electronic claim. Pharmacy providers can\nrefer to the 'General Claim Submissions Guidelines' in this manual for greater clarity on this claim\nformat.\n\nSome examples of DME supplies/service that can be billed to the MCO include:\n\n· Food Thickeners - B4100\n\n· Parenteral Nutrition Administration Kit - B4224\n\n· External Insulin Infusion Pumps - A4230, A4231\n\n· Gastro/JeJunoTube - B4088\n\n· Enteral Feeding Supply Kit - B4035\n\n#### iii. Infusion Therapy Services\n\nInfusion therapy equipment and supplies, such as ambulatory infusion, stationary infusion and enteral\nnutrition pumps all qualify as DME services the pharmacy can bill under the medical plan. All supplies\nneeded to maintain IV access are included in the infusion pump codes and cannot be billed separately.\nThis includes items such as:\n\n· alcohol pads\n\n· betadine swabs\n\n· sharp containers\n\n· sterile gloves\n\n· dressing change kits\n\n· flushing syringes\n\n· vial adapters\n\n· extension sets\n\n· IV start kit, tape\n\n· IV cannulas (peripheral line)\n\n· needleless system supplies\n\n· needles\n\n· cassette with tubing\n\n· TPN bag\n\n· administration set with filter\n\n· metered delivery tubing\n\nThe maximum allowable rate for each code is a flat rate regardless of number of medications or\namount of supplies needed. The following supplies are permitted to be billed separately:\n\n· a thermometer\n\n· one box of 100 non-sterile gloves per month\n\n· non-coring Huber like needles\n\nRefer to the [Illinois HFS DME fee schedule](https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/dme.html) for the complete listing of covered codes that can be\nsubmitted on the MCO medical claim platforms.\n\n##### IMPORTANT NOTE REGARDING IV DRUGS:\n\nPharmacies cannot bill drug codes to the medical plans. Some examples of common IV drugs that\ncannot be billed to the MCO include:\n\n<table>\n<tr>\n<th>HCPC Procedure Code</th>\n<th>Description</th>\n<th>GPI</th>\n</tr>\n<tr>\n<td>J7121</td>\n<td>DEXTROSE 5% IN LACTATED RINGERS</td>\n<td>9270070102120</td>\n</tr>\n<tr>\n<td>J3285</td>\n<td>TREPROSTINIL INJ SOLN 200 MG/20ML (10 MG/ML)</td>\n<td>16220020312040</td>\n</tr>\n<tr>\n<td>J1569</td>\n<td>IMMUNE GLOBULIN (HUMAN) IV OR SUBCUTANEOUS SOLN 30 GM/300ML</td>\n<td>21500011002120</td>\n</tr>\n</table>\n\n#### iv. Specialty Pharmacies\n\nAt this time, HFS does not have a specific IMPACT provider type for specialty pharmacy or IV Infusion\nthat allows for Medicaid reimbursement. Specialty pharmacies should register in IMPACT as Provider\nType 060 to dispense and bill any covered specialty medications.\n\nSpecialty pharmaceuticals (when medically necessary) are a Medicaid covered benefit. Practitioners\nthat need to order specialty medication that must be administered via a practitioner's office, should\ncontact each MCOs PBM for specific directions on acquiring the medically necessary pharmaceuticals\ncovered via the pharmacy benefit.\n\nFor example:\n\nPatient needs Synagis as part of CPT Code 90378. This CPT procedure code is not found on the Illinois\nPractitioner Fee Schedule, so this is not considered a 'buy and bill' physician-stocked drug that would\nfunction as indicated in the next section on 'Practitioner Administered Drugs'. As a result, the\npractitioner should contact the MCO PBM for information on how to have the prescription for this drug\nfilled via the PBM process and then have the drug shipped to the practitioner's office via the Pharmacy\nBenefit.\n\n#### v. Practitioner Administered Drugs\n\nReimbursement for certain practitioner-administered drugs may be made to practitioners (i.e. HFS\nprovider type 010). The drug must have been purchased by the practitioner and must be administered\nin the office setting in order to be submitted on the professional claim to the MCO. Reimbursement for\nthese services will be based on the [HFS Practitioner Fee Schedule.](https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/practitioner.html)\n\nSubmit the appropriate CPT or HCPCS Code(s) to identify the drug. When a specific code is not\navailable, an unlisted medication CPT code may be used. The corresponding description field must\ncontain the name of the drug, strength of the drug and amount given.\n\n## IV. Professional Services\n### J. Radiology Services\n\nRadiological and X-ray services are covered when essential for the diagnosis and treatment of disease\nor injury. Routine screening X-rays are not covered. Exception is mammography.\n\nCharges for the professional or technical component of radiology services must be submitted with the\nappropriate CPT code and modifier. Additional information regarding billing for radiology services or\nmultiple occurrences of the same procedure on the same date of service may be found on the\n[Practitioner Fee Schedule Key.](https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/practitioner.html)\n\nCertain X-rays are limited to a quantity of one (1) per day due to the nature of service, e.g.,\nangiography, gallbladder, upper GI series, etc. If the procedure is repeated at a separate time on the\nsame day, the \"unlisted\" code is to be used with a separate charge.\n\nA practitioner may charge only for X-ray examinations provided in the practitioner's own office, by the\npractitioner's staff. When only X-rays are provided at the time of an office visit, an office visit charge\nmay not be made. A central X-ray Department serving the practitioners in group practice is considered\nthe practitioner's office.\n\n##### Hospital-Based Radiology Services:\n\nOnly a non-salaried radiologist may bill for the professional component. A hospital- based radiologist\nmay submit charges for professional services in connection with referred X-ray services if the\nradiologist's contractual agreement with the hospital provides for separation of charges and is not\nincluded in the cost report for direct patient care. The services must be billed using the hospital-based\nradiologist's NPI and not the hospital NPI for the professional component. Any interpretations of X-rays\nor tests not directly related to patient care are not reimbursable.\n\n##### Radiation Therapy:\n\nA radiologist may charge only for the specific X-ray examinations or radiation therapy provided in\naccordance with requests of the referring practitioner. Additional charges for visits or services, such as\ndosage calculations, port plans, field settings, etc., are not reimbursable.\n\n##### Proton Therapy:\n\nProton therapy is reimbursable to facilities having a 'PTN' specialty code on file. Reimbursement is\nallowed for one proton beam treatment delivery code per date of service. In addition, one radiation\ntreatment delivery code is separately payable for the purpose of guidance/localization of the proton\nbeam.\n\n##### Ultrasound Imaging:\n\nUltrasound imaging, scanning, echograms, or sonograms are covered when medically necessary.\nRoutine screening or surveys are not allowed, nor are \"rule-out\" examinations unless a specific\ndifferential problem exists.\n\nWhen a charge is made for ultrasound examinations, an additional charge cannot be made for\nradiographic examinations of the same area or systems unless adequate justification is given for both\nprocedures.\n\n##### Surgical/Diagnostic Procedures Requiring Radiological Supervision/Interpretation:\n\nWhen a radiologist performs a specific procedure, e.g., catheter insertion, biopsy, injection, angioplasty\nand radiological supervision and interpretation, two separate codes and charges should be submitted.\n\nThe charges for the procedure and the radiological supervision/interpretation are to be shown on the\nsame claim with Type of Service Code \"4, diagnostic X-ray - radiologist.\" If the procedure is performed\npercutaneously and no specific code is available, the practitioner is to use the unlisted code for the\npertinent body system and the specific procedure identified in the description field.\n\nRadiologists are not to use incisional procedure codes for procedures done percutaneously.\n\n##### Computer Tomography (CT) and Magnetic Resonance Imaging (MRI):\n\nReimbursement may be made to the practitioner for interpretation of CT or MRI procedures provided\nin any setting. Payment is allowed for only one complete CT or MRI procedure per day per patient (e.g.,\na CT of the abdomen and pelvis is a complete procedure or multiple sections of the spine).\n\n##### Multiple Radiology Procedures on the Same Day:\n\nMultiple radiology procedures performed on the same day involving areas of the body that are\noverlapping are either paid at a reduced rate or rejected as an X-ray procedure previously paid. This\nmethodology applies to all radiological testing including X-rays, CT/CTA's and MRI/MRA's.\n\nExamples of overlapping radiological studies include:\n\n· Radiological exam of the pelvis, 1 or 2 views, combined with radiological exam of the hip,\ncomplete, minimum 2 views\n\n· CT of the abdomen and CT of the pelvis, or CT of the head and CT of the neck\n\n· Any CTA in combination with any CT\n\n· MRI of multiple levels of the spine\n\n· Any MRA in combination with any MRI\n\n##### Mammography Screening:\n\nMammography screening is a covered service when ordered by a practitioner for screening by low-\ndose mammography for the presence of occult breast cancer. Coverage for this service is available\nunder the following guidelines:\n\n· Baseline mammogram for women 35 and older\n\n· Screening mammogram once per year for women 40 years of age or older\n\nA mammogram for diagnostic purposes is covered when medically necessary, regardless of sex or age.\n\n## VI. Community Based Behavioral Services(CBS)\n### D. Pathways to Success - An Enhanced System of Care\n#### ii. Pathways Coding Guidance\n\nPlease refer to the tables below for billing Pathways services.\n\n<table>\n<tr>\n<th colspan=\"7\">Pathways Specific Care Coordination and Support- billable by BHC and CMHC - Table C</th>\n</tr>\n<tr>\n<th>Service Description</th>\n<th>Staff Level</th>\n<th>HCPCS Code</th>\n<th>HFS Legacy COS</th>\n<th>POS Code</th>\n<th>Units/ Maximums</th>\n<th>HFS-required Prior Approval</th>\n</tr>\n<tr>\n<td>Care Coordination &amp; Support -Tier 1, High Fidelity Wraparound (HFW)*</td>\n<td>MHP</td>\n<td>G9001</td>\n<td>122</td>\n<td>99 -Other Place of Service</td>\n<td>Only 1 Unit Monthly</td>\n<td>OBRA Code = NB Pathways Community</td>\n</tr>\n<tr>\n<td>Care Coordination &amp; Support -Tier 2, Intensive Care Coordination (ICC)*</td>\n<td>MHP</td>\n<td>G9002</td>\n<td>122</td>\n<td></td>\n<td>Only 1 Unit Monthly</td>\n<td>OBRA Code = NM Pathways Institutional</td>\n</tr>\n</table>\n\n*These services must be authorized by HFS. MCOs receive a file from HFS indicating the provider authorized to provide services to the\nmember. Only the HFS Provider ID associated with the authorization can provide the services to the member for Care Coordination &\nSupport - HFW or ICC.\n\n##### NOTE:\n\n· If approved for HFW or ICC services, the Provider CANNOT also bill T1016 Case Management\nCodes\n\n· This file does NOT indicate the eligibility for other Pathways Specific Services outlined in Table D\nbelow.\n\n<table>\n<tr>\n<th colspan=\"8\">Pathways Specific Services - billable by BHC and CMHC - Table D</th>\n</tr>\n<tr>\n<th rowspan=\"2\">Service Name</th>\n<th rowspan=\"2\">Staff Level</th>\n<th rowspan=\"2\">HFS COS</th>\n<th rowspan=\"2\">Place of Service Codes*</th>\n<th rowspan=\"2\">HCPCS Code</th>\n<th colspan=\"2\">Modifiers</th>\n<th rowspan=\"2\">Units/Maximums</th>\n</tr>\n<tr>\n<th>1</th>\n<th>2</th>\n</tr>\n<tr>\n<td>Family Peer Support</td>\n<td>RSA</td>\n<td>121</td>\n<td>On-site and Off-Site POS</td>\n<td>H0038</td>\n<td>HS</td>\n<td></td>\n<td>1/4 hour / 96 units daily</td>\n</tr>\n<tr>\n<td>Respite, Individual **</td>\n<td>RSA</td>\n<td>121</td>\n<td>Off-Site POS</td>\n<td>T1005</td>\n<td></td>\n<td></td>\n<td>1 hour / 7 hours daily</td>\n</tr>\n<tr>\n<td>Respite, Group **</td>\n<td>RSA</td>\n<td>121</td>\n<td>Off-Site POS</td>\n<td>T1005</td>\n<td>HQ</td>\n<td></td>\n<td>1 hour / 7 hours daily</td>\n</tr>\n<tr>\n<td>Therapeutic Mentoring</td>\n<td>RSA</td>\n<td>121</td>\n<td>On-site and Off-Site POS</td>\n<td>H2019</td>\n<td></td>\n<td></td>\n<td>1/4 hour / 96 units daily</td>\n</tr>\n<tr>\n<td>Intensive Home Based (IHB) - Clinical</td>\n<td>LPHA</td>\n<td>121</td>\n<td>On-site and Off-Site POS</td>\n<td>S9482</td>\n<td>TF</td>\n<td></td>\n<td>1/4 hour / 96 units daily</td>\n</tr>\n<tr>\n<td>Intensive Home Based (IHB) - Clinical</td>\n<td>QMHP</td>\n<td>121</td>\n<td>On-site and Off-Site POS</td>\n<td>S9482</td>\n<td>HO</td>\n<td></td>\n<td>1/4 hour / 96 units daily</td>\n</tr>\n<tr>\n<td>Intensive Home Based (IHB) - Support</td>\n<td>ΜΗΡ</td>\n<td>121</td>\n<td>On-site and Off-Site POS</td>\n<td>S9482</td>\n<td></td>\n<td></td>\n<td>1/4 hour / 96 units daily</td>\n</tr>\n<tr>\n<td colspan=\"8\">Pathways Specific Services - billable by BHC and CMHC participating in Child and Family Teams</td>\n</tr>\n<tr>\n<td rowspan=\"4\">IATP: Child and Family Team Participation</td>\n<td rowspan=\"4\">RSA or higher</td>\n<td>006 034</td>\n<td rowspan=\"4\">On-site and Off-Site POS</td>\n<td>G9007</td>\n<td></td>\n<td></td>\n<td rowspan=\"2\">Event: &lt; or = 90 mins.</td>\n</tr>\n<tr>\n<td>058</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>059</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>116</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n<table>\n<tr>\n<th colspan=\"8\">Pathways Specific Services - billable by BHC and CMHC - Table D</th>\n</tr>\n<tr>\n<th rowspan=\"2\">Service Name</th>\n<th rowspan=\"2\">Staff Level</th>\n<th rowspan=\"2\">HFS COS</th>\n<th rowspan=\"2\">Place of Service Codes*</th>\n<th rowspan=\"2\">HCPCS Code</th>\n<th colspan=\"2\">Modifiers</th>\n<th rowspan=\"2\">Units/Maximums</th>\n</tr>\n<tr>\n<th>1</th>\n<th>2</th>\n</tr>\n<tr>\n<td>IATP: Child and Family</td>\n<td>RSA or</td>\n<td>006</td>\n<td rowspan=\"3\">On-site and Off-Site POS</td>\n<td>G9007</td>\n<td>TG</td>\n<td></td>\n<td>Event: &gt;90 mins.</td>\n</tr>\n<tr>\n<td rowspan=\"3\">Team Participation</td>\n<td>Higher</td>\n<td>034</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>058</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>059</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>116</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n*Refer to the Allowable Place of Service Codes table in the CBS Coding and Billing Guidelines section.\n\n** Respite services for the Pathways program are not allowed to be performed via telehealth. Modifiers GT or 93 and POS 10 or 02 are not\nallowed to be billed for these codes.\n\n## IV. Professional Services\n### G. Anesthesia\n#### iv. Anesthesia - Other\n\n##### Anesthesia Standby\n\nAn anesthesiologist/CRNA may submit a charge for \"standby\" only when the pre-operative anesthetic\nexamination and evaluation have been performed for a planned surgery, but the surgery is canceled\ndue to the participant's condition. The charge should be submitted using the \"unlisted\" code for the\nbody system/area related to the scheduled surgery. Enter \"standby for surgery cancelled due to\n[specific reason].\" Enter the amount of time required for the standby. Standby is not allowed for\nsituations where surgery may or may not be necessary, such as an attempted vaginal delivery that may\nresult in Cesarean delivery, etc.\n\n##### Anesthesia - Pain Management in an Office Setting\n\nWhen providing services in an office setting for purposes of pain management (not related to post-\noperative intractable pain - see above), practitioners cannot bill using any of the following taxonomy\ncodes:n\n\n· 207L00000X - Anesthesiology\n\n· 207LA0401X - Anesthesiology, Addiction Med\n\n· 207LC0200X - Anesthesiology, Critical Care\n\n· 207LP2900X - Anesthesiology, Pain Medicine\n\nThese taxonomies are to be used only in conjunction with appropriate anesthesia CPT codes (00100\nthrough 01999). For services performed in an office setting, practitioners must use a physician\ntaxonomy code associated with HFS Category of Service (COS) 001-Physician Services. A taxonomy\ncode look-up tool is available [here.](https://taxonomy.nucc.org/) Some examples include:\n\n· 208600000X - Surgery\n\n· 208D00000X - General Practice Physician\n\n· 207R00000X - Internal Medicine\n\n· 208VP0000X - Pain Medicine Physician\n\n### H. Surgery\n#### i. Surgical Services - Office\n\nCertain procedures are eligible for additional reimbursement if the procedure is provided in the\npractitioner's office. No additional coding is necessary to receive the additional reimbursement.\nAdditional information regarding the surgical add-on may be found on the [Practitioner Fee Schedule](https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/practitioner.html) .\n\n##### a) Anesthesia\n\nWhen an office surgical procedure requires the administration of local anesthesia, no additional charge\nmay be made for the anesthesia agent or for the administration, as both are considered a part of the\noperative procedure.\n\n##### b) Burn Treatment\n\nCharges may be made for surgical debridement for burns, when substantiating information is\nsubmitted. The appropriate CPT code is to be used to submit charges for surgical debridement. No\nadditional charge may be made for the evaluation and management CPT code.\n\n#### ii. Surgical Services - Hospital\n\n##### a) Covered Surgical Procedures\n\nSurgical procedures are allowable when they are medically necessary, recognized as standard medical\ncare and required for the immediate health and well-being because of illness, disability, infirmity, or\nimpairment.\n\n##### b) Global Postoperative Period\n\nReimbursement for a major operative procedure includes the pre-surgical examination subsequent to\nthe decision for surgery and rendered on the date of surgery or the day immediately prior, and\ncomplete postoperative care including postoperative office visits and customary wound dressings for a\nperiod of 30 days. Reimbursement for a burn procedure (debridement, skin grafting, and/or flaps, etc.)\nincludes postoperative visits, wound care, and dressing changes for a period of seven (7) days after the\nsurgical procedure.\n\n##### c) Concurrent Care during Postoperative Period\n\nA practitioner other than the surgeon may receive reimbursement during the postoperative period\nonly for visits for conditions/diagnoses unrelated to the surgery.\n\nMultiple/Complex Procedures\n\nInstructions for billing multiples are specific to the procedure code and are included in the Practitioner\nFee Schedule. Additional procedures may be paid at a lesser rate or may be rejected as part of the\n\nsurgical package. Surgical procedures considered incidental to or a component of the major procedure\nwill not be paid separately from the major code.\n\n#### iii. Co-Surgeon/Surgical Assistance\n\n##### a) Co-Surgeon\n\nWhen two surgeons of equal competence participate in an operation on a basis of other than surgeon\nand assistant surgeon, payment is based upon the procedure(s) accomplished and will be divided\nequally between the two surgeons. Procedure codes payable to co-surgeon are identified on the\nPractitioner Fee Schedule. Enter the appropriate procedure code(s) for the specific surgical\nprocedure(s).\n\n##### b) Surgical Assistance\n\nSurgical assistance is a covered service only when provided for major or complex surgical procedures.\nProcedure codes payable for surgical assistance are identified on the Practitioner Fee Schedule. Enter\nthe appropriate procedure code for the major surgical procedure. Enter the appropriate assistant-at-\nsurgery modifier in the Modifier Field. Complete the \"Days/Units\" Field of the service section showing\nthe time required to assist at the surgery. Enter the actual time in minute format, e.g., the entry for 1\nhour and 10 minutes is \"0070.\"\n\n##### c) Surgical assistance by a non-enrolled APN\n\nCharges for assistant surgeon services rendered by a non-enrolled APN* must be submitted under the\nsurgeon's name and NPI. Enter the appropriate procedure code for the major surgical procedure. Enter\nmodifier \"AS\" in the Modifier Field. Complete the \"Days/Units\" Field of the service section showing the\ntime required to assist at the surgery. Enter the actual time in minute format, e.g., the entry for 1 hour\nand 10 minutes is \"0070.\"\n\n\\* NOTE: Effective September 1, 2021, APNs will be required to enroll in IMPACT and bill using their\nown NPI. Claims using the AS modifier and billed under the surgeon's name will not be accepted.\n\n##### d) Surgical Burn Treatment\n\nPractitioners may submit charges for surgical burn treatment, including debridement, participant site\npreparation, and application of skin replacements or substitutes (grafting). An evaluation and\nmanagement visit on the same day as the surgical burn treatment by the same practitioner is not\nreimbursable. Claims must be submitted using the appropriate CPT code for the location and type of\nwound preparation and application of grafts. The CPT code for the initial procedure is billed with\nDays/Units showing quantity \"1.\" The subsequent service section should contain the CPT add-on code\nfor all additional square cm or percent body area, with the total additional quantity shown in the\nDescription Field, and with the Days/Units Field showing quantity \"1.\"\n\n(Use only with Group Codes PR or CO depending upon lability)</td>\n</tr>\n<tr>\n<td>PR-119</td>\n<td></td>\n<td>Benefit maximum for this time period or occurrence has been reached.</td>\n</tr>\n</table>\n\nPR-204\n\nThis servicelequipmentidrug is not covered under the patient's current benefit plan\n\n##### Example 2- Hospital Claim Example with deductible\n\nThe Hospital rate for Medicaid was $212.62 without other insurance for this date of service. If a\nmember has other insurance, MCO will only consider up to what Medicaid would allow.\n\n<table>\n<tr>\n<th>Date of Service</th>\n<th>Revenue Code</th>\n<th>Procedure Code</th>\n<th>Line Charge</th>\n</tr>\n<tr>\n<td>5/24/2021</td>\n<td>300</td>\n<td>87086</td>\n<td>$154.00</td>\n</tr>\n<tr>\n<td>5/24/2021</td>\n<td>300</td>\n<td>87635</td>\n<td>$398.00</td>\n</tr>\n<tr>\n<td>5/24/2021</td>\n<td>300</td>\n<td>81003</td>\n<td>$82.00</td>\n</tr>\n<tr>\n<td>5/24/2021</td>\n<td>240</td>\n<td>G0282</td>\n<td>$421.00</td>\n</tr>\n<tr>\n<td>5/24/2021</td>\n<td>942</td>\n<td></td>\n<td>$6.00</td>\n</tr>\n</table>\n\n<table>\n<tr>\n<td>Total Charge</td>\n<td>$ 1,061.00</td>\n</tr>\n<tr>\n<td>Total Paid if Medicaid was the Primary Payor</td>\n<td>$212.62</td>\n</tr>\n<tr>\n<td>Total Allowed by Primary Carrier</td>\n<td>$745.75</td>\n</tr>\n<tr>\n<td>Total Paid by Primary Carrier = 0 - $745.75 was applied to a 1000.00 deductible</td>\n<td>$0.00</td>\n</tr>\n<tr>\n<td>Total allowed by per Medicaid rate of $212.62</td>\n<td>MCO should pay</td>\n</tr>\n<tr>\n<td>The provider is entitled to their contracted rate with HFS of $212.62. $ 212.62 - 0.00 = $212.62</td>\n<td>$212.62</td>\n</tr>\n</table>\n\n##### Hospital Claims- Possible Differences when reviewing EOBs\n\nIt should be noted that there can be times that the primary payor's revenue codes may not exactly\nmatch with how Medicaid processes a particular service. There can be a discrepancy in billing based on\nthe Illinois Medicaid Non Covered Revenue Code List (see [Appendix H-3 of the HFS Handbook for](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/h200a.pdf)\n[Hospital Services).](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/h200a.pdf) Many commercial payors are not going to have the same non-covered revenue\ncodes as Illinois Medicaid. Those commercial primary payors are NOT going to deny a claim at the\nclaim level as is done for Illinois Medicaid. Typically, the commercial payor would deny at the line\nlevel."
-    ]
-  ],
-  "source_documents": [
+        "page_content": "## VI. Long-term Care/ Skilled Nursing Facility\n### A. Purpose\n\nThe purpose of this section is to outline the billing policies and procedures related to Long-term Care/\nSkilled Nursing Facility providers.\n\n### B. Provider Type\n\nThe Long-term Care/ Skilled Nursing Facility section applies to provider type 033 which includes skilled\nnursing facilities, intermediate care facilities, and general acute hospital LTC wing.\n\n### C. Long Term Care (LTC) Eligibility\n\n· A Medicaid recipient must be assessed and their determination of need must be approved to\nqualify for long term care\n\n· The MCOs do not determine eligibility for long term care services\n\n· While HFS determines eligibility for services, many MCOs have a notification or authorization\nrequirement related to the admittance to the facility.\n\n· Exceptional care approval is determined by the state\n\no Member must be approved for exceptional care\n\no Provider must be enrolled with category of service 038 to provide/bill exceptional care\n\n· Exceptional care is on the patient credit file with approved providers/dates\n\n### D. IMPACT Enrollment Requirements\n\nProvider must be Enrolled in HFS IMPACT system as provider type 033\n\n· Skilled Nursing Facility\n\n· Nursing Facility/Intermediate Care\n\n· General Acute Care Hospital LTC Wing\n\nThe approved categories of service in IMPACT may include:\n\n· 070 LTC-Skilled\n\n· 071 LTC Intermediate\n\n· 038 Exceptional Care\n\n. 065 LTC Full Medicare Coverage\n\n· 072 LTC-NF/Skilled/Coinsurance (partial Medicare coverage)\n\n. 083 Developmental Training (not covered by MC plans at this time)\n\n### E. Patient Credit File\n\nThe Patient Credit File (PCF) is submitted to Managed Care Organizations (MCOs) weekly by the\nDepartment of Healthcare and Family Services (HFS). The PCF incorporates data regarding eligible\nservices rendered to a MCO's membership for a rolling 36-month period.\n\nIt is composed of individual member segments, each of which relay the following information:\n\n· Recipient Identification Number (RIN)\n\n· Last Name\n\n· First Name\n\n· LTC Provider ID\n\n##### Part B: Institutional Billing (837I or UB-04 claim types)\n\n· Hospice Provider ID (Conditional)\n\n· Patient Credit Segment Begin Date\n\n· Patient Credit Segment End Date\n\n· Patient Credit Amount\n\n· Exceptional Care (COS 038) (Conditional)\n\n· Exceptional Care Segment Begin Date (Conditional)\n\n· Exceptional Care Segment End Date (Conditional)\n\n· Provisional Eligibility Indicator (Conditional)\n\nThe PCF is a MCO's source of truth for validation.\n\n· HFS notifies the MCOs of patient income responsibilities via the weekly patient credit file (PCF).\n\no The member and the LTC provider (and when applicable, the hospice provider and\nExceptional Care Approval) must be on the patient credit file in order for the provider to\nreceive payment.\n\no All LTC claims are reviewed for patient liability using the patient credit file and the payment\nto LTC providers will be reduced should the member have income liability on the date of\nservice.\n\no Days reported on the PCF do not include the last day of a stay unless discharge was due to\ndeath.\n\n### F. Billing Requirements\n\n. All LTC claims must be billed in an electronic format using the HIPAA 5010 837i\n\n· Billing guidelines describe form locator fields on a UB04 as a point of reference\n\n· Covered Services\n\no Revenue codes 0110-0160: General room and board (except 0115, 0125, 0135, 0145 or\n0155)\n\no Revenue codes 0191-0193: Exceptional care for TBI Levels 1-3\n\no Revenue code 0194: Exceptional care for Vent\n\no Revenue code 0182: Leave of Absence Patient Convenience\n\no Revenue code 0183: Leave of Absence Therapeutic Leave\n\no Revenue code 0185: Hospitalization\n\n· Leave of Absence\n\no Leave of absence revenue codes are not reimbursable although it is required that you bill\nfor those days, the reimbursement will be $0.00.\n\n· Billing Cycle\n\no Claims should not be held by providers. Always submit the claim within the appropriate\ncycle for processing.\n\no Payment for long term care services is on a per diem basis. In determining the number of\ndays for which payment can be made, the day of admission to the facility is counted. The\nday of discharge from the facility is not counted, unless it is the day of death and death\noccurs in the facility or a reserved bed has been authorized for that day.\n\nVI Long-term Care/ Skilled Nursing Facility\n\n· Services billed should be in one-month increments\n\no Example 1: 3/1/19-3/31/19\n\no Example 2: with an admit date of 2/6/19\n\\- 2/6/19-2/28/19\n\no Example 3: with a discharge date of 2/20/19\n\\- 2/1/19-2/20/19\n\n· If a member transfers to a different level of care within a facility (e.g. moves to skilled care for a\nportion of the month), two separate claims using the appropriate bill type must be submitted.\nDates of service for the two claims must not overlap.\n\no Example (for member admitted to facility on 7/1/22)\n\n\\- Claim for intermediate care for the first 15 days of the month:\n\n\" Statement Period: 11/01/22 - 11/15/22\n\n· Bill Type: 0653\n\n\" Admit date on claim: 7/01/22\n\n\" Discharge date on claim: 11/15/22\n\n· Value Code 80 = 15\n\n· Revenue Code 0120 = 15\n\n\\- Claim for skilled care for last 15 days of the month:\n\n\" Statement Period: 11/16/22 - 11/30/22\n\n· Bill Type: 0213\n\n\" Admit date on claim: 7/1/22\n\n\" Discharge date on claim: 11/30/22\n\n· Value Code 80 = 15\n\n· Revenue Code 0120 = 15\n\nFor providers with Managed Long-Term Services and Supports (MLTSS) membership residing in their\nfacilities, one-month incremental billing is not always required due to Medicare components on the\nclaim. Covered days from received claim information will be handled as follows:\n\n· Medicaid covered services must be billed to the MCO.\n\n. Medicare covered services must first be billed to Medicare and then may be submitted to\nMedicaid after the adjudication of the Medicare claim.",
+        "type": "Document"
+      }
+    ],
+    "inference_time": 4.028481483459473,
+    "model_name": "gpt-4o-mini",
+    "temperature": 0,
+    "question": "Is Revenue code 0653 covered for a Hospice claim?",
+    "messageId": "4d40339a-6059-4ecd-890d-fac108bcdba6",
+    "threadId": "235257ff-058a-42e2-a4d0-ecbf7261c3d7"
+  }
     {
-      "id": null,
-      "metadata": {
-        "id": "ODM4MTQyYWEtNDQ3NC00ODAwLTgzN2EtNGNhOGRiYjE3NDkx",
-        "page_headers": [
-          "V Pharmacy Providers",
-          "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)"
-        ],
-        "page_number": [214, 215],
-        "page_footers": ["PROPRIETARY"],
-        "page_numbers_given": ["193", "194"],
-        "markdown_chunk_id": [215, 216, 217, 218],
-        "recursive_flag": [false],
-        "first_line_index": [3],
-        "first_line_text": ["Process"],
-        "first_line_polygon": [
-          [
-            71.17920000000001, 73.008, 113.364, 73.2096, 113.31360000000001,
-            84.168, 71.1288, 83.97359999999999
-          ]
-        ],
-        "last_line_index": [40],
-        "last_line_text": [
-          "contain the name of the drug, strength of the drug and amount given."
-        ],
-        "last_line_polygon": [
-          [
-            53.092800000000004, 565.1999999999999, 394.12080000000003,
-            565.7832000000001, 394.0992, 579.1248, 53.0712, 578.4696
-          ]
-        ],
-        "doc_id": "c5a7dd9b-04cf-44cc-b639-a3751d42066b",
-        "token_count": 1087,
-        "Header_1": "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)",
-        "Header_2": "V. Pharmacy Providers",
-        "Header_3": "D. Billable Services",
-        "Header_4": "ii. HFS Provider Type 060- Billing for Durable Medical Equipment via the Medical Claim Process, iii. Infusion Therapy Services, iv. Specialty Pharmacies, v. Practitioner Administered Drugs",
-        "captions": {
-          "text": "Some examples of common IV drugs that cannot be billed to the MCO include:    HCPC Procedure Code Description GPI   J7121 DEXTROSE 5% IN LACTATED RINGERS 9270070102120   J3285 TREPROSTINIL INJ SOLN 200 MG/20ML (10 MG/ML) 16220020312040   J1569 IMMUNE GLOBULIN (HUMAN) IV OR SUBCUTANEOUS SOLN 30 GM/300ML 21500011002120    #### iv. This CPT procedure.",
-          "highlights": "Some<em> examples </em>of common IV drugs that<em> cannot be </em>billed to<em> the MCO include:    HCPC Procedure Code Description GPI   J7121 DEXTROSE 5% IN LACTATED RINGERS 9270070102120   J3285 TREPROSTINIL INJ SOLN 200 MG/20ML (10 MG/ML) 16220020312040   J1569 IMMUNE GLOBULIN (HUMAN) IV OR SUBCUTANEOUS SOLN 30 GM/300ML 21500011002120    #### iv.</em> This CPT procedure."
+    "input": "Is Revenue code 0653 covered for a Hospice claim?",
+    "history": [],
+    "output": "### Coverage of Revenue Code 0653 for Hospice Claims\n\n**Revenue Code 0653** is not specifically mentioned in the context provided for hospice billing. The covered revenue codes for hospice services include:\n\n- **0651**: Routine Home Care\n- **0652**: Continuous Home Care\n- **0655**: Inpatient Respite Care\n- **0656**: General Inpatient Care\n- **0657**: Physician Services\n- **0658**: LTC Room & Board\n\nSince **0653** is not listed among the covered revenue codes for hospice claims, it can be inferred that it is **not covered** for hospice claims under the current billing policies and procedures.\n\nIf you have further questions or need additional clarification, feel free to ask!",
+    "intermediate_steps": [[]],
+    "source_documents": [
+      {
+        "id": null,
+        "metadata": {
+          "id": "ZTM2YTEwZTMtMmMzMi00NGRjLWFjNWEtYWVlZjRmYzQzNmI1",
+          "page_headers": [
+            "VI Long-term Care/ Skilled Nursing Facility",
+            "Part B: Institutional Billing (837I or UB-04 claim types)"
+          ],
+          "page_number": [121, 122, 123],
+          "page_footers": ["PROPRIETARY"],
+          "page_numbers_given": ["100", "101"],
+          "markdown_chunk_id": [96, 97, 98, 99, 100, 101],
+          "recursive_flag": [false],
+          "first_line_index": [2],
+          "first_line_text": ["A. Purpose"],
+          "first_line_polygon": [
+            [
+              53.0208, 87.15599999999999, 134.532, 87.6744, 134.4528, 100.6272,
+              52.992, 100.116
+            ]
+          ],
+          "last_line_index": [31],
+          "last_line_text": [
+            "Medicaid after the adjudication of the Medicare claim."
+          ],
+          "last_line_polygon": [
+            [
+              80.06400000000001, 573.0696, 347.0544, 573.012, 347.0544,
+              585.8784, 80.06400000000001, 585.9288
+            ]
+          ],
+          "doc_id": "006e0d7d-af6f-4ea2-843c-39739f93c07b",
+          "token_count": 1375,
+          "Header_1": "Part B: Institutional Billing (837I or UB-04 claim types)",
+          "Header_2": "VI. Long-term Care/ Skilled Nursing Facility",
+          "Header_3": "A. Purpose, B. Provider Type, C. Long Term Care (LTC) Eligibility, D. IMPACT Enrollment Requirements, E. Patient Credit File, F. Billing Requirements",
+          "Header_4": "",
+          "captions": {
+            "text": "...for member admitted to facility on 7/1/22)  \\- Claim for intermediate care for the first 15 days of the month:  \" Statement Period: 11/01/22 - 11/15/22  · Bill 0653  \" Admit date on claim: 7/01/22  \" Discharge date on claim: 11/15/22  · Value Code 80 = 15  · Revenue Code 0120 = 15  \\- Claim for skilled care for last 15 days of the month:  \".",
+            "highlights": "...for member admitted to facility on 7/1/22)  \\- Claim for intermediate care for the first 15 days of the month:  \" Statement Period: 11/01/22 - 11/15/22  · Bill<em> 0653 </em> \" Admit date on claim: 7/01/22  \" Discharge date on claim: 11/15/22  · Value Code 80 = 15  ·<em> Revenue </em>Code 0120 = 15  \\- Claim for skilled care for last 15 days of the month:  \"."
+          },
+          "answers": "",
+          "score": 0.016129031777381897,
+          "retriever_k": 5,
+          "retriever_score_threshold": 0
         },
-        "answers": "",
-        "score": 0.010869565419852734,
-        "retriever_k": 5,
-        "retriever_score_threshold": 0
-      },
-      "page_content": "## V. Pharmacy Providers\n### D. Billable Services\n#### ii. HFS Provider Type 060- Billing for Durable Medical Equipment via the Medical Claim Process\n\nPharmacies must be registered in IMPACT with the following COS or specialties in order to bill an MCO\nfor DME via the medical claim process.\n\n· 041 - Medical Equipment/Prosthetic Devices\n\n· 048 - Medical Supplies\n\nThe charges must be submitted on a CMS 1500 form or 837P electronic claim. Pharmacy providers can\nrefer to the 'General Claim Submissions Guidelines' in this manual for greater clarity on this claim\nformat.\n\nSome examples of DME supplies/service that can be billed to the MCO include:\n\n· Food Thickeners - B4100\n\n· Parenteral Nutrition Administration Kit - B4224\n\n· External Insulin Infusion Pumps - A4230, A4231\n\n· Gastro/JeJunoTube - B4088\n\n· Enteral Feeding Supply Kit - B4035\n\n#### iii. Infusion Therapy Services\n\nInfusion therapy equipment and supplies, such as ambulatory infusion, stationary infusion and enteral\nnutrition pumps all qualify as DME services the pharmacy can bill under the medical plan. All supplies\nneeded to maintain IV access are included in the infusion pump codes and cannot be billed separately.\nThis includes items such as:\n\n· alcohol pads\n\n· betadine swabs\n\n· sharp containers\n\n· sterile gloves\n\n· dressing change kits\n\n· flushing syringes\n\n· vial adapters\n\n· extension sets\n\n· IV start kit, tape\n\n· IV cannulas (peripheral line)\n\n· needleless system supplies\n\n· needles\n\n· cassette with tubing\n\n· TPN bag\n\n· administration set with filter\n\n· metered delivery tubing\n\nThe maximum allowable rate for each code is a flat rate regardless of number of medications or\namount of supplies needed. The following supplies are permitted to be billed separately:\n\n· a thermometer\n\n· one box of 100 non-sterile gloves per month\n\n· non-coring Huber like needles\n\nRefer to the [Illinois HFS DME fee schedule](https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/dme.html) for the complete listing of covered codes that can be\nsubmitted on the MCO medical claim platforms.\n\n##### IMPORTANT NOTE REGARDING IV DRUGS:\n\nPharmacies cannot bill drug codes to the medical plans. Some examples of common IV drugs that\ncannot be billed to the MCO include:\n\n<table>\n<tr>\n<th>HCPC Procedure Code</th>\n<th>Description</th>\n<th>GPI</th>\n</tr>\n<tr>\n<td>J7121</td>\n<td>DEXTROSE 5% IN LACTATED RINGERS</td>\n<td>9270070102120</td>\n</tr>\n<tr>\n<td>J3285</td>\n<td>TREPROSTINIL INJ SOLN 200 MG/20ML (10 MG/ML)</td>\n<td>16220020312040</td>\n</tr>\n<tr>\n<td>J1569</td>\n<td>IMMUNE GLOBULIN (HUMAN) IV OR SUBCUTANEOUS SOLN 30 GM/300ML</td>\n<td>21500011002120</td>\n</tr>\n</table>\n\n#### iv. Specialty Pharmacies\n\nAt this time, HFS does not have a specific IMPACT provider type for specialty pharmacy or IV Infusion\nthat allows for Medicaid reimbursement. Specialty pharmacies should register in IMPACT as Provider\nType 060 to dispense and bill any covered specialty medications.\n\nSpecialty pharmaceuticals (when medically necessary) are a Medicaid covered benefit. Practitioners\nthat need to order specialty medication that must be administered via a practitioner's office, should\ncontact each MCOs PBM for specific directions on acquiring the medically necessary pharmaceuticals\ncovered via the pharmacy benefit.\n\nFor example:\n\nPatient needs Synagis as part of CPT Code 90378. This CPT procedure code is not found on the Illinois\nPractitioner Fee Schedule, so this is not considered a 'buy and bill' physician-stocked drug that would\nfunction as indicated in the next section on 'Practitioner Administered Drugs'. As a result, the\npractitioner should contact the MCO PBM for information on how to have the prescription for this drug\nfilled via the PBM process and then have the drug shipped to the practitioner's office via the Pharmacy\nBenefit.\n\n#### v. Practitioner Administered Drugs\n\nReimbursement for certain practitioner-administered drugs may be made to practitioners (i.e. HFS\nprovider type 010). The drug must have been purchased by the practitioner and must be administered\nin the office setting in order to be submitted on the professional claim to the MCO. Reimbursement for\nthese services will be based on the [HFS Practitioner Fee Schedule.](https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/practitioner.html)\n\nSubmit the appropriate CPT or HCPCS Code(s) to identify the drug. When a specific code is not\navailable, an unlisted medication CPT code may be used. The corresponding description field must\ncontain the name of the drug, strength of the drug and amount given.",
-      "type": "Document"
-    },
-    {
-      "id": null,
-      "metadata": {
-        "id": "MmVlNzc2YTQtYWJjYS00NDlhLThhZTItM2NkN2IyOWE3Yzlj",
-        "page_headers": [
-          "IV Professional Services",
-          "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)"
-        ],
-        "page_number": [201, 202],
-        "page_footers": ["PROPRIETARY"],
-        "page_numbers_given": ["181", "180"],
-        "markdown_chunk_id": [197],
-        "recursive_flag": [false],
-        "first_line_index": [0],
-        "first_line_text": ["IV Professional Services"],
-        "first_line_polygon": [
-          [
-            461.8512, 37.0656, 558.7632, 37.137600000000006, 558.7344, 47.268,
-            461.8224, 46.987199999999994
-          ]
-        ],
-        "last_line_index": [38],
-        "last_line_text": [
-          "A mammogram for diagnostic purposes is covered when medically necessary, regardless of sex or age."
-        ],
-        "last_line_polygon": [
-          [
-            53.2008, 702.7128, 551.34, 702.9216, 551.3328, 715.8672, 53.1936,
-            715.6152
-          ]
-        ],
-        "doc_id": "16ab8074-a679-41a9-894f-41ea857067ff",
-        "token_count": 1068,
-        "Header_1": "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)",
-        "Header_2": "IV. Professional Services",
-        "Header_3": "J. Radiology Services",
-        "Header_4": "",
-        "captions": {
-          "text": "Professiona... If the procedure is performed percutaneously and no specific code is available, the practitioner is to use the unlisted code for the pertinent body system and the specific procedure identified in the description field. Radiologists are not to use incisional procedure codes for procedures done percutaneously. ##### Computer.",
-          "highlights": "Professiona... If the<em> procedure </em>is performed<em> percutaneously </em>and<em> no specific code </em>is available, the<em> practitioner </em>is to use the<em> unlisted code </em>for the pertinent body system and the specific procedure identified in the description field. <em>Radiologists are not to use incisional procedure codes for procedures done percutaneously.</em> ##### Computer."
-        },
-        "answers": "",
-        "score": 0.01123595517128706,
-        "retriever_k": 5,
-        "retriever_score_threshold": 0
-      },
-      "page_content": "## IV. Professional Services\n### J. Radiology Services\n\nRadiological and X-ray services are covered when essential for the diagnosis and treatment of disease\nor injury. Routine screening X-rays are not covered. Exception is mammography.\n\nCharges for the professional or technical component of radiology services must be submitted with the\nappropriate CPT code and modifier. Additional information regarding billing for radiology services or\nmultiple occurrences of the same procedure on the same date of service may be found on the\n[Practitioner Fee Schedule Key.](https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/practitioner.html)\n\nCertain X-rays are limited to a quantity of one (1) per day due to the nature of service, e.g.,\nangiography, gallbladder, upper GI series, etc. If the procedure is repeated at a separate time on the\nsame day, the \"unlisted\" code is to be used with a separate charge.\n\nA practitioner may charge only for X-ray examinations provided in the practitioner's own office, by the\npractitioner's staff. When only X-rays are provided at the time of an office visit, an office visit charge\nmay not be made. A central X-ray Department serving the practitioners in group practice is considered\nthe practitioner's office.\n\n##### Hospital-Based Radiology Services:\n\nOnly a non-salaried radiologist may bill for the professional component. A hospital- based radiologist\nmay submit charges for professional services in connection with referred X-ray services if the\nradiologist's contractual agreement with the hospital provides for separation of charges and is not\nincluded in the cost report for direct patient care. The services must be billed using the hospital-based\nradiologist's NPI and not the hospital NPI for the professional component. Any interpretations of X-rays\nor tests not directly related to patient care are not reimbursable.\n\n##### Radiation Therapy:\n\nA radiologist may charge only for the specific X-ray examinations or radiation therapy provided in\naccordance with requests of the referring practitioner. Additional charges for visits or services, such as\ndosage calculations, port plans, field settings, etc., are not reimbursable.\n\n##### Proton Therapy:\n\nProton therapy is reimbursable to facilities having a 'PTN' specialty code on file. Reimbursement is\nallowed for one proton beam treatment delivery code per date of service. In addition, one radiation\ntreatment delivery code is separately payable for the purpose of guidance/localization of the proton\nbeam.\n\n##### Ultrasound Imaging:\n\nUltrasound imaging, scanning, echograms, or sonograms are covered when medically necessary.\nRoutine screening or surveys are not allowed, nor are \"rule-out\" examinations unless a specific\ndifferential problem exists.\n\nWhen a charge is made for ultrasound examinations, an additional charge cannot be made for\nradiographic examinations of the same area or systems unless adequate justification is given for both\nprocedures.\n\n##### Surgical/Diagnostic Procedures Requiring Radiological Supervision/Interpretation:\n\nWhen a radiologist performs a specific procedure, e.g., catheter insertion, biopsy, injection, angioplasty\nand radiological supervision and interpretation, two separate codes and charges should be submitted.\n\nThe charges for the procedure and the radiological supervision/interpretation are to be shown on the\nsame claim with Type of Service Code \"4, diagnostic X-ray - radiologist.\" If the procedure is performed\npercutaneously and no specific code is available, the practitioner is to use the unlisted code for the\npertinent body system and the specific procedure identified in the description field.\n\nRadiologists are not to use incisional procedure codes for procedures done percutaneously.\n\n##### Computer Tomography (CT) and Magnetic Resonance Imaging (MRI):\n\nReimbursement may be made to the practitioner for interpretation of CT or MRI procedures provided\nin any setting. Payment is allowed for only one complete CT or MRI procedure per day per patient (e.g.,\na CT of the abdomen and pelvis is a complete procedure or multiple sections of the spine).\n\n##### Multiple Radiology Procedures on the Same Day:\n\nMultiple radiology procedures performed on the same day involving areas of the body that are\noverlapping are either paid at a reduced rate or rejected as an X-ray procedure previously paid. This\nmethodology applies to all radiological testing including X-rays, CT/CTA's and MRI/MRA's.\n\nExamples of overlapping radiological studies include:\n\n· Radiological exam of the pelvis, 1 or 2 views, combined with radiological exam of the hip,\ncomplete, minimum 2 views\n\n· CT of the abdomen and CT of the pelvis, or CT of the head and CT of the neck\n\n· Any CTA in combination with any CT\n\n· MRI of multiple levels of the spine\n\n· Any MRA in combination with any MRI\n\n##### Mammography Screening:\n\nMammography screening is a covered service when ordered by a practitioner for screening by low-\ndose mammography for the presence of occult breast cancer. Coverage for this service is available\nunder the following guidelines:\n\n· Baseline mammogram for women 35 and older\n\n· Screening mammogram once per year for women 40 years of age or older\n\nA mammogram for diagnostic purposes is covered when medically necessary, regardless of sex or age.",
-      "type": "Document"
-    },
-    {
-      "id": null,
-      "metadata": {
-        "id": "MWI3NTQxODUtOGIzOS00YTc4LWJlZjctY2E1YWI0OTI4OWM4",
-        "page_headers": [
-          "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types) VI Community Based Behavioral Services(CBS)"
-        ],
-        "page_number": [231, 232],
-        "page_footers": ["PROPRIETARY"],
-        "page_numbers_given": ["210"],
-        "markdown_chunk_id": [228],
-        "recursive_flag": [false],
-        "first_line_index": [0],
-        "first_line_text": [
-          "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)"
-        ],
-        "first_line_polygon": [
-          [
-            53.064, 36.2736, 354.77279999999996, 36.864000000000004,
-            354.74399999999997, 48.6288, 53.0352, 47.9304
-          ]
-        ],
-        "last_line_index": [29],
-        "last_line_text": ["allowed to be billed for these codes."],
-        "last_line_polygon": [
-          [
-            53.0064, 206.3808, 184.5216, 206.4672, 184.5144, 216.87120000000002,
-            52.9992, 216.7848
-          ]
-        ],
-        "doc_id": "b4302105-3b2b-4814-b50a-0c0f38e62842",
-        "token_count": 1644,
-        "Header_1": "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)",
-        "Header_2": "VI. Community Based Behavioral Services(CBS)",
-        "Header_3": "D. Pathways to Success - An Enhanced System of Care",
-        "Header_4": "ii. Pathways Coding Guidance",
-        "captions": {
-          "text": "##### NOTE:  · If approved for HFW or ICC services, the Provider CANNOT also bill T1016 Case Management Codes  · This file does NOT indicate the eligibility for other Pathways Specific Services outlined in Table D below.    Pathways Specific Services - billable by BHC and CMHC - Table D   Service Name Staff Level HFS COS Place of Service Codes*.",
-          "highlights": "##### NOTE:  · If approved for HFW or ICC services, the<em> Provider CANNOT also bill T1016 Case Management Codes </em> · This file<em> does NOT </em>indicate<em> the eligibility </em>for other Pathways Specific Services outlined in Table D below.    Pathways Specific Services - billable by BHC and CMHC - Table D   Service Name Staff Level HFS COS Place of Service Codes*."
-        },
-        "answers": "",
-        "score": 0.013698630034923553,
-        "retriever_k": 5,
-        "retriever_score_threshold": 0
-      },
-      "page_content": "## VI. Community Based Behavioral Services(CBS)\n### D. Pathways to Success - An Enhanced System of Care\n#### ii. Pathways Coding Guidance\n\nPlease refer to the tables below for billing Pathways services.\n\n<table>\n<tr>\n<th colspan=\"7\">Pathways Specific Care Coordination and Support- billable by BHC and CMHC - Table C</th>\n</tr>\n<tr>\n<th>Service Description</th>\n<th>Staff Level</th>\n<th>HCPCS Code</th>\n<th>HFS Legacy COS</th>\n<th>POS Code</th>\n<th>Units/ Maximums</th>\n<th>HFS-required Prior Approval</th>\n</tr>\n<tr>\n<td>Care Coordination &amp; Support -Tier 1, High Fidelity Wraparound (HFW)*</td>\n<td>MHP</td>\n<td>G9001</td>\n<td>122</td>\n<td>99 -Other Place of Service</td>\n<td>Only 1 Unit Monthly</td>\n<td>OBRA Code = NB Pathways Community</td>\n</tr>\n<tr>\n<td>Care Coordination &amp; Support -Tier 2, Intensive Care Coordination (ICC)*</td>\n<td>MHP</td>\n<td>G9002</td>\n<td>122</td>\n<td></td>\n<td>Only 1 Unit Monthly</td>\n<td>OBRA Code = NM Pathways Institutional</td>\n</tr>\n</table>\n\n*These services must be authorized by HFS. MCOs receive a file from HFS indicating the provider authorized to provide services to the\nmember. Only the HFS Provider ID associated with the authorization can provide the services to the member for Care Coordination &\nSupport - HFW or ICC.\n\n##### NOTE:\n\n· If approved for HFW or ICC services, the Provider CANNOT also bill T1016 Case Management\nCodes\n\n· This file does NOT indicate the eligibility for other Pathways Specific Services outlined in Table D\nbelow.\n\n<table>\n<tr>\n<th colspan=\"8\">Pathways Specific Services - billable by BHC and CMHC - Table D</th>\n</tr>\n<tr>\n<th rowspan=\"2\">Service Name</th>\n<th rowspan=\"2\">Staff Level</th>\n<th rowspan=\"2\">HFS COS</th>\n<th rowspan=\"2\">Place of Service Codes*</th>\n<th rowspan=\"2\">HCPCS Code</th>\n<th colspan=\"2\">Modifiers</th>\n<th rowspan=\"2\">Units/Maximums</th>\n</tr>\n<tr>\n<th>1</th>\n<th>2</th>\n</tr>\n<tr>\n<td>Family Peer Support</td>\n<td>RSA</td>\n<td>121</td>\n<td>On-site and Off-Site POS</td>\n<td>H0038</td>\n<td>HS</td>\n<td></td>\n<td>1/4 hour / 96 units daily</td>\n</tr>\n<tr>\n<td>Respite, Individual **</td>\n<td>RSA</td>\n<td>121</td>\n<td>Off-Site POS</td>\n<td>T1005</td>\n<td></td>\n<td></td>\n<td>1 hour / 7 hours daily</td>\n</tr>\n<tr>\n<td>Respite, Group **</td>\n<td>RSA</td>\n<td>121</td>\n<td>Off-Site POS</td>\n<td>T1005</td>\n<td>HQ</td>\n<td></td>\n<td>1 hour / 7 hours daily</td>\n</tr>\n<tr>\n<td>Therapeutic Mentoring</td>\n<td>RSA</td>\n<td>121</td>\n<td>On-site and Off-Site POS</td>\n<td>H2019</td>\n<td></td>\n<td></td>\n<td>1/4 hour / 96 units daily</td>\n</tr>\n<tr>\n<td>Intensive Home Based (IHB) - Clinical</td>\n<td>LPHA</td>\n<td>121</td>\n<td>On-site and Off-Site POS</td>\n<td>S9482</td>\n<td>TF</td>\n<td></td>\n<td>1/4 hour / 96 units daily</td>\n</tr>\n<tr>\n<td>Intensive Home Based (IHB) - Clinical</td>\n<td>QMHP</td>\n<td>121</td>\n<td>On-site and Off-Site POS</td>\n<td>S9482</td>\n<td>HO</td>\n<td></td>\n<td>1/4 hour / 96 units daily</td>\n</tr>\n<tr>\n<td>Intensive Home Based (IHB) - Support</td>\n<td>ΜΗΡ</td>\n<td>121</td>\n<td>On-site and Off-Site POS</td>\n<td>S9482</td>\n<td></td>\n<td></td>\n<td>1/4 hour / 96 units daily</td>\n</tr>\n<tr>\n<td colspan=\"8\">Pathways Specific Services - billable by BHC and CMHC participating in Child and Family Teams</td>\n</tr>\n<tr>\n<td rowspan=\"4\">IATP: Child and Family Team Participation</td>\n<td rowspan=\"4\">RSA or higher</td>\n<td>006 034</td>\n<td rowspan=\"4\">On-site and Off-Site POS</td>\n<td>G9007</td>\n<td></td>\n<td></td>\n<td rowspan=\"2\">Event: &lt; or = 90 mins.</td>\n</tr>\n<tr>\n<td>058</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>059</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>116</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n<table>\n<tr>\n<th colspan=\"8\">Pathways Specific Services - billable by BHC and CMHC - Table D</th>\n</tr>\n<tr>\n<th rowspan=\"2\">Service Name</th>\n<th rowspan=\"2\">Staff Level</th>\n<th rowspan=\"2\">HFS COS</th>\n<th rowspan=\"2\">Place of Service Codes*</th>\n<th rowspan=\"2\">HCPCS Code</th>\n<th colspan=\"2\">Modifiers</th>\n<th rowspan=\"2\">Units/Maximums</th>\n</tr>\n<tr>\n<th>1</th>\n<th>2</th>\n</tr>\n<tr>\n<td>IATP: Child and Family</td>\n<td>RSA or</td>\n<td>006</td>\n<td rowspan=\"3\">On-site and Off-Site POS</td>\n<td>G9007</td>\n<td>TG</td>\n<td></td>\n<td>Event: &gt;90 mins.</td>\n</tr>\n<tr>\n<td rowspan=\"3\">Team Participation</td>\n<td>Higher</td>\n<td>034</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>058</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>059</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>116</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n*Refer to the Allowable Place of Service Codes table in the CBS Coding and Billing Guidelines section.\n\n** Respite services for the Pathways program are not allowed to be performed via telehealth. Modifiers GT or 93 and POS 10 or 02 are not\nallowed to be billed for these codes.",
-      "type": "Document"
-    },
-    {
-      "id": null,
-      "metadata": {
-        "id": "Njk0ZWViOTQtMzc4ZC00OTE0LTkyM2UtMzRmOGZmMDZlYmUx",
-        "page_headers": [
-          "IV Professional Services",
-          "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)"
-        ],
-        "page_number": [194, 195, 196],
-        "page_footers": ["PROPRIETARY"],
-        "page_numbers_given": ["173", "174", "175"],
-        "markdown_chunk_id": [192, 193, 194, 195],
-        "recursive_flag": [false],
-        "first_line_index": [0],
-        "first_line_text": ["IV Professional Services"],
-        "first_line_polygon": [
-          [
-            461.916, 36.9864, 558.6984, 37.116, 558.684, 47.3544,
-            461.90160000000003, 47.232
-          ]
-        ],
-        "last_line_index": [34],
-        "last_line_text": [
-          "Description Field, and with the Days/Units Field showing quantity \"1.\""
-        ],
-        "last_line_polygon": [
-          [
-            53.244, 585.1368, 393.91200000000003, 585.0576, 393.91200000000003,
-            598.6656, 53.244, 598.7447999999999
-          ]
-        ],
-        "doc_id": "fa660463-7a31-4799-9d1f-2e325f5f153a",
-        "token_count": 1388,
-        "Header_1": "Part C: Professional Billing (837P, 837D, CMS-1500 or NDCDP Claim Types)",
-        "Header_2": "IV. Professional Services",
-        "Header_3": "G. Anesthesia, H. Surgery",
-        "Header_4": "iv. Anesthesia - Other, i. Surgical Services - Office, ii. Surgical Services - Hospital, iii. Co-Surgeon/Surgical Assistance",
-        "captions": {
-          "text": "... an Office Setting  When providing services in an office setting for purposes of pain management (not related to post- operative intractable pain - see above), practitioners cannot bill using any of the following ta codes:n  · 207L00000X - Anesthesiology  · 207LA0401X - Anesthesiology, Addiction Med  · 207LC0200X - Anesthesiology, Critical Care.",
-          "highlights": ""
-        },
-        "answers": "",
-        "score": 0.027623284608125687,
-        "retriever_k": 5,
-        "retriever_score_threshold": 0
-      },
-      "page_content": "## IV. Professional Services\n### G. Anesthesia\n#### iv. Anesthesia - Other\n\n##### Anesthesia Standby\n\nAn anesthesiologist/CRNA may submit a charge for \"standby\" only when the pre-operative anesthetic\nexamination and evaluation have been performed for a planned surgery, but the surgery is canceled\ndue to the participant's condition. The charge should be submitted using the \"unlisted\" code for the\nbody system/area related to the scheduled surgery. Enter \"standby for surgery cancelled due to\n[specific reason].\" Enter the amount of time required for the standby. Standby is not allowed for\nsituations where surgery may or may not be necessary, such as an attempted vaginal delivery that may\nresult in Cesarean delivery, etc.\n\n##### Anesthesia - Pain Management in an Office Setting\n\nWhen providing services in an office setting for purposes of pain management (not related to post-\noperative intractable pain - see above), practitioners cannot bill using any of the following taxonomy\ncodes:n\n\n· 207L00000X - Anesthesiology\n\n· 207LA0401X - Anesthesiology, Addiction Med\n\n· 207LC0200X - Anesthesiology, Critical Care\n\n· 207LP2900X - Anesthesiology, Pain Medicine\n\nThese taxonomies are to be used only in conjunction with appropriate anesthesia CPT codes (00100\nthrough 01999). For services performed in an office setting, practitioners must use a physician\ntaxonomy code associated with HFS Category of Service (COS) 001-Physician Services. A taxonomy\ncode look-up tool is available [here.](https://taxonomy.nucc.org/) Some examples include:\n\n· 208600000X - Surgery\n\n· 208D00000X - General Practice Physician\n\n· 207R00000X - Internal Medicine\n\n· 208VP0000X - Pain Medicine Physician\n\n### H. Surgery\n#### i. Surgical Services - Office\n\nCertain procedures are eligible for additional reimbursement if the procedure is provided in the\npractitioner's office. No additional coding is necessary to receive the additional reimbursement.\nAdditional information regarding the surgical add-on may be found on the [Practitioner Fee Schedule](https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/practitioner.html) .\n\n##### a) Anesthesia\n\nWhen an office surgical procedure requires the administration of local anesthesia, no additional charge\nmay be made for the anesthesia agent or for the administration, as both are considered a part of the\noperative procedure.\n\n##### b) Burn Treatment\n\nCharges may be made for surgical debridement for burns, when substantiating information is\nsubmitted. The appropriate CPT code is to be used to submit charges for surgical debridement. No\nadditional charge may be made for the evaluation and management CPT code.\n\n#### ii. Surgical Services - Hospital\n\n##### a) Covered Surgical Procedures\n\nSurgical procedures are allowable when they are medically necessary, recognized as standard medical\ncare and required for the immediate health and well-being because of illness, disability, infirmity, or\nimpairment.\n\n##### b) Global Postoperative Period\n\nReimbursement for a major operative procedure includes the pre-surgical examination subsequent to\nthe decision for surgery and rendered on the date of surgery or the day immediately prior, and\ncomplete postoperative care including postoperative office visits and customary wound dressings for a\nperiod of 30 days. Reimbursement for a burn procedure (debridement, skin grafting, and/or flaps, etc.)\nincludes postoperative visits, wound care, and dressing changes for a period of seven (7) days after the\nsurgical procedure.\n\n##### c) Concurrent Care during Postoperative Period\n\nA practitioner other than the surgeon may receive reimbursement during the postoperative period\nonly for visits for conditions/diagnoses unrelated to the surgery.\n\nMultiple/Complex Procedures\n\nInstructions for billing multiples are specific to the procedure code and are included in the Practitioner\nFee Schedule. Additional procedures may be paid at a lesser rate or may be rejected as part of the\n\nsurgical package. Surgical procedures considered incidental to or a component of the major procedure\nwill not be paid separately from the major code.\n\n#### iii. Co-Surgeon/Surgical Assistance\n\n##### a) Co-Surgeon\n\nWhen two surgeons of equal competence participate in an operation on a basis of other than surgeon\nand assistant surgeon, payment is based upon the procedure(s) accomplished and will be divided\nequally between the two surgeons. Procedure codes payable to co-surgeon are identified on the\nPractitioner Fee Schedule. Enter the appropriate procedure code(s) for the specific surgical\nprocedure(s).\n\n##### b) Surgical Assistance\n\nSurgical assistance is a covered service only when provided for major or complex surgical procedures.\nProcedure codes payable for surgical assistance are identified on the Practitioner Fee Schedule. Enter\nthe appropriate procedure code for the major surgical procedure. Enter the appropriate assistant-at-\nsurgery modifier in the Modifier Field. Complete the \"Days/Units\" Field of the service section showing\nthe time required to assist at the surgery. Enter the actual time in minute format, e.g., the entry for 1\nhour and 10 minutes is \"0070.\"\n\n##### c) Surgical assistance by a non-enrolled APN\n\nCharges for assistant surgeon services rendered by a non-enrolled APN* must be submitted under the\nsurgeon's name and NPI. Enter the appropriate procedure code for the major surgical procedure. Enter\nmodifier \"AS\" in the Modifier Field. Complete the \"Days/Units\" Field of the service section showing the\ntime required to assist at the surgery. Enter the actual time in minute format, e.g., the entry for 1 hour\nand 10 minutes is \"0070.\"\n\n\\* NOTE: Effective September 1, 2021, APNs will be required to enroll in IMPACT and bill using their\nown NPI. Claims using the AS modifier and billed under the surgeon's name will not be accepted.\n\n##### d) Surgical Burn Treatment\n\nPractitioners may submit charges for surgical burn treatment, including debridement, participant site\npreparation, and application of skin replacements or substitutes (grafting). An evaluation and\nmanagement visit on the same day as the surgical burn treatment by the same practitioner is not\nreimbursable. Claims must be submitted using the appropriate CPT code for the location and type of\nwound preparation and application of grafts. The CPT code for the initial procedure is billed with\nDays/Units showing quantity \"1.\" The subsequent service section should contain the CPT add-on code\nfor all additional square cm or percent body area, with the total additional quantity shown in the\nDescription Field, and with the Days/Units Field showing quantity \"1.\"",
-      "type": "Document"
-    },
-    {
-      "id": null,
-      "metadata": {
-        "id": "YTU5YmZjNDctNjJkNC00NTA5LWIyN2YtMjRkMjRlNDRiNjYz",
-        "page_headers": [
-          "Illinois Association of Medicaid Health Plans Comprehensive Billing Manual Appendix L - Coordination of Benefits (COB)/Third Party Liability (TPL) Policies",
-          "Illinois Association of Medicaid Health Plans Comprehensive Billing Manual Appendix M - HBIA/HBIS Populations"
-        ],
-        "page_number": [360, 361],
-        "page_footers": ["PROPRIETARY"],
-        "page_numbers_given": [
-          "L-3",
-          "L-10",
-          "L-5",
-          "L-11",
-          "L-2",
-          "L-7",
-          "L-8",
-          "L-1",
-          "L-4",
-          "L-9",
-          "L-6"
-        ],
-        "split_id": [15],
-        "markdown_chunk_id": [334],
-        "recursive_flag": [true],
-        "first_line_index": [0],
-        "first_line_text": [
-          "Illinois Association of Medicaid Health Plans Comprehensive Billing Manual"
-        ],
-        "first_line_polygon": [
-          [
-            253.04399999999998, 29.196, 558.54, 29.4552, 558.5255999999999,
-            41.047200000000004, 253.03680000000003, 40.7808
-          ]
-        ],
-        "last_line_index": [9],
-        "last_line_text": ["level."],
-        "last_line_polygon": [
-          [
-            53.135999999999996, 182.2896, 79.65360000000001, 182.304, 79.6464,
-            193.75199999999998, 53.1288, 193.7304
-          ]
-        ],
-        "doc_id": "b2763678-5bf3-473f-87f7-cd92ceb5ddc1",
-        "token_count": 728,
-        "Header_1": "Appendix L: Coordination of Benefits (COB)/Third Party Liability (TPL) Policies",
-        "Header_2": "",
-        "Header_3": "",
-        "Header_4": "",
-        "captions": {
-          "text": "If a member has other insurance, MCO will only consider up to what Medicaid would allow.    Date of Service Revenue Code Procedure Code Line Charge   5/24/2021 300 87086 $154.00   5/24/2021 300 87635 $398.00   5/24/2021 300 81003 $82.00   5/24/2021 240 G0282 $421.00   5/24/2021 942  $6.00      Total Charge $ 1,061.00   Total Paid if Medicaid was.",
-          "highlights": "If a member has other insurance, MCO will only consider up to what Medicaid would allow.    Date of Service Revenue Code<em> Procedure Code </em>Line<em> Charge </em>  5/24/2021 300<em> 87086 </em>$154.00   5/24/2021 300<em> 87635 </em>$398.00   5/24/2021 300 81003 $82.00   5/24/2021 240 G0282 $421.00   5/24/2021 942  $6.00      Total Charge $ 1,061.00   Total Paid if Medicaid was."
-        },
-        "answers": "",
-        "score": 0.014705882407724857,
-        "retriever_k": 5,
-        "retriever_score_threshold": 0
-      },
-      "page_content": "(Use only with Group Codes PR or CO depending upon lability)</td>\n</tr>\n<tr>\n<td>PR-119</td>\n<td></td>\n<td>Benefit maximum for this time period or occurrence has been reached.</td>\n</tr>\n</table>\n\nPR-204\n\nThis servicelequipmentidrug is not covered under the patient's current benefit plan\n\n##### Example 2- Hospital Claim Example with deductible\n\nThe Hospital rate for Medicaid was $212.62 without other insurance for this date of service. If a\nmember has other insurance, MCO will only consider up to what Medicaid would allow.\n\n<table>\n<tr>\n<th>Date of Service</th>\n<th>Revenue Code</th>\n<th>Procedure Code</th>\n<th>Line Charge</th>\n</tr>\n<tr>\n<td>5/24/2021</td>\n<td>300</td>\n<td>87086</td>\n<td>$154.00</td>\n</tr>\n<tr>\n<td>5/24/2021</td>\n<td>300</td>\n<td>87635</td>\n<td>$398.00</td>\n</tr>\n<tr>\n<td>5/24/2021</td>\n<td>300</td>\n<td>81003</td>\n<td>$82.00</td>\n</tr>\n<tr>\n<td>5/24/2021</td>\n<td>240</td>\n<td>G0282</td>\n<td>$421.00</td>\n</tr>\n<tr>\n<td>5/24/2021</td>\n<td>942</td>\n<td></td>\n<td>$6.00</td>\n</tr>\n</table>\n\n<table>\n<tr>\n<td>Total Charge</td>\n<td>$ 1,061.00</td>\n</tr>\n<tr>\n<td>Total Paid if Medicaid was the Primary Payor</td>\n<td>$212.62</td>\n</tr>\n<tr>\n<td>Total Allowed by Primary Carrier</td>\n<td>$745.75</td>\n</tr>\n<tr>\n<td>Total Paid by Primary Carrier = 0 - $745.75 was applied to a 1000.00 deductible</td>\n<td>$0.00</td>\n</tr>\n<tr>\n<td>Total allowed by per Medicaid rate of $212.62</td>\n<td>MCO should pay</td>\n</tr>\n<tr>\n<td>The provider is entitled to their contracted rate with HFS of $212.62. $ 212.62 - 0.00 = $212.62</td>\n<td>$212.62</td>\n</tr>\n</table>\n\n##### Hospital Claims- Possible Differences when reviewing EOBs\n\nIt should be noted that there can be times that the primary payor's revenue codes may not exactly\nmatch with how Medicaid processes a particular service. There can be a discrepancy in billing based on\nthe Illinois Medicaid Non Covered Revenue Code List (see [Appendix H-3 of the HFS Handbook for](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/h200a.pdf)\n[Hospital Services).](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/h200a.pdf) Many commercial payors are not going to have the same non-covered revenue\ncodes as Illinois Medicaid. Those commercial primary payors are NOT going to deny a claim at the\nclaim level as is done for Illinois Medicaid. Typically, the commercial payor would deny at the line\nlevel.",
-      "type": "Document"
-    }
-  ],
-  "model_name": "gpt-4o-mini",
-  "temperature": 0
-}
+        "page_content": "## VI. Long-term Care/ Skilled Nursing Facility\n### A. Purpose\n\nThe purpose of this section is to outline the billing policies and procedures related to Long-term Care/\nSkilled Nursing Facility providers.\n\n### B. Provider Type\n\nThe Long-term Care/ Skilled Nursing Facility section applies to provider type 033 which includes skilled\nnursing facilities, intermediate care facilities, and general acute hospital LTC wing.\n\n### C. Long Term Care (LTC) Eligibility\n\n· A Medicaid recipient must be assessed and their determination of need must be approved to\nqualify for long term care\n\n· The MCOs do not determine eligibility for long term care services\n\n· While HFS determines eligibility for services, many MCOs have a notification or authorization\nrequirement related to the admittance to the facility.\n\n· Exceptional care approval is determined by the state\n\no Member must be approved for exceptional care\n\no Provider must be enrolled with category of service 038 to provide/bill exceptional care\n\n· Exceptional care is on the patient credit file with approved providers/dates\n\n### D. IMPACT Enrollment Requirements\n\nProvider must be Enrolled in HFS IMPACT system as provider type 033\n\n· Skilled Nursing Facility\n\n· Nursing Facility/Intermediate Care\n\n· General Acute Care Hospital LTC Wing\n\nThe approved categories of service in IMPACT may include:\n\n· 070 LTC-Skilled\n\n· 071 LTC Intermediate\n\n· 038 Exceptional Care\n\n. 065 LTC Full Medicare Coverage\n\n· 072 LTC-NF/Skilled/Coinsurance (partial Medicare coverage)\n\n. 083 Developmental Training (not covered by MC plans at this time)\n\n### E. Patient Credit File\n\nThe Patient Credit File (PCF) is submitted to Managed Care Organizations (MCOs) weekly by the\nDepartment of Healthcare and Family Services (HFS). The PCF incorporates data regarding eligible\nservices rendered to a MCO's membership for a rolling 36-month period.\n\nIt is composed of individual member segments, each of which relay the following information:\n\n· Recipient Identification Number (RIN)\n\n· Last Name\n\n· First Name\n\n· LTC Provider ID\n\n##### Part B: Institutional Billing (837I or UB-04 claim types)\n\n· Hospice Provider ID (Conditional)\n\n· Patient Credit Segment Begin Date\n\n· Patient Credit Segment End Date\n\n· Patient Credit Amount\n\n· Exceptional Care (COS 038) (Conditional)\n\n· Exceptional Care Segment Begin Date (Conditional)\n\n· Exceptional Care Segment End Date (Conditional)\n\n· Provisional Eligibility Indicator (Conditional)\n\nThe PCF is a MCO's source of truth for validation.\n\n· HFS notifies the MCOs of patient income responsibilities via the weekly patient credit file (PCF).\n\no The member and the LTC provider (and when applicable, the hospice provider and\nExceptional Care Approval) must be on the patient credit file in order for the provider to\nreceive payment.\n\no All LTC claims are reviewed for patient liability using the patient credit file and the payment\nto LTC providers will be reduced should the member have income liability on the date of\nservice.\n\no Days reported on the PCF do not include the last day of a stay unless discharge was due to\ndeath.\n\n### F. Billing Requirements\n\n. All LTC claims must be billed in an electronic format using the HIPAA 5010 837i\n\n· Billing guidelines describe form locator fields on a UB04 as a point of reference\n\n· Covered Services\n\no Revenue codes 0110-0160: General room and board (except 0115, 0125, 0135, 0145 or\n0155)\n\no Revenue codes 0191-0193: Exceptional care for TBI Levels 1-3\n\no Revenue code 0194: Exceptional care for Vent\n\no Revenue code 0182: Leave of Absence Patient Convenience\n\no Revenue code 0183: Leave of Absence Therapeutic Leave\n\no Revenue code 0185: Hospitalization\n\n· Leave of Absence\n\no Leave of absence revenue codes are not reimbursable although it is required that you bill\nfor those days, the reimbursement will be $0.00.\n\n· Billing Cycle\n\no Claims should not be held by providers. Always submit the claim within the appropriate\ncycle for processing.\n\no Payment for long term care services is on a per diem basis. In determining the number of\ndays for which payment can be made, the day of admission to the facility is counted. The\nday of discharge from the facility is not counted, unless it is the day of death and death\noccurs in the facility or a reserved bed has been authorized for that day.\n\nVI Long-term Care/ Skilled Nursing Facility\n\n· Services billed should be in one-month increments\n\no Example 1: 3/1/19-3/31/19\n\no Example 2: with an admit date of 2/6/19\n\\- 2/6/19-2/28/19\n\no Example 3: with a discharge date of 2/20/19\n\\- 2/1/19-2/20/19\n\n· If a member transfers to a different level of care within a facility (e.g. moves to skilled care for a\nportion of the month), two separate claims using the appropriate bill type must be submitted.\nDates of service for the two claims must not overlap.\n\no Example (for member admitted to facility on 7/1/22)\n\n\\- Claim for intermediate care for the first 15 days of the month:\n\n\" Statement Period: 11/01/22 - 11/15/22\n\n· Bill Type: 0653\n\n\" Admit date on claim: 7/01/22\n\n\" Discharge date on claim: 11/15/22\n\n· Value Code 80 = 15\n\n· Revenue Code 0120 = 15\n\n\\- Claim for skilled care for last 15 days of the month:\n\n\" Statement Period: 11/16/22 - 11/30/22\n\n· Bill Type: 0213\n\n\" Admit date on claim: 7/1/22\n\n\" Discharge date on claim: 11/30/22\n\n· Value Code 80 = 15\n\n· Revenue Code 0120 = 15\n\nFor providers with Managed Long-Term Services and Supports (MLTSS) membership residing in their\nfacilities, one-month incremental billing is not always required due to Medicare components on the\nclaim. Covered days from received claim information will be handled as follows:\n\n· Medicaid covered services must be billed to the MCO.\n\n. Medicare covered services must first be billed to Medicare and then may be submitted to\nMedicaid after the adjudication of the Medicare claim.",
+        "type": "Document"
+      }
+    ],
+    "inference_time": 4.028481483459473,
+    "model_name": "gpt-4o-mini",
+    "temperature": 0,
+    "question": "Is Revenue code 0653 covered for a Hospice claim?",
+    "messageId": "4d40339a-6059-4ecd-890d-fac108bcdba6",
+    "threadId": "235257ff-058a-42e2-a4d0-ecbf7261c3d7"
+  }
+]

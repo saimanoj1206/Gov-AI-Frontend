@@ -43,3 +43,7 @@
   opacity: 1;
   visibility: visible;
 }
+.non-clickable {
+  pointer-events: none;
+  opacity: 0.6;
+}

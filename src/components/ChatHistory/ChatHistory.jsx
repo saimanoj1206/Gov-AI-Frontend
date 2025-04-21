@@ -1,82 +1,143 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./ChatHistory.css";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  deleteThreadHistory,
+  getMessageHistory,
+  getThreadHistory,
+  setResumeChat,
+} from "../../store/slices/historySlice";
+import { setChatHistory } from "../../store/slices/chatSlice";
+import { RiArrowRightWideFill } from "react-icons/ri";
+import { MdDeleteOutline } from "react-icons/md";
+import DeleteConfirmationModal from "./DeleteConfirmationModal/DeleteConfirmationModal";
 
 const ChatHistory = () => {
-  const [isViewAll, setViewAll] = useState(false);
-  const truncateText = (text, maxLength = 35) => {
-    return text.length > maxLength ? text.slice(0, maxLength) + "... >" : text;
-  };
-  const chatData = {
-    "This Week": [
-      "Is Revenue code 0653 covered...",
-      "Can T1015 be reimbursed more than once...",
-      "How is 90935 reimbursed and processed?",
-    ],
-    "Last Week": [
-      "Is there a list of procedure codes available?",
-      "Provide A Comprehensive List...",
-      "Does physician service come under...",
-    ],
-    "Previous Conversations": [
-      "Does Revenue Code 0111 Exist...",
-      "What is the process to reimburse T1015?",
-      "How is 90935 reimbursed and processed?",
-      "Is There A List Of Procedure Codes?",
-    ],
+  const dispatch = useDispatch();
+  const { threads, error } = useSelector((state) => state.history);
+  // const [hoveredThread, setHoveredThread] = useState(null);
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
+  const [threadToDelete, setThreadToDelete] = useState(null);
+
+  useEffect(() => {
+    dispatch(getThreadHistory());
+  }, []);
+
+  const truncateText = (text, maxLength = 32) => {
+    return text.length > maxLength
+      ? text.slice(0, maxLength).trim() + "..."
+      : text;
   };
 
-  const handleViewAll = () => {
-    setViewAll(!isViewAll);
+  const now = new Date();
+  const oneWeekAgo = new Date(now);
+  oneWeekAgo.setDate(now.getDate() - 7);
+  const twoWeeksAgo = new Date(now);
+  twoWeeksAgo.setDate(now.getDate() - 14);
+
+  const categorizedThreads = {
+    "This Week": [],
+    "Last Week": [],
+    "Previous Conversations": [],
   };
+
+  if (threads?.data) {
+    threads.data.forEach((thread) => {
+      const threadDate = new Date(thread.updated_at);
+      if (threadDate >= oneWeekAgo) {
+        categorizedThreads["This Week"].push(thread);
+      } else if (threadDate >= twoWeeksAgo) {
+        categorizedThreads["Last Week"].push(thread);
+      } else {
+        categorizedThreads["Previous Conversations"].push(thread);
+      }
+    });
+  }
+
+  const handleHistoryThreadClick = (threadId) => {
+    dispatch(getMessageHistory({ threadId }))
+      .then((result) => {
+        if (result.payload?.data) {
+         dispatch(
+           setChatHistory(
+             result.payload.data.map((msg) => ({
+               ...msg,
+               messageId: msg.message_id, // normalize for consistent frontend usage
+             }))
+           )
+         );
+          dispatch(setResumeChat(true));
+        }
+      })
+      .catch((error) => {
+        console.error("Error fetching thread messages:", error);
+      });
+  };
+
   return (
     <div className="chat-history">
-      {!isViewAll ? (
-        <div>
-          {Object.entries(chatData).map(([section, questions], index) => (
-            <div key={index}>
-              <h3 className="section-title">{section}</h3>
-              <ul className="question-list">
-                {questions.map((question, idx) => (
-                  <li
-                    key={idx}
-                    className="question-item"
-                    onClick={() => {
-                      console.log("Question Clicked");
-                    }}
-                  >
-                    <p className="question-link">{truncateText(question)}</p>
-                  </li>
-                ))}
-              </ul>
-              <hr className="separator-line" />
-            </div>
-          ))}
-        </div>
-      ) : (
-        <div>
-          {Object.entries(chatData).map(([section, questions], index) => (
-            <ul className="question-list">
-              {questions.map((question, idx) => (
-                <li
-                  key={idx}
-                  className="question-item"
-                  onClick={() => {
-                    console.log("Question Clicked");
-                  }}
-                >
-                  <p className="question-link">{truncateText(question)}</p>
-                </li>
-              ))}
-            </ul>
-          ))}
-        </div>
+      {error && (
+        <p className="error-message">Error loading chat history: {error}</p>
       )}
 
-      <div className="view-all">
-        <h3 className="view-all-link" onClick={handleViewAll}>
-          {!isViewAll ? "View All Questions" : "Previous Questions"}
-        </h3>
-      </div>
+      {Object.values(categorizedThreads).some((threads) => threads.length) ? (
+        <div>
+          {Object.entries(categorizedThreads).map(([section, threads], index) =>
+            threads.length ? (
+              <div key={index}>
+                <h3 className="section-title">{section}</h3>
+                <ul className="question-list">
+                  {threads.map((thread, idx) => (
+                    <li
+                      key={thread.thread_id || idx}
+                      className="question-item"
+                      onClick={() => handleHistoryThreadClick(thread.thread_id)}
+                      // onMouseEnter={() => setHoveredThread(thread.thread_id)}
+                      // onMouseLeave={() => setHoveredThread(null)}
+                    >
+                      <p className="question-link">
+                        {truncateText(thread.thread_name)}
+                      </p>
+                      {/* <span className="question-arrow">
+                        <RiArrowRightWideFill />
+                      </span> */}
+                      <MdDeleteOutline
+                        size={16}
+                        onClick={(e) => {
+                          e.stopPropagation(); // prevent triggering the thread open
+                          setThreadToDelete(thread.thread_id);
+                          setShowDeleteModal(true);
+                        }}
+                      />
+                    </li>
+                  ))}
+                </ul>
+                {showDeleteModal && (
+                  <DeleteConfirmationModal
+                    threadId={threadToDelete}
+                    onClose={() => {
+                      setShowDeleteModal(false);
+                      setThreadToDelete(null);
+                    }}
+                    onDelete={(id) => {
+                      dispatch(deleteThreadHistory({ threadId: id }))
+                        .then(() => {
+                          dispatch(getThreadHistory());
+                        })
+                        .catch((error) => {
+                          console.error("Error deleting thread:", error);
+                        });
+                    }}
+                  />
+                )}
+                <hr className="separator-line" />
+              </div>
+            ) : null
+          )}
+        </div>
+      ) : (
+        <p>Chat history loading...</p>
+      )}
     </div>
   );
 };

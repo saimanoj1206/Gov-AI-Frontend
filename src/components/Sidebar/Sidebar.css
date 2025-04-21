@@ -10,6 +10,7 @@
   flex-direction: column;
   position: sticky;
   top: 0;
+  padding-bottom: 10%;
 }
 .sidebar-logo {
   width: 125px;
@@ -32,6 +33,8 @@
   font-weight: bold;
   color: #f3f7fb;
   margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 12px 24px;
 }
 .sidebar-chat {

@@ -1,6 +1,7 @@
 .chat-history {
-  font-family: Arial, sans-serif;
+  font-family: Arial, "Open Sans", sans-serif;
 }
+
 .section-title {
   font-size: 14px;
   margin-bottom: 8px;
@@ -13,7 +14,12 @@
 }
 
 .question-item {
-  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question-arrow {
+  margin-top: 3px;
 }
 
 .question-link {

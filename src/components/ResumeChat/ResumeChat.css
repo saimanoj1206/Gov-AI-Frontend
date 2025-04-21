@@ -1,0 +1,39 @@
+.resume-container-wrapper {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+.resume-container-wrapper :hover {
+  cursor: pointer;
+}
+
+.resume-container {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: white;
+  padding: 4px;
+}
+
+.resume-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  background: #f4f4f4;
+}
+
+.resume-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Adjust width when PdfViewer is open */
+.pdf-open .resume-container {
+  width: 50%;
+}

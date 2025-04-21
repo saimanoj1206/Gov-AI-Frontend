@@ -1,35 +1,31 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { FaAngleRight } from "react-icons/fa";
 import "./Faq.css";
 
 const FAQ = ({ handleFaqClick }) => {
-  const questions = [
-    "Is Revenue code 0653 covered for a Hospice claim?",
-    "Is there a list of procedure codes that are not allowed?",
-    "Can T1015 be reimbursed more then once in a day?",
-    "Does physician service come under revenue code 0653?",
-    "How is 90935 reimbursed and elaborate the overall process?",
-    "Does revenue code 0111 exist in our comprehensive code list?",
-  ];
+  const { faqData, loading, error } = useSelector((state) => state.faqData);
+  console.log("FAQ data:", faqData);
+
+  if (loading) return <div className="faq-container">Loading FAQs...</div>;
+  if (error) return <div className="faq-container">Error: {error}</div>;
 
   return (
     <div className="faq-container">
-      <h2>Frequently Asked Questions</h2>
-      <div>
-        <div className="faq-questions">
-          {questions.map((question, index) => (
-            <div
-              className="faq-question"
-              key={index}
-              onClick={() => handleFaqClick(question)}
-            >
-              {question}
-              <span className="faq-arrow">
-                <FaAngleRight />
-              </span>
-            </div>
-          ))}
-        </div>
+      <h2 className="faq-title">Frequently Asked Questions</h2>
+      <div className="faq-questions">
+        {faqData?.data?.map((item, index) => (
+          <div
+            className="faq-question"
+            key={index}
+            onClick={() => handleFaqClick(item)}
+          >
+            {item}
+            <span className="faq-arrow">
+              <FaAngleRight />
+            </span>
+          </div>
+        ))}
       </div>
     </div>
   );

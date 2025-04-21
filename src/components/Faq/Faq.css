@@ -3,16 +3,21 @@
   margin: 0 auto;
   padding: 20px;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: Arial, "Open Sans", sans-serif;
+}
+.faq-title {
+  text-align: start;
+  font-size: 16px;
 }
 .faq-questions {
   display: grid;
+  font-size: 8px;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 }
 .faq-question {
-  background-color: #f8f8f8;
-  border: 1px solid #ddd;
+  background-color: #f3f7fb;
+  border: none;
   padding: 15px;
   border-radius: 8px;
   text-align: left;
@@ -27,7 +32,7 @@
 }
 .faq-arrow {
   position: absolute;
-  right: 10px;
+  right: 5px;
   top: 50%;
   transform: translateY(-50%);
   font-size: 16px;

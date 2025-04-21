@@ -1,6 +1,6 @@
 import React from "react";
 import "./Sidebar.css";
-import imgUrlLight from "../../logo/logo_light.png";
+import imgUrlLight from "../../logo/hcsc_logo.png";
 import { BiMessageRoundedAdd } from "react-icons/bi";
 import ChatHistory from "../ChatHistory/ChatHistory";
 import ProfileBar from "../ProfileBar/ProfileBar";

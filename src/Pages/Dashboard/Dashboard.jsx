@@ -9,22 +9,31 @@ import PdfViewer from "../../components/PdfViewer/PdfViewer";
 import { useDispatch, useSelector } from "react-redux";
 import { clearChat, fetchChatData } from "../../store/slices/chatSlice";
 import { setNewSession } from "../../store/slices/userSlice";
+import {
+  postThreadHistory,
+  setActiveThreadId,
+  setResumeChat,
+} from "../../store/slices/historySlice";
+import ResumeChat from "../../components/ResumeChat/ResumeChat";
+import { fetchFaqData } from "../../store/slices/faqSlice";
 
 const Dashboard = () => {
-  const [currentQuestion, setCurrentQuestion] = useState("");
   const dispatch = useDispatch();
-  const { chatPage, loading } = useSelector((state) => state.chatUI);
-  // const { session_id } = useSelector((state) => state.user);
+  const [currentQuestion, setCurrentQuestion] = useState("");
+  const { chatData, loading } = useSelector((state) => state.chatUI);
   const [isChatActive, setIsChatActive] = useState(false);
   const [docView, setDocView] = useState(false);
   const [docId, setDocId] = useState("");
   const [pageNumbers, setPageNumbers] = useState("");
-  const [flex, setFlex] = useState(0);
+  const [faqQuestion, setFaqQuestion] = useState(null);
+  const { resumeChat } = useSelector((state) => state.history);
 
   const handleFaqClick = (question) => {
     setCurrentQuestion(question);
     setIsChatActive(true);
     dispatch(fetchChatData({ question }));
+    dispatch(postThreadHistory({ threadName: question }));
+    setFaqQuestion(question);
   };
 
   const handleNewConversation = () => {
@@ -32,31 +41,25 @@ const Dashboard = () => {
     setCurrentQuestion("");
     dispatch(clearChat());
     dispatch(setNewSession());
+    dispatch(setResumeChat(false));
+    dispatch(setActiveThreadId(null));
     setDocView(false);
-    setFlex(0);
   };
 
   const handleSourceDocsClick = (doc_id, page_number) => {
     setDocView(true);
     setDocId(doc_id);
     setPageNumbers(page_number);
-    setFlex(0.35);
   };
   const closePdfViewer = () => {
     setDocView(false);
     setDocId("");
     setPageNumbers("");
-    setFlex(0);
   };
 
   useEffect(() => {
-    const mainContent = document.querySelector(".main-content");
-    const searchContainer = document.querySelector(".search-container-wrapper");
-
-    if (mainContent && searchContainer) {
-      searchContainer.style.width = `${mainContent.clientWidth - 40}px`;
-    }
-  }, [flex]);
+    dispatch(fetchFaqData());
+  }, [dispatch]);
 
   return (
     <div className="dashboard">
@@ -65,9 +68,9 @@ const Dashboard = () => {
         <div className="sidebar">
           <Sidebar onNewConversation={handleNewConversation} />
         </div>
-        <div className="main-content" style={{ flex: 0.8 - flex }}>
+        <div className="main-content">
           <div className="chat-content">
-            <HelpPrompt />
+            {currentQuestion.length || chatData.length ? <></> : <HelpPrompt />}
             {loading ? (
               <Chat
                 currentQuestion={currentQuestion}
@@ -75,7 +78,7 @@ const Dashboard = () => {
                 onSourceClick={handleSourceDocsClick}
                 docView={docView}
               />
-            ) : chatPage.length > 0 ? (
+            ) : chatData.length > 0 ? (
               <Chat
                 currentQuestion={currentQuestion}
                 loading={loading}
@@ -85,21 +88,30 @@ const Dashboard = () => {
             ) : (
               !isChatActive && <Faq handleFaqClick={handleFaqClick} />
             )}
-            <SearchInput
-              setCurrentQuestion={setCurrentQuestion}
-              setLoading={() => {}}
-            />
+            <div
+              className={`search-resume-container ${docView ? "pdf-open" : ""}`}
+            >
+              {resumeChat ? (
+                <ResumeChat docView={docView} />
+              ) : (
+                <SearchInput
+                  faqQuestion={faqQuestion}
+                  setCurrentQuestion={setCurrentQuestion}
+                  docView={docView}
+                />
+              )}
+            </div>
           </div>
         </div>
-        <div className="pdf-container" style={{ flex: flex }}>
-          {docView && (
+        {docView && (
+          <div className="pdf-container">
             <PdfViewer
               doc_id={docId}
               pageNumbers={pageNumbers}
               closePdfViewer={closePdfViewer}
             />
-          )}
-        </div>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -1,0 +1,38 @@
+.about-content {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  font-family: sans-serif;
+  color: #333;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.about-title {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+}
+
+.about-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #444;
+}
+
+.ask-section {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  font-weight: 500;
+  font-size: 14px;
+  color: #2a2a2a;
+}
+
+.about-content,
+.ask-section {
+  transition: all 0.3s ease;
+}

@@ -15,7 +15,8 @@
 .modal-content {
   background: rgba(255, 255, 255, 0.95);
   padding: 28px;
-  padding-right: 48px;
+  padding-right: 62px;
+  padding-top: 42px;
   border-radius: 12px;
   width: 100%;
   max-width: 460px;

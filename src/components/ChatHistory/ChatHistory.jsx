@@ -8,7 +8,7 @@ import {
   setResumeChat,
 } from "../../store/slices/historySlice";
 import { setChatHistory } from "../../store/slices/chatSlice";
-import { RiArrowRightWideFill } from "react-icons/ri";
+// import { RiArrowRightWideFill } from "react-icons/ri";
 import { MdDeleteOutline } from "react-icons/md";
 import DeleteConfirmationModal from "./DeleteConfirmationModal/DeleteConfirmationModal";
 
@@ -21,7 +21,7 @@ const ChatHistory = () => {
 
   useEffect(() => {
     dispatch(getThreadHistory());
-  }, []);
+  }, [dispatch]);
 
   const truncateText = (text, maxLength = 32) => {
     return text.length > maxLength
@@ -58,14 +58,14 @@ const ChatHistory = () => {
     dispatch(getMessageHistory({ threadId }))
       .then((result) => {
         if (result.payload?.data) {
-         dispatch(
-           setChatHistory(
-             result.payload.data.map((msg) => ({
-               ...msg,
-               messageId: msg.message_id, // normalize for consistent frontend usage
-             }))
-           )
-         );
+          dispatch(
+            setChatHistory(
+              result.payload.data.map((msg) => ({
+                ...msg,
+                messageId: msg.message_id, // normalize for consistent frontend usage
+              }))
+            )
+          );
           dispatch(setResumeChat(true));
         }
       })

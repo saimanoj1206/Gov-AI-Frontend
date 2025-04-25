@@ -9,12 +9,13 @@ export const postThreadHistory = createAsyncThunk(
   async ({ threadName }, { getState, rejectWithValue }) => {
     try {
       const { user, history } = getState();
+      console.log("UserID:", user.user_id);
       const { session_id } = user;
       const activeThreadId = history.activeThreadId;
       const threadId = activeThreadId ? activeThreadId : session_id;
 
       const encodedThreadName = encodeURIComponent(threadName.trim());
-      const url = `${API_BASE_URL}?userId=${"kp1234"}&threadId=${threadId}&threadName=${encodedThreadName}`;
+      const url = `${API_BASE_URL}?userId=${user.user_id}&threadId=${threadId}&threadName=${encodedThreadName}`;
 
       const response = await fetch(url, {
         method: "POST",
@@ -36,9 +37,11 @@ export const postThreadHistory = createAsyncThunk(
 // 🟢 GET Thread History
 export const getThreadHistory = createAsyncThunk(
   "history/getThreadHistory",
-  async (_, { rejectWithValue }) => {
+  async (_, { getState, rejectWithValue }) => {
     try {
-      const url = `${API_BASE_URL}?userId=${"kp1234"}`;
+      const { user } = getState();
+      console.log("UserID:", user);
+      const url = `${API_BASE_URL}?userId=${user.user_id}`;
 
       const response = await fetch(url, {
         method: "GET",
@@ -61,7 +64,9 @@ export const deleteThreadHistory = createAsyncThunk(
   "history/deleteThreadHistory",
   async ({ threadId }, { rejectWithValue }) => {
     if (!threadId) {
-      console.error("Error: threadId is undefined. Ensure it is passed correctly.");
+      console.error(
+        "Error: threadId is undefined. Ensure it is passed correctly."
+      );
       throw new Error("threadId is required but was not provided.");
     }
     console.log("threadId..........", threadId);

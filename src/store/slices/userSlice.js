@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import { v4 as uuidv4 } from "uuid";
 
 const initialState = {
-  user_id: "kp1234",
+  user_id: null,
   session_id: uuidv4(),
 };
 
@@ -12,7 +12,7 @@ const userSlice = createSlice({
   reducers: {
     setUser(state, action) {
       state.user_id = action.payload.user_id;
-      state.session_id = action.payload.session_id;
+      state.session_id = action.payload.session_id || uuidv4();
     },
     setNewSession(state) {
       state.session_id = uuidv4();

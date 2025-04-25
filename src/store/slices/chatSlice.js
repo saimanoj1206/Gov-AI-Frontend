@@ -11,7 +11,7 @@ export const fetchChatData = createAsyncThunk(
       const threadId = activeThreadId ? activeThreadId : session_id;
 
       const payload = {
-        user_id: "kp1234",
+        user_id: user.user_id,
         session_id: threadId,
         question: question,
       };

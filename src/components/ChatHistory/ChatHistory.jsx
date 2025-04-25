@@ -19,9 +19,13 @@ const ChatHistory = () => {
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [threadToDelete, setThreadToDelete] = useState(null);
 
+  const user = useSelector((state) => state.user);
+
   useEffect(() => {
-    dispatch(getThreadHistory());
-  }, [dispatch]);
+    if (user && user.user_id) {
+      dispatch(getThreadHistory());
+    }
+  }, [user, dispatch]);
 
   const truncateText = (text, maxLength = 32) => {
     return text.length > maxLength
@@ -136,7 +140,7 @@ const ChatHistory = () => {
           )}
         </div>
       ) : (
-        <p>Chat history loading...</p>
+        <div>{/* <p>Chat history loading...</p> */}</div>
       )}
     </div>
   );
